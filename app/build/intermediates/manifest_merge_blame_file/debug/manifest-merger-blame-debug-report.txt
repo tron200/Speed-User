@@ -1,0 +1,1047 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.speed.user"
+4    android:versionCode="1"
+5    android:versionName="1.0.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:6:5-60
+11-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:6:19-57
+12
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:8:5-68
+13-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:11:5-81
+16-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:12:5-80
+17-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:14:5-79
+19-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.CALL_PHONE" />
+20-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:15:5-69
+20-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:15:22-66
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:16:5-65
+21-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:16:22-62
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:17:5-76
+22-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:17:22-73
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+23-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:18:5-86
+23-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:18:22-83
+24    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+24-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:19:5-71
+24-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:19:22-68
+25    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+25-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:20:5-74
+25-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:20:22-71
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:21:5-75
+26-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:21:22-72
+27    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+27-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:22:5-74
+27-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:22:22-71
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\dad53774fb3e8a2411d007f845cf901b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\dad53774fb3e8a2411d007f845cf901b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\dad53774fb3e8a2411d007f845cf901b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+32
+33    <queries>
+33-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\dad53774fb3e8a2411d007f845cf901b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+34
+35        <!-- Needs to be explicitly declared on Android R+ -->
+36        <package android:name="com.google.android.apps.maps" />
+36-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\dad53774fb3e8a2411d007f845cf901b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+36-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\dad53774fb3e8a2411d007f845cf901b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+37    </queries> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\20b78891a22ebe94ee63cdf44da00837\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+38-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\20b78891a22ebe94ee63cdf44da00837\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:5-66
+40-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:22-63
+41
+42    <uses-feature
+42-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
+43        android:name="android.hardware.camera.autofocus"
+43-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
+44        android:required="false" />
+44-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
+45
+46    <application
+46-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:24:5-262:19
+47        android:name="com.speed.user.ClassLuxApp"
+47-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:25:9-36
+48        android:allowBackup="false"
+48-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:26:9-36
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.5.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\46e48520a07c97cb1775cffb204741d8\core-1.5.0\AndroidManifest.xml:24:18-86
+50        android:autoMirrored="true"
+50-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:28:9-36
+51        android:debuggable="true"
+52        android:fullBackupContent="false"
+52-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:27:9-42
+53        android:hardwareAccelerated="true"
+53-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:29:9-43
+54        android:icon="@mipmap/ic_launcher_foreground"
+54-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:30:9-54
+55        android:label="@string/app_name"
+55-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:31:9-41
+56        android:largeHeap="true"
+56-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:32:9-33
+57        android:networkSecurityConfig="@xml/network_security_config"
+57-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:35:9-69
+58        android:supportsRtl="true"
+58-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:33:9-35
+59        android:testOnly="true"
+60        android:theme="@style/AppTheme" >
+60-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:34:9-40
+61        <activity
+61-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:39:9-43:59
+62            android:name="com.speed.user.activities.login.IntroActivity"
+62-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:40:13-59
+63            android:configChanges="locale|orientation"
+63-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:41:13-55
+64            android:screenOrientation="portrait"
+64-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:42:13-49
+65            android:theme="@style/AppTheme.NoActionBar" />
+65-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:43:13-56
+66        <activity
+66-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:45:9-48:78
+67            android:name="com.speed.user.activities.login.FaceBookLoginActivity"
+67-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:46:13-81
+68            android:screenOrientation="portrait"
+68-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:47:13-49
+69            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+69-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:48:13-75
+70        <activity
+70-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:49:9-52:78
+71            android:name="com.speed.user.activities.login.GoogleLoginActivity"
+71-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:50:13-79
+72            android:screenOrientation="portrait"
+72-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:51:13-49
+73            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+73-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:52:13-75
+74        <activity
+74-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:53:9-55:59
+75            android:name="com.speed.user.activities.FullImage"
+75-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:54:13-63
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:55:13-56
+77        <activity android:name="com.speed.user.calender.AddOrEditCalendarActivity" />
+77-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:56:9-86
+77-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:56:19-83
+78        <activity
+78-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:57:9-60:48
+79            android:name="com.facebook.FacebookActivity"
+79-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:58:13-57
+80            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+80-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:59:13-96
+81            android:label="@string/app_name"
+81-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:60:13-45
+82            android:theme="@style/com_facebook_activity_theme" />
+82-->[com.facebook.android:facebook-common:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\863bfe8aeb3a3efa1eb7b71543bd9ee9\jetified-facebook-common-5.11.2\AndroidManifest.xml:32:13-63
+83        <activity
+83-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:61:9-71:20
+84            android:name="com.speed.user.activities.SplashScreen"
+84-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:62:13-66
+85            android:screenOrientation="portrait"
+85-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:63:13-49
+86            android:theme="@style/AppTheme.NoActionBar" >
+86-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:64:13-56
+87            <intent-filter>
+87-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:66:13-70:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:67:17-69
+88-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:67:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:69:17-77
+90-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:69:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:72:9-76:59
+94            android:name="com.speed.user.activities.Payment"
+94-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:73:13-61
+95            android:label="@string/app_name"
+95-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:74:13-45
+96            android:screenOrientation="portrait"
+96-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:75:13-49
+97            android:theme="@style/AppTheme.NoActionBar" />
+97-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:76:13-56
+98        <activity
+98-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:77:9-80:59
+99            android:name="com.speed.user.activities.OtpVerification"
+99-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:78:13-69
+100            android:screenOrientation="portrait"
+100-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:79:13-49
+101            android:theme="@style/AppTheme.NoActionBar" />
+101-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:80:13-56
+102        <activity
+102-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:81:9-85:59
+103            android:name="com.speed.user.activities.UserReview"
+103-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:82:13-64
+104            android:label="@string/app_name"
+104-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:83:13-45
+105            android:screenOrientation="portrait"
+105-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:84:13-49
+106            android:theme="@style/AppTheme.NoActionBar" />
+106-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:85:13-56
+107        <activity
+107-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:86:9-91:58
+108            android:name="com.speed.user.activities.MainActivity"
+108-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:87:13-66
+109            android:label="@string/app_name"
+109-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:88:13-45
+110            android:screenOrientation="portrait"
+110-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:89:13-49
+111            android:theme="@style/AppTheme.NoActionBar"
+111-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:90:13-56
+112            android:windowSoftInputMode="adjustResize" />
+112-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:91:13-55
+113        <activity
+113-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:92:9-97:57
+114            android:name="com.speed.user.activities.EditProfile"
+114-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:93:13-65
+115            android:label="@string/app_name"
+115-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:94:13-45
+116            android:screenOrientation="portrait"
+116-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:95:13-49
+117            android:theme="@style/AppTheme.NoActionBar"
+117-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:96:13-56
+118            android:windowSoftInputMode="stateHidden" />
+118-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:97:13-54
+119        <activity
+119-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:98:9-102:57
+120            android:name="com.speed.user.activities.PickUpNotes"
+120-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:99:13-65
+121            android:screenOrientation="portrait"
+121-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:100:13-49
+122            android:theme="@style/AppTheme.NoActionBar"
+122-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:101:13-56
+123            android:windowSoftInputMode="stateHidden" />
+123-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:102:13-54
+124        <activity
+124-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:103:9-108:57
+125            android:name="com.speed.user.activities.ShowProfile"
+125-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:104:13-65
+126            android:label="@string/app_name"
+126-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:105:13-45
+127            android:screenOrientation="portrait"
+127-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:106:13-49
+128            android:theme="@style/AppTheme.NoActionBar"
+128-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:107:13-56
+129            android:windowSoftInputMode="stateHidden" />
+129-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:108:13-54
+130        <activity
+130-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:109:9-114:58
+131            android:name="com.speed.user.activities.AddCard"
+131-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:110:13-61
+132            android:label="@string/app_name"
+132-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:111:13-45
+133            android:screenOrientation="portrait"
+133-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:112:13-49
+134            android:theme="@style/AppTheme.NoActionBar"
+134-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:113:13-56
+135            android:windowSoftInputMode="adjustResize" />
+135-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:114:13-55
+136        <activity
+136-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:115:9-120:58
+137            android:name="com.speed.user.activities.HistoryDetails"
+137-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:116:13-68
+138            android:label="@string/app_name"
+138-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:117:13-45
+139            android:screenOrientation="portrait"
+139-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:118:13-49
+140            android:theme="@style/AppTheme.NoActionBar"
+140-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:119:13-56
+141            android:windowSoftInputMode="adjustResize" />
+141-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:120:13-55
+142        <activity
+142-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:121:9-124:52
+143            android:name="com.speed.user.activities.HistoryActivity"
+143-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:122:13-69
+144            android:label="History"
+144-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:123:13-36
+145            android:screenOrientation="portrait" />
+145-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:124:13-49
+146        <activity
+146-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:125:9-129:59
+147            android:name="com.speed.user.activities.ActivityWallet"
+147-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:126:13-68
+148            android:label="Wallet"
+148-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:127:13-35
+149            android:screenOrientation="portrait"
+149-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:128:13-49
+150            android:theme="@style/AppTheme.NoActionBar" />
+150-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:129:13-56
+151        <activity
+151-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:130:9-134:57
+152            android:name="com.speed.user.activities.CouponActivity"
+152-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:131:13-68
+153            android:label="Coupon"
+153-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:132:13-35
+154            android:screenOrientation="portrait"
+154-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:133:13-49
+155            android:windowSoftInputMode="stateHidden" />
+155-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:134:13-54
+156        <activity
+156-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:135:9-140:58
+157            android:name="com.speed.user.activities.ChangePassword"
+157-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:136:13-68
+158            android:label="@string/app_name"
+158-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:137:13-45
+159            android:screenOrientation="portrait"
+159-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:138:13-49
+160            android:theme="@style/AppTheme.NoActionBar"
+160-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:139:13-56
+161            android:windowSoftInputMode="adjustResize" />
+161-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:140:13-55
+162        <activity
+162-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:141:9-152:20
+163            android:name="com.speed.user.activities.NotificationTab"
+163-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:142:13-69
+164            android:configChanges="orientation|keyboardHidden|screenLayout|screenSize"
+164-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:143:13-87
+165            android:label="@string/app_name"
+165-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:144:13-45
+166            android:theme="@style/AppTheme.NoActionBar"
+166-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:145:13-56
+167            android:windowSoftInputMode="adjustResize" >
+167-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:146:13-55
+168            <intent-filter>
+168-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:147:13-151:29
+169                <action android:name="com.quickridejadriver.providers.TARGETNOTIFICATION" />
+169-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:148:17-93
+169-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:148:25-90
+170
+171                <category android:name="android.intent.category.DEFAULT" />
+171-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:17-76
+171-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:27-73
+172            </intent-filter>
+173        </activity>
+174        <activity
+174-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:153:9-156:59
+175            android:name="com.speed.user.chat.UserChatActivity"
+175-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:154:13-64
+176            android:screenOrientation="portrait"
+176-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:155:13-49
+177            android:theme="@style/AppTheme.NoActionBar" />
+177-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:156:13-56
+178        <activity
+178-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:157:9-160:59
+179            android:name="com.speed.user.activities.Profile"
+179-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:158:13-61
+180            android:screenOrientation="portrait"
+180-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:159:13-49
+181            android:theme="@style/AppTheme.NoActionBar" />
+181-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:160:13-56
+182        <activity
+182-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:161:9-166:58
+183            android:name="com.speed.user.activities.CustomGooglePlacesSearch"
+183-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:162:13-78
+184            android:label="@string/app_name"
+184-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:163:13-45
+185            android:screenOrientation="portrait"
+185-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:164:13-49
+186            android:theme="@style/AppTheme.NoActionBar"
+186-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:165:13-56
+187            android:windowSoftInputMode="adjustResize" />
+187-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:166:13-55
+188        <activity android:name="com.speed.user.activities.ActivityHelp" />
+188-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:167:9-75
+188-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:167:19-72
+189        <activity
+189-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:168:9-172:59
+190            android:name="com.speed.user.activities.SosCallActivity"
+190-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:169:13-69
+191            android:hardwareAccelerated="false"
+191-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:170:13-48
+192            android:screenOrientation="portrait"
+192-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:171:13-49
+193            android:theme="@style/AppTheme.NoActionBar" />
+193-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:172:13-56
+194        <activity
+194-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:173:9-177:59
+195            android:name="com.speed.user.activities.LegalActivity"
+195-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:174:13-67
+196            android:hardwareAccelerated="false"
+196-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:175:13-48
+197            android:screenOrientation="portrait"
+197-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:176:13-49
+198            android:theme="@style/AppTheme.NoActionBar" />
+198-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:177:13-56
+199        <activity
+199-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:178:9-182:59
+200            android:name="com.speed.user.activities.TermsOfUseActivity"
+200-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:179:13-72
+201            android:hardwareAccelerated="false"
+201-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:180:13-48
+202            android:screenOrientation="portrait"
+202-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:181:13-49
+203            android:theme="@style/AppTheme.NoActionBar" />
+203-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:182:13-56
+204        <activity
+204-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:183:9-187:59
+205            android:name="com.speed.user.activities.PrivacyPolicyActivity"
+205-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:184:13-75
+206            android:hardwareAccelerated="false"
+206-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:185:13-48
+207            android:screenOrientation="portrait"
+207-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:186:13-49
+208            android:theme="@style/AppTheme.NoActionBar" />
+208-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:187:13-56
+209        <activity
+209-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:188:9-192:59
+210            android:name="com.speed.user.activities.UpdateProfile"
+210-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:189:13-67
+211            android:hardwareAccelerated="false"
+211-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:190:13-48
+212            android:screenOrientation="portrait"
+212-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:191:13-49
+213            android:theme="@style/AppTheme.NoActionBar" />
+213-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:192:13-56
+214        <activity
+214-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:193:9-197:59
+215            android:name="com.speed.user.activities.FavouritePlaceSearch"
+215-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:194:13-74
+216            android:hardwareAccelerated="false"
+216-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:195:13-48
+217            android:screenOrientation="portrait"
+217-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:196:13-49
+218            android:theme="@style/AppTheme.NoActionBar" />
+218-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:197:13-56
+219        <activity
+219-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:198:9-202:59
+220            android:name="com.speed.user.activities.Login"
+220-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:199:13-45
+221            android:label="@string/app_name"
+221-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:200:13-45
+222            android:screenOrientation="portrait"
+222-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:201:13-49
+223            android:theme="@style/AppTheme.NoActionBar" />
+223-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:202:13-56
+224        <activity
+224-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:203:9-207:59
+225            android:name="com.speed.user.activities.SignUp"
+225-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:204:13-60
+226            android:label="@string/app_name"
+226-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:205:13-45
+227            android:screenOrientation="portrait"
+227-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:206:13-49
+228            android:theme="@style/AppTheme.NoActionBar" />
+228-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:207:13-56
+229        <activity
+229-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:208:9-212:59
+230            android:name="com.speed.user.activities.ForgotPassword"
+230-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:209:13-68
+231            android:label="@string/app_name"
+231-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:210:13-45
+232            android:screenOrientation="portrait"
+232-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:211:13-49
+233            android:theme="@style/AppTheme.NoActionBar" />
+233-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:212:13-56
+234        <activity
+234-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:213:9-217:59
+235            android:name="com.speed.user.activities.MediaHome"
+235-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:214:13-63
+236            android:label="@string/app_name"
+236-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:215:13-45
+237            android:screenOrientation="portrait"
+237-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:216:13-49
+238            android:theme="@style/AppTheme.NoActionBar" />
+238-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:217:13-56
+239        <activity
+239-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:218:9-222:59
+240            android:name="com.speed.user.activities.RunningTrip"
+240-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:219:13-65
+241            android:label="@string/app_name"
+241-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:220:13-45
+242            android:screenOrientation="portrait"
+242-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:221:13-49
+243            android:theme="@style/AppTheme.NoActionBar" />
+243-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:222:13-56
+244        <activity
+244-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:223:9-226:59
+245            android:name="com.speed.user.activities.TrackActivity"
+245-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:224:13-67
+246            android:screenOrientation="portrait"
+246-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:225:13-49
+247            android:theme="@style/AppTheme.NoActionBar" />
+247-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:226:13-56
+248        <activity
+248-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:227:9-231:59
+249            android:name="com.speed.user.activities.PhoneNoUpdateActivity"
+249-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:228:13-75
+250            android:hardwareAccelerated="false"
+250-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:229:13-48
+251            android:screenOrientation="portrait"
+251-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:230:13-49
+252            android:theme="@style/AppTheme.NoActionBar" />
+252-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:231:13-56
+253
+254        <meta-data
+254-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:234:9-236:54
+255            android:name="com.google.android.geo.API_KEY"
+255-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:235:13-58
+256            android:value="@string/google_map_api" />
+256-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:236:13-51
+257        <meta-data
+257-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:237:9-239:69
+258            android:name="com.google.android.gms.version"
+258-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:238:13-58
+259            android:value="@integer/google_play_services_version" />
+259-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:239:13-66
+260        <meta-data
+260-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:240:9-242:48
+261            android:name="com.facebook.accountkit.ApplicationName"
+261-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:241:13-67
+262            android:value="@string/app_name" />
+262-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:242:13-45
+263        <meta-data
+263-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:243:9-245:55
+264            android:name="com.facebook.sdk.ApplicationId"
+264-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:244:13-58
+265            android:value="@string/facebook_app_id" />
+265-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:245:13-52
+266        <meta-data
+266-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:246:9-248:57
+267            android:name="preloaded_fonts"
+267-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:247:13-43
+268            android:resource="@array/preloaded_fonts" />
+268-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:248:13-54
+269        <meta-data
+269-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:249:9-251:55
+270            android:name="com.razorpay.ApiKey"
+270-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:250:13-47
+271            android:value="rzp_test_zGD0bTIi1I9XnS" />
+271-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:251:13-52
+272
+273        <service android:name="com.speed.user.fcm.FCMService" >
+273-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:253:9-257:19
+273-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:253:18-62
+274            <intent-filter>
+274-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:254:13-256:29
+275                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+275-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:255:17-78
+275-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:255:25-75
+276            </intent-filter>
+277        </service>
+278
+279        <uses-library
+279-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:259:9-261:40
+280            android:name="org.apache.http.legacy"
+280-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:260:13-50
+281            android:required="false" />
+281-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:261:13-37
+282
+283        <activity
+283-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:12:9-15:58
+284            android:name="com.stripe.android.view.AddSourceActivity"
+284-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:13:13-69
+285            android:theme="@style/StripeDefaultTheme"
+285-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:14:13-54
+286            android:windowSoftInputMode="stateVisible" />
+286-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:15:13-55
+287        <activity
+287-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:16:9-18:57
+288            android:name="com.stripe.android.view.PaymentMethodsActivity"
+288-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:17:13-74
+289            android:theme="@style/StripeDefaultTheme" />
+289-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:18:13-54
+290        <activity
+290-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:19:9-21:57
+291            android:name="com.stripe.android.view.PaymentFlowActivity"
+291-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:20:13-71
+292            android:theme="@style/StripeDefaultTheme" />
+292-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:21:13-54
+293        <activity
+293-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:22:9-24:57
+294            android:name="com.stripe.android.view.AuthWebViewActivity"
+294-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:23:13-71
+295            android:theme="@style/StripeDefaultTheme" />
+295-->[com.stripe:stripe-android:9.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\903143f4c4d3c3c24e659796bf6bf0ad\jetified-stripe-android-9.0.1\AndroidManifest.xml:24:13-54
+296        <activity
+296-->[com.karumi:dexter:6.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\b56fb4f6d7367c34729387ef466fb3ae\jetified-dexter-6.0.1\AndroidManifest.xml:27:9-29:72
+297            android:name="com.karumi.dexter.DexterActivity"
+297-->[com.karumi:dexter:6.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\b56fb4f6d7367c34729387ef466fb3ae\jetified-dexter-6.0.1\AndroidManifest.xml:28:13-60
+298            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+298-->[com.karumi:dexter:6.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\b56fb4f6d7367c34729387ef466fb3ae\jetified-dexter-6.0.1\AndroidManifest.xml:29:13-69
+299
+300        <service
+300-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2b97c1065f6387cae6537d1d562eaa65\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:13:9-19:19
+301            android:name="com.google.firebase.components.ComponentDiscoveryService"
+301-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2b97c1065f6387cae6537d1d562eaa65\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:14:13-84
+302            android:directBootAware="true"
+302-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+303            android:exported="false" >
+303-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2b97c1065f6387cae6537d1d562eaa65\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:15:13-37
+304            <meta-data
+304-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2b97c1065f6387cae6537d1d562eaa65\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:16:13-18:85
+305                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+305-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2b97c1065f6387cae6537d1d562eaa65\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:17:17-115
+306                android:value="com.google.firebase.components.ComponentRegistrar" />
+306-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2b97c1065f6387cae6537d1d562eaa65\jetified-firebase-crashlytics-17.2.1\AndroidManifest.xml:18:17-82
+307            <meta-data
+307-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+308                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+308-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+309                android:value="com.google.firebase.components.ComponentRegistrar" />
+309-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+310            <meta-data
+310-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+311                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+311-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+312                android:value="com.google.firebase.components.ComponentRegistrar" />
+312-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+313            <meta-data
+313-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\41169be16481c934f974c124eb01373b\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+314                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+314-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\41169be16481c934f974c124eb01373b\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+315                android:value="com.google.firebase.components.ComponentRegistrar" />
+315-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\41169be16481c934f974c124eb01373b\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+316            <meta-data
+316-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\d1c2c06b8f2533c17685a4e3795f8f01\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+317                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+317-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\d1c2c06b8f2533c17685a4e3795f8f01\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+318                android:value="com.google.firebase.components.ComponentRegistrar" />
+318-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\d1c2c06b8f2533c17685a4e3795f8f01\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+319            <meta-data
+319-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\fe1f02871ee37d0a0f54bf438f48e0ff\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+320                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+320-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\fe1f02871ee37d0a0f54bf438f48e0ff\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+321                android:value="com.google.firebase.components.ComponentRegistrar" />
+321-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\fe1f02871ee37d0a0f54bf438f48e0ff\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+322        </service>
+323
+324        <activity
+324-->[pub.devrel:easypermissions:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\40abe8e18e990d1840c7e4ab6916d6e1\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+325            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+325-->[pub.devrel:easypermissions:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\40abe8e18e990d1840c7e4ab6916d6e1\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+326            android:exported="false"
+326-->[pub.devrel:easypermissions:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\40abe8e18e990d1840c7e4ab6916d6e1\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+327            android:label=""
+327-->[pub.devrel:easypermissions:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\40abe8e18e990d1840c7e4ab6916d6e1\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+328            android:theme="@style/EasyPermissions.Transparent" />
+328-->[pub.devrel:easypermissions:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\40abe8e18e990d1840c7e4ab6916d6e1\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+329        <activity
+329-->[com.google.android.libraries.places:places:2.4.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\0a0911ef56b19bc9b5fa3d9c8184a338\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+330            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+330-->[com.google.android.libraries.places:places:2.4.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\0a0911ef56b19bc9b5fa3d9c8184a338\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+331            android:exported="false"
+331-->[com.google.android.libraries.places:places:2.4.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\0a0911ef56b19bc9b5fa3d9c8184a338\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+332            android:label="@string/places_autocomplete_label"
+332-->[com.google.android.libraries.places:places:2.4.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\0a0911ef56b19bc9b5fa3d9c8184a338\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+333            android:theme="@style/PlacesAutocompleteOverlay"
+333-->[com.google.android.libraries.places:places:2.4.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\0a0911ef56b19bc9b5fa3d9c8184a338\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+334            android:windowSoftInputMode="adjustResize" >
+334-->[com.google.android.libraries.places:places:2.4.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\0a0911ef56b19bc9b5fa3d9c8184a338\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+335        </activity>
+336        <activity android:name="com.facebook.CustomTabMainActivity" />
+336-->[com.facebook.android:facebook-common:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\863bfe8aeb3a3efa1eb7b71543bd9ee9\jetified-facebook-common-5.11.2\AndroidManifest.xml:33:9-71
+336-->[com.facebook.android:facebook-common:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\863bfe8aeb3a3efa1eb7b71543bd9ee9\jetified-facebook-common-5.11.2\AndroidManifest.xml:33:19-68
+337        <activity android:name="com.facebook.CustomTabActivity" />
+337-->[com.facebook.android:facebook-common:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\863bfe8aeb3a3efa1eb7b71543bd9ee9\jetified-facebook-common-5.11.2\AndroidManifest.xml:34:9-67
+337-->[com.facebook.android:facebook-common:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\863bfe8aeb3a3efa1eb7b71543bd9ee9\jetified-facebook-common-5.11.2\AndroidManifest.xml:34:19-64
+338        <activity
+338-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+339            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+339-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+340            android:excludeFromRecents="true"
+340-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+341            android:exported="false"
+341-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+342-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+343        <!--
+344            Service handling Google Sign-In user revocation. For apps that do not integrate with
+345            Google Sign-In, this service will never be started.
+346        -->
+347        <service
+347-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+348            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+348-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+349            android:exported="true"
+349-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+350            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+350-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+351            android:visibleToInstantApps="true" />
+351-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9cf0edd8bf6977d1d3b7da064c953f98\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+352
+353        <activity
+353-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+354            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+354-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+355            android:excludeFromRecents="true"
+355-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+356            android:exported="true"
+356-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+357            android:launchMode="singleTask"
+357-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+358            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+358-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+359            <intent-filter>
+359-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+360                <action android:name="android.intent.action.VIEW" />
+360-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+360-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+361
+362                <category android:name="android.intent.category.DEFAULT" />
+362-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:17-76
+362-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:27-73
+363                <category android:name="android.intent.category.BROWSABLE" />
+363-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+363-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+364
+365                <data
+365-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+366                    android:host="firebase.auth"
+366-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+367                    android:path="/"
+367-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+368                    android:scheme="genericidp" />
+368-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+369            </intent-filter>
+370        </activity>
+371        <activity
+371-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+372            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+372-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+373            android:excludeFromRecents="true"
+373-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+374            android:exported="true"
+374-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+375            android:launchMode="singleTask"
+375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+376            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+376-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+377            <intent-filter>
+377-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+378                <action android:name="android.intent.action.VIEW" />
+378-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+378-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+379
+380                <category android:name="android.intent.category.DEFAULT" />
+380-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:17-76
+380-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:27-73
+381                <category android:name="android.intent.category.BROWSABLE" />
+381-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+381-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+382
+383                <data
+383-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+384                    android:host="firebase.auth"
+384-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+385                    android:path="/"
+385-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+386                    android:scheme="recaptcha" />
+386-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+387            </intent-filter>
+388        </activity>
+389
+390        <service
+390-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+391            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+391-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+392            android:enabled="true"
+392-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+393            android:exported="false" >
+393-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+394            <intent-filter>
+394-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+395                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+395-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+395-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+396
+397                <category android:name="android.intent.category.DEFAULT" />
+397-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:17-76
+397-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:150:27-73
+398            </intent-filter>
+399        </service>
+400
+401        <activity
+401-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9185f0155fff20029c137590ea8b1509\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+402            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+402-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9185f0155fff20029c137590ea8b1509\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+403            android:exported="false"
+403-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9185f0155fff20029c137590ea8b1509\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+404            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+404-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\9185f0155fff20029c137590ea8b1509\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+405
+406        <receiver
+406-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+407            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+407-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+408            android:exported="true"
+408-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+409            android:permission="com.google.android.c2dm.permission.SEND" >
+409-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+410            <intent-filter>
+410-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+411                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+411-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+411-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+412            </intent-filter>
+413        </receiver>
+414        <!--
+415             FirebaseMessagingService performs security checks at runtime,
+416             but set to not exported to explicitly avoid allowing another app to call it.
+417        -->
+418        <service
+418-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+419            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+419-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+420            android:directBootAware="true"
+420-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+421            android:exported="false" >
+421-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\90b0894df7f1869f2285c4cd3a34c0d9\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+422            <intent-filter android:priority="-500" >
+422-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:254:13-256:29
+423                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+423-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:255:17-78
+423-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:255:25-75
+424            </intent-filter>
+425        </service>
+426
+427        <provider
+427-->[com.squareup.picasso:picasso:2.71828] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\142e698dfd1016099a8f0391a8e6649d\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+428            android:name="com.squareup.picasso.PicassoProvider"
+428-->[com.squareup.picasso:picasso:2.71828] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\142e698dfd1016099a8f0391a8e6649d\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+429            android:authorities="com.speed.user.com.squareup.picasso"
+429-->[com.squareup.picasso:picasso:2.71828] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\142e698dfd1016099a8f0391a8e6649d\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+430            android:exported="false" />
+430-->[com.squareup.picasso:picasso:2.71828] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\142e698dfd1016099a8f0391a8e6649d\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+431        <provider
+431-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+432            android:name="com.google.firebase.provider.FirebaseInitProvider"
+432-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+433            android:authorities="com.speed.user.firebaseinitprovider"
+433-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+434            android:directBootAware="true"
+434-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+435            android:exported="false"
+435-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+436            android:initOrder="100" />
+436-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\2274c4b61aa710c7c87a961bd2397d2b\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+437
+438        <receiver
+438-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+439            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+439-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+440            android:enabled="true"
+440-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+441            android:exported="false" >
+441-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+442        </receiver>
+443
+444        <service
+444-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+445            android:name="com.google.android.gms.measurement.AppMeasurementService"
+445-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+446            android:enabled="true"
+446-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+447            android:exported="false" />
+447-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+448        <service
+448-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+449            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+449-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+450            android:enabled="true"
+450-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+451            android:exported="false"
+451-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+452            android:permission="android.permission.BIND_JOB_SERVICE" />
+452-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\15d608b834020a7b483c2265e9a34bbd\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+453        <!--
+454         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+455         with the application context. This config is merged in with the host app's manifest,
+456         but there can only be one provider with the same authority activated at any given
+457         point; so if the end user has two or more different apps that use Facebook SDK, only the
+458         first one will be able to use the provider. To work around this problem, we use the
+459         following placeholder in the authority to identify each host application as if it was
+460         a completely different provider.
+461        -->
+462        <provider
+462-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:39:9-42:40
+463            android:name="com.facebook.internal.FacebookInitProvider"
+463-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:40:13-70
+464            android:authorities="com.speed.user.FacebookInitProvider"
+464-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:41:13-72
+465            android:exported="false" />
+465-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:42:13-37
+466
+467        <receiver
+467-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:44:9-50:20
+468            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+468-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:45:13-86
+469            android:exported="false" >
+469-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:46:13-37
+470            <intent-filter>
+470-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:47:13-49:29
+471                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+471-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:48:17-95
+471-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:48:25-92
+472            </intent-filter>
+473        </receiver>
+474        <receiver
+474-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:51:9-58:20
+475            android:name="com.facebook.CampaignTrackingReceiver"
+475-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:52:13-65
+476            android:exported="true"
+476-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:53:13-36
+477            android:permission="android.permission.INSTALL_PACKAGES" >
+477-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:54:13-69
+478            <intent-filter>
+478-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:55:13-57:29
+479                <action android:name="com.android.vending.INSTALL_REFERRER" />
+479-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:56:17-79
+479-->[com.facebook.android:facebook-core:5.11.2] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\c4c364d106ec3a10849a54a293fb5848\jetified-facebook-core-5.11.2\AndroidManifest.xml:56:25-76
+480            </intent-filter>
+481        </receiver>
+482
+483        <provider
+483-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\a3ca72109536331511b5cab1f77daf18\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+484            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+484-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\a3ca72109536331511b5cab1f77daf18\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+485            android:authorities="com.speed.user.lifecycle-process"
+485-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\a3ca72109536331511b5cab1f77daf18\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+486            android:exported="false"
+486-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\a3ca72109536331511b5cab1f77daf18\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+487            android:multiprocess="true" />
+487-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\a3ca72109536331511b5cab1f77daf18\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+488
+489        <service
+489-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\af95a2f0a3621e0d894440597b41ae40\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+490            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+490-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\af95a2f0a3621e0d894440597b41ae40\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+491            android:exported="false" >
+491-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\af95a2f0a3621e0d894440597b41ae40\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+492            <meta-data
+492-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\af95a2f0a3621e0d894440597b41ae40\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+493                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+493-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\af95a2f0a3621e0d894440597b41ae40\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+494                android:value="cct" />
+494-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\af95a2f0a3621e0d894440597b41ae40\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+495        </service>
+496        <service
+496-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+497            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+497-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+498            android:exported="false"
+498-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+499            android:permission="android.permission.BIND_JOB_SERVICE" >
+499-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+500        </service>
+501
+502        <receiver
+502-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+503            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+503-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+504            android:exported="false" />
+504-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\01f1635be5139deaca2efc9e09e7a074\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+505
+506        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+506-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:13:9-84
+506-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:13:19-81
+507        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+507-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:14:9-90
+507-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:14:19-87
+508        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+508-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:15:9-91
+508-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:15:19-88
+509        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+509-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:16:9-82
+509-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:16:19-79
+510        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+510-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:17:9-96
+510-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:17:19-93
+511        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+511-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:18:9-97
+511-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:18:19-94
+512        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+512-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:19:9-94
+512-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:19:19-91
+513        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+513-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:20:9-97
+513-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:20:19-94
+514        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+514-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:21:9-98
+514-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:21:19-95
+515
+516        <service
+516-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:23:9-25:40
+517            android:name="com.paypal.android.sdk.payments.PayPalService"
+517-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:24:13-73
+518            android:exported="false" />
+518-->[com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e3385c4d4f220b406b52ccf605d63007\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:25:13-37
+519
+520        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+520-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:12:9-16:20
+520-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:12:19-63
+521            <intent-filter>
+521-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:13:13-15:29
+522                <action android:name="rzp.device_token.share" />
+522-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:14:17-65
+522-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:14:25-62
+523            </intent-filter>
+524        </receiver>
+525
+526        <activity
+526-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:18:9-29:20
+527            android:name="com.razorpay.CheckoutActivity"
+527-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:19:13-57
+528            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+528-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:20:13-83
+529            android:theme="@style/CheckoutTheme" >
+529-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:21:13-49
+530            <intent-filter>
+530-->[com.razorpay:checkout:1.5.12] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\85f4f39644c4edca451003ccdde95d0e\jetified-checkout-1.5.12\AndroidManifest.xml:22:13-28:29
+531                <action android:name="android.intent.action.MAIN" />
+531-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:67:17-69
+531-->C:\abdelrhman\speeduser\app\src\main\AndroidManifest.xml:67:25-66
+532
+533                <data
+533-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+534                    android:host="rzp.io"
+534-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+535                    android:scheme="io.rzp" />
+535-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\e56c6c5a3a91de91e9a11a12f527867a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+536            </intent-filter>
+537        </activity>
+538        <activity
+538-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:20:9-22:66
+539            android:name="io.card.payment.CardIOActivity"
+539-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:21:13-58
+540            android:configChanges="keyboardHidden|orientation" />
+540-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+541        <activity android:name="io.card.payment.DataEntryActivity" />
+541-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+541-->[io.card:android-sdk:5.5.1] C:\Users\kimox\Downloads\gradle-6.7.1-all\gradle-6.7.1\bin\caches\transforms-2\files-2.1\84dcbd3a2ad060c59ac1ec133eecbda7\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+542    </application>
+543
+544</manifest>

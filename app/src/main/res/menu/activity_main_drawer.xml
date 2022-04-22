@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_media"
+            android:icon="@drawable/ic_media"
+            android:title="Media player"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/ic_running_trip"
+            android:title="@string/action_track" />
+
+        <item
+            android:id="@+id/nav_yourtrips"
+            android:icon="@drawable/ic_history_icon"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification_icon"
+            android:title="@string/notifications" />
+
+
+        <item
+            android:id="@+id/nav_payment"
+
+            android:icon="@drawable/ic_payment_method"
+            android:title="@string/payment" />
+
+
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/ic_home_icon"
+            android:title="@string/action_coupon"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_wallet"
+            android:title="@string/action_wallet" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_supports"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_icon"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/ic_sos"
+            android:title="SOS Call"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_icon"
+            android:title="@string/action_logout"
+            android:visible="false" />
+        <item android:title="" />
+        <!--<item-->
+        <!--android:id="@+id/nav_legal"-->
+        <!--android:title="@string/action_legal"-->
+        <!--android:icon="@drawable/ic_logout"/>-->
+
+    </group>
+</menu>

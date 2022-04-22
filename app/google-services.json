@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "879306894033",
+    "project_id": "speed-c5025",
+    "storage_bucket": "speed-c5025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879306894033:android:2f240883b44909bfdaf3f0",
+        "android_client_info": {
+          "package_name": "com.speed.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879306894033-34r23c6pkraj1f33rol8ppcg2587kdam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.speed.provider",
+            "certificate_hash": "370fad40a593c7ea3b4d3ab2f576bb52fb9d9b9b"
+          }
+        },
+        {
+          "client_id": "879306894033-8qdfmh0v7e4492asm8qv6t7d3gjq3nem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.speed.provider",
+            "certificate_hash": "d7f7b11ad7b920f867dafb3a7d99a38949e8efce"
+          }
+        },
+        {
+          "client_id": "879306894033-r2h20gk47ad4361ke8skshia33k7mcp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpsrl2nTaWQJwNsbBnoE_oZGwu167QCkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879306894033-r2h20gk47ad4361ke8skshia33k7mcp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879306894033:android:c8409d4e23c64ff9daf3f0",
+        "android_client_info": {
+          "package_name": "com.speed.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879306894033-75gnv5vhscui0mf7g49r59so8a6g883g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.speed.user",
+            "certificate_hash": "d7f7b11ad7b920f867dafb3a7d99a38949e8efce"
+          }
+        },
+        {
+          "client_id": "879306894033-r2h20gk47ad4361ke8skshia33k7mcp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpsrl2nTaWQJwNsbBnoE_oZGwu167QCkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879306894033-r2h20gk47ad4361ke8skshia33k7mcp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

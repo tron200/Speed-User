@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+drawable dot
+drawable squre
+id addressTxt
+id etaTxt
+layout custom_marker
+string app_name

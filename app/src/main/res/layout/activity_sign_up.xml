@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_header"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24sdp" />
+
+
+    <ImageView
+        android:id="@+id/taxi_logo"
+        android:layout_width="120dp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/ic_launcher_web" />
+
+
+    <LinearLayout
+        android:id="@+id/viewLoginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taxi_logo"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:elevation="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_text_field">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_user_name"
+                android:drawablePadding="@dimen/_7sdp"
+                android:hint="@string/name"
+                android:inputType="textEmailAddress"
+                android:paddingStart="@dimen/_8sdp"
+                android:textSize="@dimen/_14sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:elevation="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_text_field">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_mail"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="@dimen/_8sdp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_14sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="10dp"
+            android:background="@drawable/rounded_text_field"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:background="@null"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="@dimen/_7sdp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingStart="@dimen/_8sdp"
+                android:textSize="@dimen/_14sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewLoginLayout"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:stateListAnimator="@null"
+            android:elevation="10dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/register"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/btnLogin"-->
+    <!--            android:layout_width="@dimen/_48sdp"-->
+    <!--            android:layout_height="@dimen/_48sdp"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            android:background="@drawable/round_shape"-->
+    <!--            android:padding="@dimen/_14sdp"-->
+    <!--            android:rotation="@integer/angle_rtl_180"-->
+    <!--            android:src="@drawable/right_arrow_new"-->
+    <!--            android:textColor="@color/white" />-->
+
+
+
+
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/registerLayout"-->
+    <!--            android:layout_width="@dimen/_180sdp"-->
+    <!--            android:layout_height="@dimen/_65sdp"-->
+    <!--            android:layout_below="@+id/txtForget"-->
+    <!--            android:layout_marginTop="@dimen/_10sdp"-->
+    <!--            android:layout_marginBottom="@dimen/_65sdp"-->
+
+    <!--            android:background="@drawable/box_registrationmirror">-->
+
+    <!--            <speedroviders.utills.MyBoldTextView-->
+    <!--                android:id="@+id/txtSignUp"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:padding="@dimen/_5sdp"-->
+    <!--                android:text="@string/resgist"-->
+    <!--                android:textColor="@color/colorPrimary"-->
+    <!--                android:textSize="@dimen/_15sdp" />-->
+
+
+    <!--        </LinearLayout>-->
+
+    <TextView
+        android:id="@+id/already_have_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtSignIn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="21dp"
+        android:gravity="center"
+        android:text="Already Have an account?"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <Button
+        android:id="@+id/txtSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimary"
+        android:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:text="@string/login"
+        android:textColor="@color/white" />
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/bottomLayout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:orientation="vertical"-->
+
+    <!--        android:padding="@dimen/_5sdp">-->
+
+    <!--<com.mbeba.user.Utils.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or signin with"
+        android:textSize="@dimen/_13sdp"/>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="end"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:gravity="end"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/btnGoogle"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginEnd="@dimen/_5sdp"-->
+    <!--                android:drawableEnd="@drawable/ic_google"-->
+    <!--                android:drawablePadding="@dimen/_5sdp"-->
+    <!--                android:gravity="center|end"-->
+    <!--                android:text="Login with Google"-->
+    <!--                android:textColor="@color/black" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/btnFb"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="@dimen/_5sdp"-->
+    <!--                android:drawableEnd="@drawable/ic_fb"-->
+    <!--                android:gravity="center|end"-->
+    <!--                android:text="Login with Facebook"-->
+    <!--                android:textColor="@color/black" />-->
+    <!--            &lt;!&ndash;<Button&ndash;&gt;-->
+    <!--android:gravity="end"-->
+    <!--android:id="@+id/btnFb"-->
+    <!--android:layout_width="@dimen/_42sdp"-->
+    <!--android:layout_height="@dimen/_42sdp"-->
+    <!--android:background="@drawable/ic_fb"/>-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--    </LinearLayout>-->
+
+</RelativeLayout>
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent">-->
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="@dimen/_135sdp"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:background="@drawable/middle_boxmirror"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="@dimen/_230sdp"-->
+    <!--            android:layout_height="@dimen/_130sdp"-->
+    <!--            android:layout_centerVertical="true"-->
+    <!--            android:layout_marginStart="@dimen/_5sdp"-->
+    <!--            android:gravity="center|start"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <speedroviders.utills.MyEditText-->
+    <!--                android:id="@+id/etName"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_42sdp"-->
+    <!--                android:backgroundTint="@color/transparent"-->
+    <!--                android:drawableStart="@drawable/ic_user_name"-->
+    <!--                android:drawablePadding="@dimen/_10sdp"-->
+    <!--                android:hint="@string/name"-->
+    <!--                android:background="@color/white"-->
+    <!--                android:inputType="textEmailAddress"-->
+    <!--                android:paddingStart="@dimen/_5sdp"-->
+    <!--                android:paddingEnd="@dimen/_5sdp"-->
+    <!--                android:textColorHint="@color/black"-->
+    <!--                android:textSize="@dimen/_14sdp" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:background="@color/view_grey_bg_" />-->
+
+
+    <!--            <speedroviders.utills.MyEditText-->
+    <!--                android:id="@+id/etPassword"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_42sdp"-->
+    <!--                android:backgroundTint="@color/transparent"-->
+    <!--                android:drawableStart="@drawable/ic_password"-->
+    <!--                android:drawablePadding="@dimen/_10sdp"-->
+    <!--                android:hint="@string/password"-->
+    <!--                android:background="@color/white"-->
+    <!--                android:inputType="textPassword"-->
+    <!--                android:paddingStart="@dimen/_5sdp"-->
+    <!--                android:paddingEnd="@dimen/_5sdp"-->
+    <!--                android:textColorHint="@color/black"-->
+    <!--                android:textSize="@dimen/_14sdp" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:background="@color/view_grey_bg_" />-->
+
+
+    <!--            <speedroviders.utills.MyEditText-->
+    <!--                android:id="@+id/etEmail"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_42sdp"-->
+    <!--                android:backgroundTint="@color/transparent"-->
+    <!--                android:drawableStart="@drawable/ic_mail"-->
+    <!--                android:drawablePadding="@dimen/_10sdp"-->
+    <!--                android:hint="@string/email"-->
+    <!--                android:background="@color/white"-->
+    <!--                android:inputType="textEmailAddress"-->
+    <!--                android:paddingStart="@dimen/_5sdp"-->
+    <!--                android:paddingEnd="@dimen/_5sdp"-->
+    <!--                android:textColorHint="@color/black"-->
+    <!--                android:textSize="@dimen/_14sdp" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/btnSignUp"-->
+    <!--            android:layout_width="@dimen/_58sdp"-->
+    <!--            android:layout_height="@dimen/_58sdp"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:layout_centerVertical="true"-->
+    <!--            android:layout_marginEnd="@dimen/_10sdp"-->
+    <!--            android:padding="@dimen/_20sdp"-->
+    <!--            android:background="@drawable/round_shape"-->
+    <!--            android:src="@drawable/right_arrow_new"-->
+    <!--            android:rotation="@integer/angle_rtl_180"-->
+    <!--            android:textColor="@color/white" />-->
+
+
+    <!--    </RelativeLayout>-->
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="120dp"-->
+    <!--        android:layout_height="120dp"-->
+    <!--        android:layout_below="@+id/button2"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="@dimen/_8sdp"-->
+
+    <!--        android:src="@drawable/ic_launcher_web" />-->
+
+    <!--    <speedroviders.utills.MyBoldTextView-->
+    <!--        android:id="@+id/button2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="@dimen/_16sdp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="@string/registration"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="@dimen/_18sdp" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="@dimen/_170sdp"-->
+    <!--        android:layout_height="@dimen/_70sdp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginTop="@dimen/_40sdp"-->
+    <!--        android:background="@drawable/box_login"-->
+    <!--        android:gravity="end">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/txtSignIn"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:gravity="center"-->
+    <!--            android:padding="@dimen/_5sdp"-->
+    <!--            android:text="@string/login"-->
+    <!--            android:textColor="@color/colorPrimary"-->
+    <!--            android:textSize="@dimen/_21sdp" />-->
+    <!--    </LinearLayout>-->
+
+
+    <!--</RelativeLayout>-->
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_140sdp"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:background="@drawable/middle_boxmirror"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="@dimen/_230sdp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginStart="@dimen/_5sdp"-->
+<!--            android:gravity="center|start"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <speedser.utills.MyEditText-->
+<!--                android:id="@+id/etName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_40sdp"-->
+<!--                android:backgroundTint="@color/transparent"-->
+<!--                android:drawableStart="@drawable/ic_user_name"-->
+<!--                android:drawablePadding="@dimen/_10sdp"-->
+<!--                android:hint="@string/name"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:paddingStart="@dimen/_5sdp"-->
+<!--                android:paddingEnd="@dimen/_5sdp"-->
+<!--                android:textColorHint="@color/black"-->
+<!--                android:textSize="@dimen/_14sdp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/view_grey_bg_" />-->
+
+<!--            <speedser.utills.MyEditText-->
+<!--                android:id="@+id/etPassword"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_40sdp"-->
+<!--                android:backgroundTint="@color/transparent"-->
+<!--                android:drawableStart="@drawable/ic_pasword"-->
+<!--                android:drawablePadding="@dimen/_10sdp"-->
+<!--                android:hint="@string/password"-->
+<!--                android:inputType="textPassword"-->
+<!--                android:paddingStart="@dimen/_5sdp"-->
+<!--                android:paddingEnd="@dimen/_5sdp"-->
+<!--                android:textColorHint="@color/black"-->
+<!--                android:textSize="@dimen/_14sdp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/view_grey_bg_" />-->
+
+<!--            <speedser.utills.MyEditText-->
+<!--                android:id="@+id/etEmail"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_40sdp"-->
+<!--                android:backgroundTint="@color/transparent"-->
+<!--                android:drawableStart="@drawable/ic_mail"-->
+<!--                android:drawablePadding="@dimen/_10sdp"-->
+<!--                android:hint="@string/email"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:paddingStart="@dimen/_5sdp"-->
+<!--                android:paddingEnd="@dimen/_5sdp"-->
+<!--                android:textColorHint="@color/black"-->
+<!--                android:textSize="@dimen/_14sdp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/view_grey_bg_" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/btnSignUp"-->
+<!--            android:layout_width="@dimen/_58sdp"-->
+<!--            android:layout_height="@dimen/_58sdp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginEnd="@dimen/_10sdp"-->
+<!--            android:background="@drawable/round_shape"-->
+<!--            android:padding="@dimen/_20sdp"-->
+<!--            android:rotation="@integer/angle_rtl_180"-->
+<!--            android:src="@drawable/right_arrow_new"-->
+<!--            android:text="Next"-->
+<!--            android:textColor="@color/white" />-->
+
+
+<!--    </RelativeLayout>-->
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_below="@+id/button2"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="@dimen/_8sdp"-->
+
+<!--        android:src="@drawable/ic_launcher_web" />-->
+
+<!--    <speedser.utills.MyBoldTextView-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="@dimen/_16sdp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/registration"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="@dimen/_18sdp" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="@dimen/_170sdp"-->
+<!--        android:layout_height="@dimen/_70sdp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@drawable/box_login"-->
+<!--        android:gravity="end">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtSignIn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="@dimen/_5sdp"-->
+<!--            android:text="@string/login"-->
+<!--            android:textColor="@color/colorPrimary"-->
+<!--            android:textSize="@dimen/_21sdp" />-->
+<!--    </LinearLayout>-->
+
+
+<!--</RelativeLayout>-->

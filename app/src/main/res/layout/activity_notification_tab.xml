@@ -48,7 +48,7 @@
             <ImageView
                 android:layout_width="@dimen/_96sdp"
                 android:layout_height="@dimen/_96sdp"
-                android:src="@drawable/ic_launcher_web" />
+                android:src="@drawable/final_logo_svg" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -27,7 +27,7 @@
             <ImageView
                 android:layout_width="@dimen/_48sdp"
                 android:layout_height="@dimen/_48sdp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/final_logo_svg" />
 
             <TextView
                 android:id="@+id/txtNotification"

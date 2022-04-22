@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Projets/Speed-User/app/src/main/res/drawable/final_logo.xml" value="0.1975" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/drawable/final_logo_white.xml" value="0.1975" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_change_password.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_edit_profile.xml" value="0.17391304347826086" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_face_book_login.xml" value="0.17391304347826086" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
@@ -13,10 +14,14 @@
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_intro.xml" value="0.1" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_sign_up.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_splash.xml" value="0.1" />
-        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/addcalendar.xml" value="0.1" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/addcalendar.xml" value="0.15" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/calendarlist.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_home.xml" value="0.1743659420289855" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_soruce_and_destination.xml" value="0.15806159420289856" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/notification_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/user_rate_dailog.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/drawable-mdpi/border_header.xml" value="0.198" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/drawable-mdpi/rounded_text_field.xml" value="0.198" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/drawable/round_shape.xml" value="0.198" />

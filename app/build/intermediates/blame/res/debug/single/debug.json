@@ -40,6 +40,10 @@
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-mdpi\\coupon_bg.webp"
     },
     {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo_white.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\final_logo_white.xml"
+    },
+    {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up_top.xml.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\anim\\slide_up_top.xml"
     },
@@ -92,16 +96,16 @@
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\mipmap-hdpi\\ic_right.png"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_provider_marker.webp.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xxxhdpi\\provider_marker.webp"
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_registrationmirror.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\box_registrationmirror.xml"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star.webp.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star.webp"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box_registrationmirror.xml.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\box_registrationmirror.xml"
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_provider_marker.webp.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xxxhdpi\\provider_marker.webp"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\anim_activity_back_out.xml.flat",
@@ -930,6 +934,10 @@
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_black_24dp.xml.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\ic_send_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\final_logo.xml"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",

@@ -26,7 +26,7 @@
             android:layout_below="@+id/logo"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/_8sdp"
-            android:src="@drawable/ic_launcher_web" />
+            android:src="@drawable/final_logo_svg" />
 
         <LinearLayout
             android:id="@+id/viewLoginLayout"

@@ -23,7 +23,7 @@
             android:layout_width="@dimen/_72sdp"
             android:layout_height="@dimen/_64sdp"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/ic_launcher_web" />
+            android:background="@drawable/final_logo_svg" />
 
         <com.speed.user.utills.MyBoldTextView
             android:layout_width="wrap_content"

@@ -3324,6 +3324,8 @@ drawable emoji_ios_sheet_9
 drawable emoji_recent
 drawable fastscroll__default_bubble
 drawable fastscroll__default_handle
+drawable final_logo
+drawable final_logo_white
 drawable flag_afghanistan
 drawable flag_aland
 drawable flag_albania

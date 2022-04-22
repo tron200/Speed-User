@@ -26,7 +26,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:fontFamily="@font/muli_regular"
             android:gravity="center_vertical"
             android:text="@string/notifications"
             android:textColor="@color/white"
@@ -54,7 +53,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_7sdp"
-                android:fontFamily="@font/muli_semibold"
                 android:text="@string/no_notification_found"
                 android:textSize="@dimen/_14sdp" />
 

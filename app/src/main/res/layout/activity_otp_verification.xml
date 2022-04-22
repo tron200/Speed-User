@@ -32,7 +32,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/muli_semibold"
                 android:paddingStart="@dimen/_12sdp"
                 android:text="@string/phone_verification"
                 android:textColor="@color/white"
@@ -42,7 +41,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/muli_semibold"
                 android:paddingStart="@dimen/_12sdp"
                 android:paddingTop="@dimen/_5sdp"
                 android:paddingBottom="@dimen/_10sdp"
@@ -87,7 +85,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:fontFamily="@font/muli_semibold"
             android:text=""
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/_14sdp" />
@@ -100,7 +97,6 @@
             android:layout_marginTop="@dimen/_50sdp"
             android:backgroundTint="@color/colorPrimary"
             android:enabled="false"
-            android:fontFamily="@font/muli_semibold"
             android:text="@string/verify_now"
             android:textColor="@color/white"
             android:textSize="@dimen/_16sdp" />

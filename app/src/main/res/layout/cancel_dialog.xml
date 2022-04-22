@@ -27,7 +27,6 @@
             android:id="@+id/driver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_regular"
             android:text="@string/plan_changed"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -36,7 +35,6 @@
             android:id="@+id/vehicle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_regular"
             android:text="@string/booked_another_cab"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -45,7 +43,6 @@
             android:id="@+id/app"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_regular"
             android:text="@string/my_reason_is_not_listed"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -54,7 +51,6 @@
             android:id="@+id/moving"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_regular"
             android:text="@string/driver_is_not_moving"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -63,7 +59,6 @@
             android:id="@+id/denied"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_regular"
             android:text="@string/driver_denied_to_come"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
@@ -76,7 +71,6 @@
         android:layout_marginStart="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_10sdp"
-        android:fontFamily="@font/muli_regular"
         android:hint="@string/why_specify"
         android:visibility="gone" />
 
@@ -90,7 +84,6 @@
         android:layout_marginBottom="@dimen/_15sdp"
 
         android:backgroundTint="@color/colorPrimary"
-        android:fontFamily="@font/muli_semibold"
         android:text="@string/submit"
         android:textColor="@color/white"
         android:textSize="@dimen/_14sdp" />

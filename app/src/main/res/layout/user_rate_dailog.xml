@@ -36,7 +36,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/_5sdp"
-                android:fontFamily="@font/muli_semibold"
                 android:maxLines="2"
                 android:text="Amit Tiwari"
                 android:textColor="@color/black"
@@ -68,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:fontFamily="@font/muli_semibold"
                 android:text="@string/give_a_compliment"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
@@ -101,7 +99,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/muli_semibold"
                             android:gravity="center"
                             android:paddingTop="@dimen/_5sdp"
                             android:text="Hero"
@@ -123,7 +120,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/muli_semibold"
                             android:gravity="center"
                             android:paddingTop="@dimen/_5sdp"
                             android:text="6-star service"
@@ -146,7 +142,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/muli_semibold"
                             android:gravity="center"
                             android:paddingTop="@dimen/_5sdp"
                             android:text="Great Conversation"
@@ -168,7 +163,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/muli_semibold"
                             android:gravity="center"
                             android:paddingTop="@dimen/_5sdp"
                             android:text="Great attitude"
@@ -190,7 +184,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/muli_semibold"
                             android:gravity="center"
                             android:paddingTop="@dimen/_5sdp"
                             android:text="Tidy and clean"
@@ -212,7 +205,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/muli_semibold"
                             android:gravity="center"
                             android:paddingTop="@dimen/_5sdp"
                             android:text="Great Amenties"

@@ -71,7 +71,6 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:ellipsize="end"
-                    android:fontFamily="@font/karla"
                     android:gravity="center_vertical"
                     android:hint="@string/source_location"
                     android:inputType="text"
@@ -133,7 +132,6 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:ellipsize="end"
-                    android:fontFamily="@font/karla"
                     android:gravity="center_vertical"
                     android:hint="@string/where_to_go"
                     android:inputType="text"
@@ -304,7 +302,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:padding="5dp"
                 android:textColor="@color/light_gray"
                 android:textSize="@dimen/_14sdp" />
@@ -312,7 +309,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:maxLines="2"
                 android:paddingStart="5dp"
                 android:paddingEnd="5dp"
@@ -332,7 +328,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:padding="5dp"
                 android:textColor="@color/light_gray"
                 android:textSize="@dimen/_14sdp" />
@@ -340,7 +335,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:maxLines="2"
                 android:paddingStart="5dp"
                 android:paddingEnd="5dp"
@@ -360,7 +354,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:padding="5dp"
                 android:textColor="@color/light_gray"
                 android:textSize="@dimen/_14sdp" />
@@ -368,7 +361,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:maxLines="2"
                 android:paddingStart="5dp"
                 android:paddingEnd="5dp"

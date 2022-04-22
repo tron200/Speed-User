@@ -27,7 +27,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_semibold"
             android:paddingStart="@dimen/_12sdp"
             android:text="@string/pick_up_notes"
             android:textColor="@color/white"
@@ -63,7 +62,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:backgroundTint="@color/transparent"
-                    android:fontFamily="@font/muli_semibold"
                     android:gravity="center_vertical"
                     android:hint="@string/type_your_message"
                     android:paddingStart="@dimen/_15sdp"

@@ -22,7 +22,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_10sdp"
-            android:fontFamily="@font/muli_semibold"
             android:text="@string/booking_successful"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
@@ -30,7 +29,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/muli_regular"
             android:text="@string/your_booking_has_been_confirmed"
             android:textColor="@color/view_grey_bg"
             android:textSize="@dimen/_14sdp" />
@@ -42,7 +40,6 @@
             android:layout_marginStart="@dimen/_18sdp"
             android:layout_marginEnd="@dimen/_18sdp"
             android:layout_marginBottom="@dimen/_10sdp"
-            android:fontFamily="@font/muli_regular"
             android:gravity="center"
             android:text="@string/you_will_get_driver_details_30_min_before_of_your_booking"
             android:textColor="@color/view_grey_bg"
@@ -65,7 +62,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_44sdp"
                 android:layout_weight="1"
-                android:fontFamily="@font/muli_semibold"
                 android:gravity="center"
                 android:text="@string/done"
                 android:textColor="@color/black"

@@ -29,7 +29,6 @@
                 android:id="@+id/rbHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:text="@string/home" />
 
             <RadioButton
@@ -38,14 +37,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:fontFamily="@font/karla"
                 android:text="@string/work" />
 
             <RadioButton
                 android:id="@+id/rbOther"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/karla"
                 android:text="@string/other" />
 
 
@@ -74,7 +71,6 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:fontFamily="@font/karla"
                 android:gravity="center|start"
                 android:maxLines="2"
                 android:text="Sukhrali"
@@ -103,7 +99,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
                 android:layout_weight="1"
-                android:fontFamily="@font/karla_bold"
                 android:gravity="center"
                 android:text="@string/cancel"
                 android:textColor="@android:color/black" />
@@ -118,7 +113,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
                 android:layout_weight="1"
-                android:fontFamily="@font/karla_bold"
                 android:gravity="center"
                 android:text="@string/save"
                 android:textColor="@color/colorPrimary" />

@@ -26,7 +26,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:fontFamily="@font/muli_regular"
             android:gravity="center_vertical"
             android:text="@string/review"
             android:textColor="@color/white"

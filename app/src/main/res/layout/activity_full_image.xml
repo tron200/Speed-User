@@ -29,7 +29,6 @@
                 android:id="@+id/txtTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/muli_semibold"
                 android:paddingStart="@dimen/_15sdp"
                 android:text="@string/image_title"
                 android:textColor="@color/white"

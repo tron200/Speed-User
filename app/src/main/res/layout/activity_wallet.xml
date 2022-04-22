@@ -32,7 +32,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/muli_semibold"
                 android:paddingStart="@dimen/_12sdp"
                 android:text="@string/add_money"
                 android:textColor="@color/white"

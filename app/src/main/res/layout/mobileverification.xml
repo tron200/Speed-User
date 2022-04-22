@@ -96,7 +96,6 @@
                         android:layout_marginStart="@dimen/_3sdp"
                         android:layout_marginEnd="@dimen/_1sdp"
                         android:backgroundTint="@color/transparent"
-                        android:fontFamily="@font/muli_semibold"
                         android:hint="@string/mobile_number"
                         android:inputType="number"
                         android:maxLength="12"

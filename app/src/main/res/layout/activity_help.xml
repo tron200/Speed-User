@@ -57,7 +57,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/muli_semibold"
                 android:padding="@dimen/_5sdp"
                 android:text="@string/welcome_text"
                 android:textColor="@color/black"
@@ -87,7 +86,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/muli_regular"
                         android:paddingTop="@dimen/_4sdp"
                         android:text="@string/call_support"
                         android:textColor="@color/black"
@@ -122,7 +120,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/muli_regular"
                         android:paddingTop="@dimen/_4sdp"
                         android:text="@string/chat_support"
                         android:textColor="@color/black"
@@ -157,7 +154,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/muli_regular"
                         android:paddingTop="@dimen/_4sdp"
                         android:text="@string/weburl"
                         android:textColor="@color/black"

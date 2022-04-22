@@ -37,7 +37,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:fontFamily="@font/muli_regular"
                 android:paddingStart="@dimen/_10sdp"
                 android:paddingEnd="@dimen/_10sdp"
                 android:text="Very good service provide by user, satisfied the user service."
@@ -80,7 +79,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:fontFamily="@font/muli_regular"
                 android:text="10 JAN 2019 08:45 PM, Rajan Kumar"
                 android:textSize="@dimen/_10sdp" />
         </LinearLayout>

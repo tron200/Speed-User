@@ -84,12 +84,12 @@
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\anim\\slide_down.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_name.webp.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xhdpi\\ic_name.webp"
-    },
-    {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_thumbnail.webp.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\pdf_thumbnail.webp"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_name.webp.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xhdpi\\ic_name.webp"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_right.png.flat",
@@ -734,6 +734,10 @@
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chevron_right_black_24dp.xml.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_final_logo_svg.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\final_logo_svg.xml"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_name.webp.flat",

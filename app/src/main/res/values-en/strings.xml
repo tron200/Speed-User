@@ -341,6 +341,46 @@
     <string name="you_have_no_on_going_rides">You Have no on Going Rides</string>
     <string name="secure_passwords">Secure Passwords are at least 8 characters long and include numbers and symbols.</string>
     <string name="update">UPDATE</string>
+    <string name="apply">APPLY</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="favorites">Favorites</string>
+    <string name="enter_home_address">Enter Home Address</string>
+    <string name="enter_home_address">Enter Home Address</string>
+    <string name="enter_work_address">Enter Work Address</string>
+    <string name="home_address">Home Address</string>
+    <string name="next_">Next</string>
+    <string name="if_you_didn_t_receive_an_otp">if you didn\'t receive an otp</string>
+    <string name="click">Click</string>
+    <string name="image_title">Image Title</string>
+    <string name="fare_">Fare</string>
+    <string name="media_player">Media Player</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="default_payment_method">Default Payment Method</string>
+    <string name="add_new_card">Add new card</string>
+    <string name="type_your_message">Type your message..</string>
+    <string name="pick_up_notes">Pick-Up Notes</string>
+    <string name="ongoing_trip">OnGoing Trip</string>
+    <string name="already_have_an_account">Already Have an account?</string>
+    <string name="sos_call">SOS Call</string>
+    <string name="why_specify">Why specify?</string>
+    <string name="booking_successful">Booking Successful</string>
+    <string name="your_booking_has_been_confirmed">Your booking has been confirmed.</string>
+    <string name="driver_will_pickup_you_in_early">Driver will pickup you in early</string>
+    <string name="you_have_no_upcoming_trips">You have no upcoming trips</string>
+    <string name="source_location_">Source location</string>
+    <string name="destination_location_">Destination location</string>
+    <string name="you_will_get_driver_details_30_min_before_of_your_booking">you will get driver details 30 Min before of your booking</string>
+    <string name="rate">RATE</string>
+    <string name="give_a_compliment">Give a compliment</string>
+    <string name="rate_card">Rate Card</string>
+    <string name="the_fare_will_be_the_price_presented_upon_booking_or_if_the_journey_changes_the_fare_will_be_based_on_the_rates_provided_tap_fare_for_details">The fare will be the price presented upon booking, or, if the journey changes, the fare will be based on the rates provided. Tap fare for details.</string>
+    <string name="pickup">Pickup</string>
+    <string name="drop_off">Drop off</string>
+    <string name="distance">Distance</string>
+    <string name="time">Time</string>
+    <string name="price">Price</string>
+    <string name="confirm">CONFIRM</string>
 
 
 </resources>

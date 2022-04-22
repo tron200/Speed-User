@@ -43,7 +43,7 @@
                         android:layout_marginStart="10dp"
                         android:fontFamily="@font/muli_semibold"
                         android:gravity="center_vertical"
-                        android:text="Edit Profile"
+                        android:text="@string/edit_profile"
                         android:textColor="@android:color/white"
                         android:textSize="18sp" />
 
@@ -112,7 +112,7 @@
                         android:drawableTint="@color/view_grey_bg_"
                         android:fontFamily="@font/muli_semibold"
                         android:gravity="center_vertical"
-                        android:text="Name"
+                        android:text="@string/name"
                         android:textSize="@dimen/_14sdp" />
 
                     <TextView
@@ -147,7 +147,7 @@
                         android:drawableTint="@color/view_grey_bg_"
                         android:fontFamily="@font/muli_semibold"
                         android:gravity="center_vertical"
-                        android:text="Email"
+                        android:text="@string/email"
                         android:textSize="@dimen/_14sdp" />
 
                     <TextView
@@ -181,7 +181,7 @@
                         android:drawableTint="@color/view_grey_bg_"
                         android:fontFamily="@font/muli_semibold"
                         android:gravity="center_vertical"
-                        android:text="Mobile Number"
+                        android:text="@string/mobile_number"
                         android:textSize="@dimen/_14sdp" />
 
                     <TextView
@@ -303,7 +303,7 @@
                     android:drawableTint="@color/cancel_ride_color"
                     android:gravity="center_vertical"
                     android:paddingStart="@dimen/_5sdp"
-                    android:text="Favorites"
+                    android:text="@string/favorites"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sdp" />
 
@@ -330,7 +330,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="Home"
+                        android:text="@string/home"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         app:layout_constraintStart_toEndOf="@id/ivHome"
@@ -345,7 +345,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="@dimen/_40sdp"
 
-                        android:hint="Enter Home Address"
+                        android:hint="@string/enter_home_address"
                         android:textColor="@color/black"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintLeft_toRightOf="@id/ivHome"
@@ -390,7 +390,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="Work"
+                        android:text="@string/work"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -405,7 +405,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="@dimen/_40sdp"
-                        android:hint="Enter Home Address"
+                        android:hint="@string/enter_work_address"
                         android:textColor="@color/black"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintLeft_toRightOf="@id/ivWork"

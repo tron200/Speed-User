@@ -104,7 +104,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/edittext_boder"
                     android:cursorVisible="true"
-                    android:hint="Type a message"
+                    android:hint="@string/type_your_message"
                     android:imeOptions="actionSend"
                     android:inputType="textCapSentences|textMultiLine"
                     android:maxLines="3"

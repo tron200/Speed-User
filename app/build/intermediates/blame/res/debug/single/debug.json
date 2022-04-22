@@ -4,20 +4,20 @@
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\ic_logout_icon.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_name.png.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_name.png"
-    },
-    {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_boder.xml.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\edittext_boder.xml"
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_legal.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\layout\\activity_legal.xml"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_default.webp.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\img_default.webp"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_legal.xml.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\layout\\activity_legal.xml"
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_boder.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\edittext_boder.xml"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user_name.png.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_name.png"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_full_image.xml.flat",
@@ -52,12 +52,12 @@
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\light_grren_rect.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_coupon.xml.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\layout\\activity_coupon.xml"
-    },
-    {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_marker.xml.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\layout\\custom_marker.xml"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_coupon.xml.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\layout\\activity_coupon.xml"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_type_list_item.xml.flat",
@@ -72,24 +72,24 @@
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\box_registration.webp"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cross.png.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\cross.png"
-    },
-    {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_love.webp.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\red_love.webp"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cross.png.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\cross.png"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\anim\\slide_down.xml"
     },
     {
-        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_thumbnail.webp.flat",
-        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\pdf_thumbnail.webp"
-    },
-    {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_name.webp.flat",
         "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable-xhdpi\\ic_name.webp"
+    },
+    {
+        "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_thumbnail.webp.flat",
+        "source": "E:\\Projets\\Speed-User\\app\\src\\main\\res\\drawable\\pdf_thumbnail.webp"
     },
     {
         "merged": "E:\\Projets\\Speed-User\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_right.png.flat",

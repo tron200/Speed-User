@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="Update Name"
+            android:text="@string/update_name"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
     </LinearLayout>
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_30sdp"
             android:background="@color/colorPrimary"
-            android:text="UPDATE"
+            android:text="@string/update"
             android:textColor="@color/text_color_white"
             android:textSize="@dimen/_14sdp" />
     </LinearLayout>

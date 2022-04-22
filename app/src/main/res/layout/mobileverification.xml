@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/border_header"
         android:orientation="vertical">
 
         <ImageView
@@ -50,7 +50,8 @@
 
             android:elevation="@dimen/_10sdp"
             app:cardBackgroundColor="@color/white"
-            app:cardElevation="@dimen/_5sdp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
             app:contentPadding="@dimen/_10sdp">
 
             <LinearLayout
@@ -96,7 +97,7 @@
                         android:layout_marginEnd="@dimen/_1sdp"
                         android:backgroundTint="@color/transparent"
                         android:fontFamily="@font/muli_semibold"
-                        android:hint="Mobile number"
+                        android:hint="@string/mobile_number"
                         android:inputType="number"
                         android:maxLength="12"
                         android:textColor="@color/black"

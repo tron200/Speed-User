@@ -69,7 +69,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:fontFamily="@font/muli_semibold"
-                android:text="Give a compliment"
+                android:text="@string/give_a_compliment"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
@@ -253,7 +253,7 @@
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="RATE"
+                android:text="@string/rate"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 

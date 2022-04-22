@@ -36,7 +36,7 @@
             android:layout_height="match_parent"
             android:gravity="center|start"
             android:layout_marginStart="10dp"
-            android:text="SOS Call"
+            android:text="@string/sos_call"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"

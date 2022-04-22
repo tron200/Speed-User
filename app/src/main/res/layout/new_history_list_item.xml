@@ -83,7 +83,7 @@
                         <com.speed.user.utills.MyTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Source location"
+                            android:text="@string/source_location_"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_12sdp" />
 
@@ -108,7 +108,7 @@
                         <com.speed.user.utills.MyTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Destination location"
+                            android:text="@string/destination_location_"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_12sdp" />
 

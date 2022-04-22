@@ -78,7 +78,7 @@
                                     android:id="@+id/booking_id"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Booking ID : 123456789"
+                                    android:text="@string/booking_id"
                                     android:textSize="@dimen/_10sdp" />
 
                                 <com.speed.user.utills.MyTextView

@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_10sdp"
             android:fontFamily="@font/muli_semibold"
-            android:text="Booking Successful"
+            android:text="@string/booking_successful"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
 
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/muli_regular"
-            android:text="Your booking has been confirmed."
+            android:text="@string/your_booking_has_been_confirmed"
             android:textColor="@color/view_grey_bg"
             android:textSize="@dimen/_14sdp" />
 
@@ -44,7 +44,7 @@
             android:layout_marginBottom="@dimen/_10sdp"
             android:fontFamily="@font/muli_regular"
             android:gravity="center"
-            android:text="you will get driver details 30 Min before of your booking"
+            android:text="@string/you_will_get_driver_details_30_min_before_of_your_booking"
             android:textColor="@color/view_grey_bg"
             android:textSize="@dimen/_14sdp" />
 
@@ -67,7 +67,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/muli_semibold"
                 android:gravity="center"
-                android:text="Done"
+                android:text="@string/done"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_14sdp" />
         </LinearLayout>

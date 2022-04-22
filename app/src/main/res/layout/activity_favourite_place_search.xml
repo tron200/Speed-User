@@ -78,7 +78,7 @@
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/karla"
                         android:paddingStart="@dimen/_5sdp"
-                        android:text="Home Address"
+                        android:text="@string/home_address"
                         android:textColor="@color/black"
                         android:textSize="14dp" />
 

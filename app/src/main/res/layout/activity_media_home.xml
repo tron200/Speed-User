@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Media Player"
+                android:text="@string/media_player"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 

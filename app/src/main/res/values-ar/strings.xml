@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [<!ENTITY appName "Speed User">
-    <!ENTITY Provider "Driver">
-    <!ENTITY provider "driver">
-    <!ENTITY Service "Ride">
-    <!ENTITY service "ride">]>
+    <!ENTITY Provider "سائق">
+    <!ENTITY provider "سائق">
+    <!ENTITY Service "رحله">
+    <!ENTITY service "رحله">]>
 <resources>
     <!--Nav items-->
     <string name="app_name">Speed</string>
@@ -13,12 +13,12 @@
     <string name="google_map_api">AIzaSyBH3QrRCXqSSaIuEC-Z4DcI85TvbnBz0HM</string>
     <string name="facebook_app_id">562245434540329</string>
 
-    <string name="we_will_send_you_a_one_time_sms_message_carrier_rate_may_apply">We will send you a One time SMS message carrier rate may apply</string>
+    <string name="we_will_send_you_a_one_time_sms_message_carrier_rate_may_apply">سوف نرسل لك في رساله قصيره سعرًا لمرة واحدة قد يتم تطبيقه</string>
 
     <!--Navigation Drawer -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">الاعدادات</string>
 
     <string name="action_coupon">كوبون تخفيض</string>
     <string name="action_wallet">&appName; محفظة نقود</string>
@@ -73,13 +73,13 @@
     <!--Approximate -->
 
     <!-- Confirm your pickup -->
-    <string name="done">Done</string>
+    <string name="done">تم</string>
 
     <!-- Waiting for provider -->
-    <string name="looking_for_ride">Finding &provider;</string>
+    <string name="looking_for_ride">جاري البحت عن &provider;</string>
     <string name="cancel_ride">إلغاء طلب الرحلة</string>
     <string name="share">مشاركة</string>
-    <string name="cancel_ride_alert">Are you sure you want to cancel the &service;?</string>
+    <string name="cancel_ride_alert">هل أنت متأكد أنك تريد إلغاء الرحله؟</string>
     <string name="no_drivers_found">لا يوجد سائق متوفر للقيام برحلتك</string>
     <string name="driver_busy">تم إلغاء رحلتك من قبل السائق. يرجى الاتصال بنا للحصول على الدعم</string>
 
@@ -112,7 +112,7 @@
 
     <!--Status -->
     <string name="arrived">&Provider; وصل إلى موقعك </string>
-    <string name="picked_up">you are on &service;</string>
+    <string name="picked_up">انت الان في الرحله</string>
 
     <!--Your Trips-->
     <string name="history">السجل</string>
@@ -125,19 +125,19 @@
 
     <!--Invoice -->
     <string name="invoice">فاتورة</string>
-    <string name="base_price">Base fare</string>
-    <string name="booking_id">Booking ID</string>
+    <string name="base_price">الاجره الاساسيه</string>
+    <string name="booking_id">رقم الحجز</string>
     <string name="sample_base_price">$10000</string>
     <string name="extra_price">رسوم إضافية</string>
     <string name="tax">ضريبة</string>
     <string name="total">مجموع</string>
     <string name="pay_now">ادفع الآن</string>
-    <string name="distance_price">Distance fare</string>
+    <string name="distance_price">اجره المسافه</string>
 
     <!--Rate provider-->
     <string name="rate_provider">معدل رحلتك مع</string>
     <string name="write_your_comment">اكتب تعليقك</string>
-    <string name="submit">خضع</string>
+    <string name="submit">تاكيد</string>
 
 
     <!-- Source and destination-->
@@ -146,7 +146,7 @@
     <!--Show Dailog-->
     <string name="connect_to_network">الاتصال بالشبكة أو إنهاء</string>
     <string name="cencel_request">هل أنت متأكد أنك تريد إلغاء؟</string>
-    <string name="connect_to_wifi">وصل إلى WIFI</string>
+    <string name="connect_to_wifi">وصل إلى الانترنت</string>
 
 
     <!-- Error Messages-->
@@ -169,7 +169,7 @@
     <string name="not_vaild_coupon">الكوبون غير صالح أو قد ينتهي</string>
     <string name="coupon_added">تم تطبيق الكوبون بنجاح</string>
     <string name="add_coupon_txt">اضف كوبون الخصم</string>
-    <string name="added_coupon">Coupon\'s applied by you</string>
+    <string name="added_coupon">تم تطبيق الكوبون بنجاح</string>
     <string name="already_in_use_coupon">القسيمة المستخدمة بالفعل من قبلك</string>
     <string name="expired_coupon">آسف ، انتهت صلاحية القسيمة</string>
     <string name="off">إيقاف</string>
@@ -189,7 +189,7 @@
     <string name="please_enter_current_pass">الرجاء إدخال كلمة المرور الحالية</string>
     <string name="please_enter_new_pass">الرجاء إدخال كلمة مرور جديدة</string>
     <string name="please_enter_confirm_pass">الرجاء إدخال كلمة المرور للتأكيد</string>
-    <string name="different_passwords">Password doesn\'t match</string>
+    <string name="different_passwords">الرقم السري غير متشابه</string>
     <string name="commision">تكلفة الخدمة</string>
     <string name="request_cancel">لقد ألغيت الطلب</string>
 
@@ -200,11 +200,11 @@
     <string name="valid_image">لم يتم العثور على صورة</string>
     <string name="confirm_password_validation">عدم تطابق كلمة المرور</string>
     <string name="note">ملاحظة: يرجى إدخال OTP المرسل إلى بريدك الإلكتروني المسجل</string>
-    <string name="secrete_code">أدخل OTP</string>
+    <string name="secrete_code">أدخل الرمز</string>
     <string name="enter_mobile_no">أدخل رقم الجوال</string>
     <string name="logout_alert">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
     <string name="no_comments">لا يوجد تعليق متاح</string>
-    <string name="pin_location">Set pin location</string>
+    <string name="pin_location">تعين موقع</string>
     <string name="emaergeny_call">هل أنت متأكد من رغبتك في متابعة مكالمة الطوارئ؟</string>
     <string name="user_no_mobile">لا رقم الجوال</string>
     <string name="profile">الملف الشخصي</string>
@@ -213,7 +213,7 @@
 
     <!--Activity Help-->
     <string name="help">مساعدة</string>
-    <string name="book_name">Booking ID</string>
+    <string name="book_name">رقم الحجز</string>
     <string name="password_size">يجب أن يكون حجم كلمة المرور 6 على الأقل</string>
     <string name="sorry_for_inconvinent">نأسف للإزعاج ، مساعدونا مشغولون الآن</string>
     <string name="email_exist">البريد الالكترونى مسجل لدينا بالفعل</string>
@@ -259,11 +259,11 @@
     <string name="destination_location">إنزال</string>
     <string name="driver_is_on_the_way">السائق فى طريقة إليك</string>
     <string name="request_ride">طلب رحلة</string>
-    <string name="base_fare">Base Fare</string>
+    <string name="base_fare">الاجره الاساسيه</string>
 
-    <string name="fare">Fare/km</string>
-    <string name="fare_min">Fare/min</string>
-    <string name="fare_type">Fare Type</string>
+    <string name="fare">الاجره لكل كيلومتر</string>
+    <string name="fare_min">الاجره لكل دقيقه</string>
+    <string name="fare_type">نوع الاجره</string>
     <string name="capacity">السعة</string>
     <string name="cancel">إلغاء</string>
 
@@ -277,15 +277,15 @@
     <string name="save">حفظ</string>
 
     <string name="icon_desc">رمز التطبيق</string>
-    <string name="title_separator_desc">Title separator</string>
+    <string name="title_separator_desc">فاصل العنوان</string>
     <string name="refresh">تحديث</string>
-    <string name="batchadd">Copy Calendar x3 (Batch)</string>
+    <string name="batchadd">نسخ التقويم x3 (دفعة)</string>
     <string name="edit">تحرير التقويم</string>
     <string name="delete">حذف التقويم</string>
     <string name="delete_title">حذف التقويم؟</string>
     <string name="error">خطأ</string>
 
-    <string name="error_format">[Error] %s</string>
+    <string name="error_format">[خطأ] %s</string>
     <string name="user">تسجيل دخول المستخدم</string>
     <string name="add_money">إضافة المال</string>
 
@@ -323,14 +323,14 @@
     <string name="location">موقعك</string>
     <string name="location_detail">تفاصيل الموقع</string>
     <string name="copyright">حقوق النشر</string>
-    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="terms_amp_conditions">البنود و الظروف</string>
     <string name="home">الصفحة الرئيسية</string>
     <string name="work">عمل</string>
     <string name="other">آخر</string>
     <string name="complete">اكتمال</string>
     <string name="loading">جار التحميل...</string>
     <string name="send">ارسال</string>
-    <string name="if_you_have_not_received_otp">إذا لم تكن قد تلقيت OTP</string>
+    <string name="if_you_have_not_received_otp">إذا لم تكن قد تلقيت الرمز</string>
     <string name="cash">دفع نقدى</string>
     <string name="promo_code">كود خصم</string>
     <string name="resend">اعادة ارسال</string>
@@ -362,6 +362,45 @@
     <string name="you_have_no_on_going_rides">ليس لديك رحلات قادمه</string>
     <string name="secure_passwords">الباسورد الامن هو الذي يكون مكون من 8 حروف ويحتوي علي ارقام ورموز.</string>
     <string name="update">تحديث</string>
+    <string name="apply">تطبيق</string>
+    <string name="edit_profile">تعديل الملف الشخصى</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="favorites">الاماكن المفضله</string>
+    <string name="enter_home_address">ادخل عنوان المنزل</string>
+    <string name="enter_work_address">ادخل عنوان العمل</string>
+    <string name="home_address">عنوان المنزل</string>
+    <string name="next_">التالي</string>
+    <string name="if_you_didn_t_receive_an_otp">ان لم تستلم الرمز</string>
+    <string name="click">اضغط</string>
+    <string name="image_title">عنوان الصوره</string>
+    <string name="fare_">الاجره</string>
+    <string name="media_player">مشغل الوسائط</string>
+    <string name="payment_method">طريقه الدفع</string>
+    <string name="default_payment_method">طريقة الدفع الافتراضية</string>
+    <string name="add_new_card">اضافه بطاقه جديده</string>
+    <string name="type_your_message">اكتب رساله ...</string>
+    <string name="pick_up_notes">ملاحظات الالتقاط</string>
+    <string name="ongoing_trip">الرحله الجاريه</string>
+    <string name="already_have_an_account">هل لديك حساب بالفعل ؟</string>
+    <string name="sos_call">نداء استغاثه</string>
+    <string name="why_specify">لماذا وضح؟</string>
+    <string name="booking_successful">تم الحجز بنجاح</string>
+    <string name="your_booking_has_been_confirmed">تم تأكيد حجزك.</string>
+    <string name="driver_will_pickup_you_in_early">سيقلك السائق في وقت مبكر</string>
+    <string name="you_have_no_upcoming_trips">ليس لديك رحلات قادمة</string>
+    <string name="source_location_">موقعك</string>
+    <string name="destination_location_">موقع الوجهة</string>
+    <string name="you_will_get_driver_details_30_min_before_of_your_booking">ستاتي لك تفاصيل السائق الخاص بك قبل الحجز ب 30 دقيقه.</string>
+    <string name="rate">قيم رحلتك</string>
+    <string name="give_a_compliment">اعط اطراء</string>
+    <string name="rate_card">كرت التقييم</string>
+    <string name="the_fare_will_be_the_price_presented_upon_booking_or_if_the_journey_changes_the_fare_will_be_based_on_the_rates_provided_tap_fare_for_details">ستكون الأجرة هي السعر المعروض عند الحجز ، أو إذا تغيرت الرحلة ، فستعتمد الأجرة على الأسعار المقدمة. اضغط على الأجرة للحصول على التفاصيل.</string>
+    <string name="pickup">الالتقاط</string>
+    <string name="drop_off">الانزال</string>
+    <string name="distance">المسافه</string>
+    <string name="time">الوقت</string>
+    <string name="price">السعر</string>
+    <string name="confirm">تأكيد</string>
 
 
 </resources>

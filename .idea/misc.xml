@@ -5,22 +5,75 @@
       <map>
         <entry key="..\:/Projets/Speed-User/app/src/main/res/drawable/final_logo.xml" value="0.1975" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/drawable/final_logo_white.xml" value="0.1975" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_add_card.xml" value="0.15806159420289856" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_change_password.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_chat_app_item_view.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_coupon.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_edit_profile.xml" value="0.17391304347826086" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_face_book_login.xml" value="0.17391304347826086" />
-        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_favourite_place_search.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_forgot_password.xml" value="0.18" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_full_image.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_help.xml" value="0.1" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_history.xml" value="0.1743659420289855" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_history_details.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_legal.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_media_home.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_notification_tab.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_otp_verification.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_payment.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_phone_no_update.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_pick_up_notes.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_privacy_policy.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_running_trip.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_show_profile.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_sign_up.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_sos_call.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_splash.xml" value="0.1" />
-        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/addcalendar.xml" value="0.15" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_terms_of_use.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_test.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_track.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_update_profile.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_user_chat.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_user_review.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/activity_wallet.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/addcalendar.xml" value="0.25" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/app_bar_main.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/autocomplete_row.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/calendarlist.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/cancel_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/confirm_payment.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/confirm_ride_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/coupon_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/custom_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/custom_info_contents.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/custom_marker.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/custom_tv.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_coupon.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_home.xml" value="0.1743659420289855" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_on_going_trips.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_past_trips.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_ride_stared.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_soruce_and_destination.xml" value="0.15806159420289856" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_wallet.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/fragment_your_trips.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/history_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/location_list_item_view.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/location_storage_home_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/mobileverification.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/nav_header_main.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/new_history_list_item.xml" value="0.18" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/notification_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/payment_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/payment_list_item_strpe.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/review_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/schedule_dialog.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/service_type_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/upcoming_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/user_list_adapter.xml" value="0.1921875" />
         <entry key="..\:/Projets/Speed-User/app/src/main/res/layout/user_rate_dailog.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/drawable-mdpi/border_header.xml" value="0.198" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/drawable-mdpi/rounded_text_field.xml" value="0.198" />

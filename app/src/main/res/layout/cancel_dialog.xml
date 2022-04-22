@@ -77,7 +77,7 @@
         android:layout_marginEnd="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_10sdp"
         android:fontFamily="@font/muli_regular"
-        android:hint="Why specify?"
+        android:hint="@string/why_specify"
         android:visibility="gone" />
 
     <Button

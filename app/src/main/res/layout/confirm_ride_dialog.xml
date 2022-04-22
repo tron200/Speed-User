@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_10sdp"
             android:fontFamily="@font/muli_semibold"
-            android:text="Booking Successful"
+            android:text="@string/booking_successful"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
 
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/muli_regular"
-            android:text="Your booking has been confirmed."
+            android:text="@string/your_booking_has_been_confirmed"
             android:textColor="@color/view_grey_bg"
             android:textSize="@dimen/_14sdp" />
 
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_10sdp"
             android:fontFamily="@font/muli_regular"
-            android:text="Driver will pickup you in early"
+            android:text="@string/driver_will_pickup_you_in_early"
             android:textColor="@color/view_grey_bg"
             android:textSize="@dimen/_14sdp" />
 
@@ -64,7 +64,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:background="@android:color/holo_red_dark"
-                android:text="Cancel"
+                android:text="@string/cancel"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp" />
 
@@ -80,7 +80,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/muli_semibold"
                 android:gravity="center"
-                android:text="Done"
+                android:text="@string/done"
                 android:background="@color/colorPrimary"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp" />

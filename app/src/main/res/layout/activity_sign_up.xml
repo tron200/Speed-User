@@ -169,10 +169,10 @@
         android:layout_above="@+id/txtSignIn"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="15dp"
         android:layout_marginEnd="21dp"
+        android:layout_marginBottom="15dp"
         android:gravity="center"
-        android:text="Already Have an account?"
+        android:text="@string/already_have_an_account"
         android:textSize="@dimen/_14sdp" />
 
 

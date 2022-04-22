@@ -1710,7 +1710,8 @@
                             android:layout_height="@dimen/_20sdp"
                             android:layout_marginStart="@dimen/_10sdp"
                             android:layout_marginTop="@dimen/_10sdp"
-                            android:src="@drawable/back_icon"
+                            android:src="@drawable/ic_back"
+                            app:tint="@color/white"
                             android:visibility="gone" />
 
                         <LinearLayout
@@ -2060,6 +2061,7 @@
                                     android:textSize="@dimen/_12sdp" />
 
                                 <ImageView
+                                    android:id="@+id/cross"
                                     android:layout_width="@dimen/_18sdp"
                                     android:layout_height="@dimen/_18sdp"
                                     android:layout_marginStart="4dp"

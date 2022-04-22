@@ -42,7 +42,7 @@ public class ActivityHelp extends AppCompatActivity implements View.OnClickListe
     ImageView imgPhone;
     ImageView imgWeb;
     TextView titleTxt;
-
+    ImageView backArrow;
     String phone = "";
     String email = "";
 
@@ -57,14 +57,13 @@ public class ActivityHelp extends AppCompatActivity implements View.OnClickListe
 
         setContentView(R.layout.activity_help);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(getString(R.string.help));
         findviewById();
         setOnClickListener();
         getHelp();
     }
 
     private void findviewById() {
+        backArrow = findViewById(R.id.backArrow);
         imgEmail = findViewById(R.id.img_mail);
         imgPhone = findViewById(R.id.img_phone);
         imgWeb = findViewById(R.id.img_web);
@@ -76,6 +75,7 @@ public class ActivityHelp extends AppCompatActivity implements View.OnClickListe
         imgEmail.setOnClickListener(this);
         imgPhone.setOnClickListener(this);
         imgWeb.setOnClickListener(this);
+        backArrow.setOnClickListener(this);
     }
 
     @Override
@@ -99,7 +99,7 @@ public class ActivityHelp extends AppCompatActivity implements View.OnClickListe
             } else {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setTitle(getString(R.string.app_name))
-                        .setIcon(R.mipmap.ic_launcher_foreground)
+                        .setIcon(R.mipmap.ic_launcher)
                         .setMessage(getString(R.string.sorry_for_inconvinent))
                         .setCancelable(false)
                         .setPositiveButton("ok",
@@ -111,6 +111,10 @@ public class ActivityHelp extends AppCompatActivity implements View.OnClickListe
         if (v == imgWeb) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(URLHelper.REDIRECT_URL));
             startActivity(browserIntent);
+        }
+        if(v == backArrow){
+            onBackPressed();
+            finish();
         }
     }
 

@@ -175,7 +175,7 @@ public class HistoryDetails extends AppCompatActivity {
 
         btnCancelRide.setOnClickListener(v -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
-            builder.setIcon(R.mipmap.ic_launcher_foreground)
+            builder.setIcon(R.mipmap.ic_launcher)
                     .setTitle(R.string.app_name)
                     .setMessage(getString(R.string.cencel_request))
                     .setCancelable(false)
@@ -251,7 +251,7 @@ public class HistoryDetails extends AppCompatActivity {
         View view = LayoutInflater.from(context).inflate(R.layout.cancel_dialog, null);
         final EditText reasonEtxt = view.findViewById(R.id.reason_etxt);
         Button submitBtn = view.findViewById(R.id.submit_btn);
-        builder.setIcon(R.mipmap.ic_launcher_foreground)
+        builder.setIcon(R.mipmap.ic_launcher)
                 .setTitle(R.string.app_name)
                 .setView(view)
                 .setCancelable(true);

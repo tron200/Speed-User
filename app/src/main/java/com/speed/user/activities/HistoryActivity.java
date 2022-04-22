@@ -6,6 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -20,7 +21,7 @@ import com.google.android.material.tabs.TabLayout;
 import com.speed.user.helper.SharedHelper;
 
 public class HistoryActivity extends AppCompatActivity {
-
+    ImageView backArrow;
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private String[] tabTitles;
@@ -35,11 +36,14 @@ public class HistoryActivity extends AppCompatActivity {
         }
         setContentView(R.layout.activity_history);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         viewPager = findViewById(R.id.viewpager);
         tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
-
+        backArrow = findViewById(R.id.backArrow);
+        backArrow.setOnClickListener(v -> {
+            onBackPressed();
+            finish();
+        });
         String strTag = getIntent().getExtras().getString("tag");
         tabTitles = new String[]{"Past Rides", "Upcoming Rides"};
 

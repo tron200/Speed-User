@@ -726,7 +726,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         new AlertDialog.Builder(getContext())
                 .setTitle("Confirmation")
                 .setMessage("Do you really want to Exit Cab Services?")
-                .setIcon(R.mipmap.ic_launcher_foreground)
+                .setIcon(R.mipmap.ic_launcher)
                 .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> getActivity().finish())
                 .setNegativeButton(android.R.string.no, null).show();
     }
@@ -887,7 +887,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(context.getString(R.string.app_name))
-                .setIcon(R.mipmap.ic_launcher_foreground)
+                .setIcon(R.mipmap.ic_launcher)
                 .setMessage(getString(R.string.cancel_ride_alert));
         builder.setCancelable(false);
         builder.setPositiveButton(getString(R.string.yes), (dialog, which) -> showreasonDialog());
@@ -1028,7 +1028,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                 sourceDestLayout.setVisibility(View.VISIBLE);
                 imgMenu.setVisibility(View.VISIBLE);
                 destination.setText("");
-                frmDest.setText("");
+//                frmDest.setText("");
                 frmSource.setText("" + current_address);
                 dest_address = "";
                 dest_lat = "";
@@ -1361,7 +1361,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(context.getString(R.string.app_name))
-                .setIcon(R.mipmap.ic_launcher_foreground)
+                .setIcon(R.mipmap.ic_launcher)
                 .setMessage("GPS is disabled in your device. Enable it?")
                 .setCancelable(false)
                 .setPositiveButton("Enable GPS",
@@ -2205,7 +2205,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
             if ((customDialog != null) && (customDialog.isShowing()))
                 customDialog.dismiss();
             destination.setText("");
-            frmDest.setText("");
+//            frmDest.setText("");
             mapClear();
             flowValue = 0;
             getProvidersList("");
@@ -2848,7 +2848,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                     intent.putExtra("cursor", "source");
                     intent.putExtra("s_address", frmSource.getText().toString());
                     intent.putExtra("d_address", destination.getText().toString());
-                    intent.putExtra("d_address", frmDest.getText().toString());
+                    intent.putExtra("d_address", "");
                     startActivityForResult(intent, PLACE_AUTOCOMPLETE_REQUEST_CODE_DEST);
                     break;
 
@@ -2858,7 +2858,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                     intent2.putExtra("cursor", "destination");
                     intent2.putExtra("s_address", frmSource.getText().toString());
                     intent2.putExtra("d_address", destination.getText().toString());
-                    intent2.putExtra("d_address", frmDest.getText().toString());
+                    intent2.putExtra("d_address", "");
                     startActivityForResult(intent2, PLACE_AUTOCOMPLETE_REQUEST_CODE_DEST);
                     break;
                 case R.id.lblPromo:

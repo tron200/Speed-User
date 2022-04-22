@@ -70,7 +70,7 @@ public class FCMService extends FirebaseMessagingService {
                 NotificationCompat.Builder notifiBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID);
                 notifiBuilder.setContentTitle(title);
                 notifiBuilder.setContentText(message);
-                notifiBuilder.setSmallIcon(R.mipmap.ic_launcher_foreground);
+                notifiBuilder.setSmallIcon(R.mipmap.ic_launcher);
                 notifiBuilder.setAutoCancel(true);
                 notifiBuilder.setContentIntent(pendingIntent);
 
@@ -112,7 +112,7 @@ public class FCMService extends FirebaseMessagingService {
                 PendingIntent.FLAG_ONE_SHOT);
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID);
-        notificationBuilder.setSmallIcon(R.mipmap.ic_launcher_foreground)
+        notificationBuilder.setSmallIcon(R.mipmap.ic_launcher)
                 .setContentText(messageBody)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
@@ -135,7 +135,7 @@ public class FCMService extends FirebaseMessagingService {
             PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent, PendingIntent.FLAG_ONE_SHOT);
             Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-                    .setSmallIcon(R.mipmap.ic_launcher_foreground)
+                    .setSmallIcon(R.mipmap.ic_launcher)
                     .setContentTitle(getString(R.string.app_name))
                     .setContentText(messageBody)
                     .setAutoCancel(true)
@@ -191,7 +191,7 @@ public class FCMService extends FirebaseMessagingService {
             PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* TripRequest code */, intent, PendingIntent.FLAG_ONE_SHOT);
             Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-                    .setSmallIcon(R.mipmap.ic_launcher_foreground)
+                    .setSmallIcon(R.mipmap.ic_launcher)
                     .setContentTitle(title)
                     .setContentText(message)
                     .setAutoCancel(true)
@@ -338,7 +338,7 @@ public class FCMService extends FirebaseMessagingService {
             notificationBuilder.setColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
             return R.drawable.notification_white;
         } else {
-            return R.mipmap.ic_launcher_foreground;
+            return R.mipmap.ic_launcher;
         }
     }
 }

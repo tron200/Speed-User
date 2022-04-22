@@ -240,7 +240,7 @@ public class Utilities {
             builder.setMessage(message)
                     .setTitle(context.getString(R.string.app_name))
                     .setCancelable(true)
-                    .setIcon(R.mipmap.ic_launcher_foreground)
+                    .setIcon(R.mipmap.ic_launcher)
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                             dialog.dismiss();

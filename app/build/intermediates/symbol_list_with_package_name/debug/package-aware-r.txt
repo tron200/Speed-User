@@ -3813,6 +3813,7 @@ drawable share_ride
 drawable simple_button_background
 drawable sos
 drawable source_location
+drawable speed
 drawable square_desti
 drawable squre
 drawable test_custom_background
@@ -4153,6 +4154,7 @@ id countryCodeHolder
 id country_autocomplete_aaw
 id coupon_et
 id coupon_list_view
+id cross
 id currencySymbol
 id current
 id currentState
@@ -5285,7 +5287,7 @@ menu main
 menu main_menu
 menu notification
 mipmap ic_currentlocation
-mipmap ic_launcher_foreground
+mipmap ic_launcher
 mipmap ic_provider_marker_icon
 mipmap ic_right
 plurals mtrl_badge_content_description

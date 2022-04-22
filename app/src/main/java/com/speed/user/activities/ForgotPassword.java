@@ -14,6 +14,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -48,7 +49,8 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
     public Context context = ForgotPassword.this;
     Dialog dialog;
     String TAG = "ForgetPassword";
-    ImageButton backArrow, nextIcon;
+    ImageView backArrow;
+    Button nextIcon;
     TextInputLayout newPasswordLayout, confirmPasswordLayout, OtpLay;
     LinearLayout ll_resend;
     EditText newPassowrd, confirmPassword, OTP;
@@ -69,7 +71,7 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
     Boolean isInternet;
     TextView note_txt;
     Boolean fromActivity = false;
-    Button resend;
+    TextView resend;
     Utilities utils = new Utilities();
     EditText number;
     String phoneNumberString;
@@ -100,7 +102,7 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
         mobile_no = findViewById(R.id.mobile_no);
         email = findViewById(R.id.email);
         number = findViewById(R.id.number);
-        backArrow = findViewById(R.id.imgBack);
+        backArrow = findViewById(R.id.backArrow);
         nextIcon = findViewById(R.id.nextIcon);
 
         note_txt = findViewById(R.id.note);
@@ -168,7 +170,7 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
 
                 break;
 
-            case R.id.imgBack:
+            case R.id.backArrow:
 
                 onBackPressed();
                 finish();

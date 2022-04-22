@@ -297,7 +297,7 @@ public class CustomGooglePlacesSearch extends AppCompatActivity
                     builder.setMessage("Please choose pickup location")
                             .setTitle(thisActivity.getString(R.string.app_name))
                             .setCancelable(true)
-                            .setIcon(R.mipmap.ic_launcher_foreground)
+                            .setIcon(R.mipmap.ic_launcher)
                             .setPositiveButton("OK", (dialog, id1) -> {
                                 txtaddressSource.requestFocus();
                                 txtDestination.setText("");

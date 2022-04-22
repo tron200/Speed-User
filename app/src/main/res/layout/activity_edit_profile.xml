@@ -30,10 +30,10 @@
 
                     <ImageView
                         android:id="@+id/backArrow"
-                        android:layout_width="@dimen/_20sdp"
-                        android:layout_height="@dimen/_20sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:background="@drawable/back_icon"
+                        android:background="@drawable/ic_back"
                         android:backgroundTint="@color/text_color_white"
                         android:padding="5dp" />
 
@@ -96,10 +96,6 @@
                 android:background="@color/white"
                 android:orientation="vertical">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/cancel_ride_color" />
 
                 <LinearLayout
                     android:id="@+id/layoutName"

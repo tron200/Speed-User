@@ -6,10 +6,10 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <ImageView
+    <pl.droidsonroids.gif.GifImageView
         android:layout_width="@dimen/_140sdp"
         android:layout_height="@dimen/_140sdp"
-        android:background="@drawable/ic_launcher_web" />
+        android:src="@drawable/speed" />
 
 
 </LinearLayout>

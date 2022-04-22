@@ -828,7 +828,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(getString(R.string.app_name))
-                .setIcon(R.mipmap.ic_launcher_foreground)
+                .setIcon(R.mipmap.ic_launcher)
                 .setMessage("GPS is disabled in your device. Enable it?")
                 .setCancelable(false)
                 .setPositiveButton("Enable GPS",
@@ -1206,7 +1206,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(context.getString(R.string.app_name))
-                .setIcon(R.mipmap.ic_launcher_foreground)
+                .setIcon(R.mipmap.ic_launcher)
                 .setMessage(getString(R.string.emaergeny_call))
                 .setCancelable(false);
         builder.setPositiveButton(getString(R.string.yes), (dialog, which) -> {
@@ -1271,7 +1271,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(context.getString(R.string.app_name))
-                .setIcon(R.mipmap.ic_launcher_foreground)
+                .setIcon(R.mipmap.ic_launcher)
                 .setMessage(getString(R.string.cancel_ride_alert));
         builder.setCancelable(false);
         builder.setPositiveButton(getString(R.string.yes), (dialog, which) -> showreasonDialog());
@@ -2514,7 +2514,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
 //            SharedHelper.putKey(context, "card_id", cardInfo.getCardId());
 //            SharedHelper.putKey(context, "payment_mode", "M-Pesa");
             SharedHelper.putKey(context, "payment_mode", "CARD");
-            imgPaymentType.setImageResource(R.mipmap.ic_launcher_foreground);
+            imgPaymentType.setImageResource(R.mipmap.ic_launcher);
             lblPaymentType.setText(cardInfo.getLastFour());
             btnPayNow.setVisibility(View.VISIBLE);
         }

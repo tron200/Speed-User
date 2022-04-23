@@ -1555,7 +1555,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
 
             lblCmfrmSourceAddress.setText(source_address);
             lblCmfrmDestAddress.setText(dest_address);
-            lblApproxAmount.setText(SharedHelper.getKey(context, "currency") + "" + SharedHelper.getKey(context, "estimated_fare"));
+            lblApproxAmount.setText( SharedHelper.getKey(context, "estimated_fare")+ " "+ SharedHelper.getKey(context, "currency"));
             lblEta.setText(SharedHelper.getKey(context, "eta_time").replace("mins", "Min"));
             lblDis.setText(SharedHelper.getKey(context, "distance") + " KM");
             if (!SharedHelper.getKey(context, "name").equalsIgnoreCase("")
@@ -2263,7 +2263,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                                     //   setNewValuesForApproximateLayout();
                                     double wallet_balance = response.optDouble("wallet_balance");
                                     SharedHelper.putKey(context, "wallet_balance", "" + response.optDouble("wallet_balance"));
-                                    view.setText(SharedHelper.getKey(context, "currency") + "" + SharedHelper.getKey(context, "estimated_fare"));
+                                    view.setText( SharedHelper.getKey(context, "estimated_fare") + SharedHelper.getKey(context, "currency"));
                                 }
                             }
                         }, error -> {

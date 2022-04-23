@@ -300,17 +300,16 @@ public class HistoryDetails extends AppCompatActivity {
                     }
                     if (response.optJSONObject(0).optJSONObject("payment") != null && response.optJSONObject(0).optJSONObject("payment").optString("total") != null &&
                             !response.optJSONObject(0).optJSONObject("payment").optString("total").equalsIgnoreCase("")) {
-                        tripAmount.setText(SharedHelper.getKey(context, "currency") + "" + response.optJSONObject(0).optJSONObject("payment").optString("total"));
+                        tripAmount.setText( response.optJSONObject(0).optJSONObject("payment").optString("total") + "" + SharedHelper.getKey(context, "currency"));
                         response.optJSONObject(0).optJSONObject("payment");
-                        lblBasePrice.setText((SharedHelper.getKey(context, "currency") + ""
-                                + response.optJSONObject(0).optJSONObject("payment").optString("fixed")));
-                        lblDistancePrice.setText((SharedHelper.getKey(context, "currency") + ""
-                                + response.optJSONObject(0).optJSONObject("payment").optString("distance")));
-                        lblTaxPrice.setText((SharedHelper.getKey(context, "currency") + ""
-                                + response.optJSONObject(0).optJSONObject("payment").optString("tax")));
-                        lblTotalPrice.setText((SharedHelper.getKey(context, "currency") + ""
-                                + response.optJSONObject(0).optJSONObject("payment").optString("total" +
-                                "")));
+                        lblBasePrice.setText((
+                                response.optJSONObject(0).optJSONObject("payment").optString("fixed")) + "" +SharedHelper.getKey(context, "currency"));
+                        lblDistancePrice.setText((
+                                response.optJSONObject(0).optJSONObject("payment").optString("distance")) + "" + SharedHelper.getKey(context, "currency"));
+                        lblTaxPrice.setText(( response.optJSONObject(0).optJSONObject("payment").optString("tax")) + "" + SharedHelper.getKey(context, "currency"));
+                        lblTotalPrice.setText((
+                                 response.optJSONObject(0).optJSONObject("payment").optString("total" +
+                                ""))+ "" + SharedHelper.getKey(context, "currency"));
                     } else {
                         tripAmount.setVisibility(View.GONE);
                     }
@@ -437,7 +436,7 @@ public class HistoryDetails extends AppCompatActivity {
                         if (serviceObj != null) {
 //                            holder.car_name.setText(serviceObj.optString("name"));
                             if (tag.equalsIgnoreCase("past_trips")) {
-                                tripAmount.setText(SharedHelper.getKey(context, "currency") + serviceObj.optString("price"));
+                                tripAmount.setText(serviceObj.optString("price") + SharedHelper.getKey(context, "currency"));
                             } else {
                                 tripAmount.setVisibility(View.GONE);
                             }

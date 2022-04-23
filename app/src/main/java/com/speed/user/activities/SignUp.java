@@ -331,7 +331,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                                     SharedHelper.putKey(getApplicationContext(), "currency",
                                             response.optString("currency"));
                                 else
-                                    SharedHelper.putKey(getApplicationContext(), "currency", "$");
+                                    SharedHelper.putKey(getApplicationContext(), "currency", "AED");
                                 SharedHelper.putKey(getApplicationContext(), "sos",
                                         response.optString("sos"));
                                 SharedHelper.putKey(getApplicationContext(), "loggedIn",

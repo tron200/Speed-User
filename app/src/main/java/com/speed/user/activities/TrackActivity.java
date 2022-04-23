@@ -1656,7 +1656,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                                                     ratingProvider.setRating(Float.parseFloat(provider.optString("rating")));
     //                                                lblDis.setText(service_type.optString("distance")+" km");
     //                                                lblEta.setText(service_type.optString("minute")+" min");
-                                                    lblApproxAmount.setText(SharedHelper.getKey(TrackActivity.this, "currency") + service_type.optString("fixed"));
+                                                    lblApproxAmount.setText( service_type.optString("fixed") + SharedHelper.getKey(TrackActivity.this, "currency"));
 
                                                     lblCmfrmSourceAddress.setText(pickUpLocationName);
                                                     lblCmfrmDestAddress.setText(dropLocationName);
@@ -1709,7 +1709,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
 
     //                                                lblDis.setText(service_type.optString("distance")+" km");
     //                                                lblEta.setText(service_type.optString("minute")+" min");
-                                                    lblApproxAmount.setText(SharedHelper.getKey(TrackActivity.this, "currency") + service_type.optString("fixed"));
+                                                    lblApproxAmount.setText( service_type.optString("fixed") + SharedHelper.getKey(TrackActivity.this, "currency"));
 
                                                     lblCmfrmSourceAddress.setText(pickUpLocationName);
                                                     lblCmfrmDestAddress.setText(dropLocationName);
@@ -1755,7 +1755,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
 
     //                                                lblDis.setText(service_type.optString("distance")+" km");
     //                                                lblEta.setText(service_type.optString("minute")+" min");
-                                                    lblApproxAmount.setText(SharedHelper.getKey(TrackActivity.this, "currency") + service_type.optString("fixed"));
+                                                    lblApproxAmount.setText(  service_type.optString("fixed") + SharedHelper.getKey(TrackActivity.this, "currency"));
                                                     lblCmfrmSourceAddress.setText(pickUpLocationName);
                                                     lblCmfrmDestAddress.setText(dropLocationName);
 
@@ -1793,16 +1793,15 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                                                         JSONObject payment = requestStatusCheckObject.optJSONObject("payment");
                                                         isPaid = requestStatusCheckObject.optString("paid");
                                                         paymentMode = requestStatusCheckObject.optString("payment_mode");
-                                                        lblBasePrice.setText(SharedHelper.getKey(context, "currency") + "" + payment.optString("fixed"));
-                                                        lblTaxPrice.setText(SharedHelper.getKey(context, "currency") + "" + payment.optString("tax"));
-                                                        lblDistancePrice.setText(SharedHelper.getKey(context, "currency") + "" + payment.optString("distance"));
+                                                        lblBasePrice.setText( payment.optString("fixed") + " "+ SharedHelper.getKey(context, "currency"));
+                                                        lblTaxPrice.setText( payment.optString("tax") + "" + SharedHelper.getKey(context, "currency"));
+                                                        lblDistancePrice.setText( payment.optString("distance") + " " + SharedHelper.getKey(context, "currency"));
                                                         if (payment.optString("discount") != null) {
                                                             promoLayout.setVisibility(View.VISIBLE);
-                                                            txtDiscount.setText(SharedHelper.getKey(context, "currency") + "" + payment.optString("discount"));
+                                                            txtDiscount.setText( payment.optString("discount") + "" + SharedHelper.getKey(context, "currency"));
                                                         }
                                                         //lblCommision.setText(SharedHelper.getKey(context, "currency") + "" + payment.optString("commision"));
-                                                        lblTotalPrice.setText(SharedHelper.getKey(context, "currency") + ""
-                                                                + payment.optString("total"));
+                                                        lblTotalPrice.setText(payment.optString("total") + " " + SharedHelper.getKey(context, "currency"));
                                                         SharedHelper.putKey(TrackActivity.this, "total_price",
                                                                 payment.optString("total"));
                                                     }
@@ -1886,14 +1885,10 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                                                 try {
                                                     if (requestStatusCheckObject.optJSONObject("payment") != null) {
                                                         JSONObject payment = requestStatusCheckObject.optJSONObject("payment");
-                                                        lblBasePrice.setText(SharedHelper.getKey(context, "currency") + ""
-                                                                + payment.optString("fixed"));
-                                                        lblTaxPrice.setText(SharedHelper.getKey(context, "currency") + ""
-                                                                + payment.optString("tax"));
-                                                        lblDistancePrice.setText(SharedHelper.getKey(context, "currency") + ""
-                                                                + payment.optString("distance"));
-                                                        lblTotalPrice.setText(SharedHelper.getKey(context, "currency") + ""
-                                                                + payment.optString("total"));
+                                                        lblBasePrice.setText( payment.optString("fixed") + "" + SharedHelper.getKey(context, "currency"));
+                                                        lblTaxPrice.setText( payment.optString("tax") + "" + SharedHelper.getKey(context, "currency"));
+                                                        lblDistancePrice.setText(payment.optString("distance")+ "" + SharedHelper.getKey(context, "currency"));
+                                                        lblTotalPrice.setText(payment.optString("total") + " "+ SharedHelper.getKey(context, "currency"));
                                                     }
                                                     JSONObject provider = requestStatusCheckObject.optJSONObject("provider");
                                                     isPaid = requestStatusCheckObject.optString("paid");
@@ -2094,7 +2089,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                         .error(R.drawable.car_select).into(imgServiceRequested);
                 ratingProvider.setRating(Float.parseFloat(provider.optString("rating")));
 
-                lblApproxAmount.setText(SharedHelper.getKey(TrackActivity.this, "currency") + service_type.optString("fixed"));
+                lblApproxAmount.setText( service_type.optString("fixed") + SharedHelper.getKey(TrackActivity.this, "currency"));
 
                 lblCmfrmSourceAddress.setText(pickUpLocationName);
                 lblCmfrmDestAddress.setText(dropLocationName);

@@ -33,7 +33,7 @@ public class MyButton extends Button {
     }
 
     private void applyCustomFont(Context context) {
-        Typeface customFont = FontCache.getTypeface("fonts/Muli-Bold.ttf", context);
+        Typeface customFont = FontCache.getTypeface("fonts/The-Sans-Plain.otf", context);
         setTypeface(customFont);
     }
 }

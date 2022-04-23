@@ -394,7 +394,7 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
                                 JSONObject jsonObject = new JSONObject(response.getResult());
                                 String currency = jsonObject.optString("currency");
                                 walletamt = Float.parseFloat(jsonObject.optString("wallet_balance"));
-                                tvWalletAmt.setText(getString(R.string.wallet_balance) + " : " + jsonObject.optString("currency") + jsonObject.optString("wallet_balance"));
+                                tvWalletAmt.setText(getString(R.string.wallet_balance) + " : " +  jsonObject.optString("wallet_balance") + jsonObject.optString("currency"));
                                 SharedHelper.putKey(context, "wallet_balance", jsonObject.optString("wallet_balance"));
                             } catch (JSONException e1) {
                                 e1.printStackTrace();

@@ -33,7 +33,7 @@ public class MyCheckbox extends CheckBox {
     }
 
     private void applyCustomFont(Context context) {
-        Typeface customFont = FontCache.getTypeface("fonts/Muli-Regular.ttf", context);
+        Typeface customFont = FontCache.getTypeface("fonts/The-Sans-Plain.otf", context);
         setTypeface(customFont);
     }
 }

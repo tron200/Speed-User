@@ -95,9 +95,9 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
         one.setOnClickListener(this);
         two.setOnClickListener(this);
         three.setOnClickListener(this);
-        one.setText(SharedHelper.getKey(context, "currency") + "199");
-        two.setText(SharedHelper.getKey(context, "currency") + "599");
-        three.setText(SharedHelper.getKey(context, "currency") + "1099");
+        one.setText( "199" + SharedHelper.getKey(context, "currency"));
+        two.setText("599" + SharedHelper.getKey(context, "currency"));
+        three.setText("1099" + SharedHelper.getKey(context, "currency") );
         backArrow.setOnClickListener(v -> onBackPressed());
         money_et.addTextChangedListener(new TextWatcher() {
             @Override
@@ -164,7 +164,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
                             try {
                                 JSONObject jsonObject = new JSONObject(response.getResult());
                                 currency = jsonObject.optString("currency");
-                                balance_tv.setText(jsonObject.optString("currency") + jsonObject.optString("wallet_balance"));
+                                balance_tv.setText( jsonObject.optString("wallet_balance") + jsonObject.optString("currency"));
                                 SharedHelper.putKey(context, "wallet_balance", jsonObject.optString("wallet_balance"));
                             } catch (JSONException e1) {
                                 e1.printStackTrace();
@@ -367,7 +367,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
                             JSONObject jsonObject = new JSONObject(response.getResult());
                             Toast.makeText(ActivityWallet.this, jsonObject.optString("message"), Toast.LENGTH_SHORT).show();
                             JSONObject userObj = jsonObject.getJSONObject("user");
-                            balance_tv.setText(currency + userObj.optString("wallet_balance"));
+                            balance_tv.setText(userObj.optString("wallet_balance") + currency );
                             SharedHelper.putKey(context, "wallet_balance", jsonObject.optString("wallet_balance"));
                             money_et.setText("");
                             if ((customDialog != null) && (customDialog.isShowing()))

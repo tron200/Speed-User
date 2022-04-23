@@ -55,7 +55,7 @@ public class CouponListAdapter extends ArrayAdapter<JSONObject> {
 
 
         try {
-            discount.setText(SharedHelper.getKey(context, "currency") + "" + list.get(position).optJSONObject("promocode").optString("discount") + " " + context.getString(R.string.off));
+            discount.setText(list.get(position).optJSONObject("promocode").optString("discount")+""+SharedHelper.getKey(context, "currency") + " " + context.getString(R.string.off));
             promo_code.setText(context.getString(R.string.the_applied_coupon) + " " + list.get(position).optJSONObject("promocode").optString("promo_code") + ".");
             String date = list.get(position).optJSONObject("promocode").optString("expiration");
             expires.setText(context.getString(R.string.valid_until) + " " + getDate(date) + " " + getMonth(date) + " " + getYear(date));

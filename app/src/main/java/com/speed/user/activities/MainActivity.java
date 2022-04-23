@@ -462,7 +462,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void applyFontToMenuItem(MenuItem mi) {
-        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Muli-Regular.ttf");
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/The-Sans-Plain.otf");
         SpannableString mNewTitle = new SpannableString(mi.getTitle());
         mNewTitle.setSpan(new CustomTypefaceSpan("", font), 0, mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         mi.setTitle(mNewTitle);

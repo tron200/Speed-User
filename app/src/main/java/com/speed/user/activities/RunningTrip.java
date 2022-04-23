@@ -221,7 +221,7 @@ public class RunningTrip extends AppCompatActivity {
                 }
 
                 if (jsonArray.optJSONObject(position).optJSONObject("payment") != null) {
-                    holder.tripAmount.setText(SharedHelper.getKey(getApplicationContext(), "currency") + "" + jsonArray.optJSONObject(position).optJSONObject("payment").optString("total"));
+                    holder.tripAmount.setText( jsonArray.optJSONObject(position).optJSONObject("payment").optString("total") + "" + SharedHelper.getKey(getApplicationContext(), "currency"));
                 }
                 if (jsonArray.optJSONObject(position).optString("booking_id") != null &&
                         !jsonArray.optJSONObject(position).optString("booking_id").equalsIgnoreCase("")) {

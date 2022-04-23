@@ -868,7 +868,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(context.getString(R.string.app_name))
-                .setIcon(R.drawable.ic_launcher_web)
+                .setIcon(R.drawable.final_logo_svg)
                 .setMessage(getString(R.string.emaergeny_call))
                 .setCancelable(false);
         builder.setPositiveButton(getString(R.string.yes), (dialog, which) -> {
@@ -2016,7 +2016,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
             SharedHelper.putKey(context, "card_id", cardInfo.getCardId());
 //            SharedHelper.putKey(context, "payment_mode", "M-Pesa");
             SharedHelper.putKey(context, "payment_mode", "CARD");
-            imgPaymentType.setImageResource(R.drawable.ic_launcher_web);
+            imgPaymentType.setImageResource(R.drawable.final_logo_svg);
             lblPaymentType.setText("xxxx" + cardInfo.getLastFour());
         }
     }

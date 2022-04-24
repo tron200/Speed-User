@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by amal on 18/12/16.
  */
-public class MyBoldTextView extends TextView {
+public class MyBoldTextView extends androidx.appcompat.widget.AppCompatTextView {
     public MyBoldTextView(Context context) {
         super(context);
         applyCustomFont(context);
@@ -28,12 +28,12 @@ public class MyBoldTextView extends TextView {
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public MyBoldTextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
+        super(context);
         applyCustomFont(context);
     }
 
     private void applyCustomFont(Context context) {
-        Typeface customFont = FontCache.getTypeface("fonts/The-Sans-Plain.otf", context);
+        Typeface customFont = FontCache.getTypeface("fonts/thesansplain.ttf", context);
         setTypeface(customFont);
     }
 }

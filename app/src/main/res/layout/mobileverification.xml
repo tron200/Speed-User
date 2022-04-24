@@ -79,9 +79,9 @@
                         <com.hbb20.CountryCodePicker
                             android:id="@+id/ccp"
                             android:layout_width="@dimen/_68sdp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             app:ccp_contentColor="@color/black"
-                            app:ccp_defaultNameCode="eg"
+                            app:ccp_defaultNameCode="ae"
                             app:ccp_showFlag="true"
                             app:ccp_showNameCode="false"
                             app:ccp_showPhoneCode="true"

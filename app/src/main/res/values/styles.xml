@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:fontFamily">fonts/The-Sans-Plain.otf</item>
+        <item name="android:fontFamily">@font/the_sansplain</item>
         <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -24,7 +24,7 @@
     <style name="NavigationDrawerStyle">
         <item name="android:textSize">@dimen/_14sdp</item>
         <item name="android:listPreferredItemHeightSmall">@dimen/_40sdp</item>
-        <item name="android:fontFamily">fonts/The-Sans-Plain.otf</item>
+        <item name="android:fontFamily">@font/thesansplain.ttf</item>
     </style>
 
 

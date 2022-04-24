@@ -441,7 +441,7 @@ public class MainActivity extends AppCompatActivity implements
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             builder.setTitle(context.getString(R.string.app_name))
-                    .setIcon(R.drawable.ic_launcher_round)
+                    .setIcon(R.mipmap.ic_launcher_foreground)
                     .setMessage(getString(R.string.logout_alert));
             builder.setPositiveButton(R.string.yes, (dialog, which) -> logout());
             builder.setNegativeButton(R.string.no, (dialog, which) -> {
@@ -462,7 +462,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void applyFontToMenuItem(MenuItem mi) {
-        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/The-Sans-Plain.otf");
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/thesansplain.ttf");
         SpannableString mNewTitle = new SpannableString(mi.getTitle());
         mNewTitle.setSpan(new CustomTypefaceSpan("", font), 0, mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         mi.setTitle(mNewTitle);

@@ -23,7 +23,7 @@ public class MyEditText extends AppCompatEditText {
     }
 
     private void applyCustomFont(Context context) {
-        Typeface customFont = FontCache.getTypeface("fonts/The-Sans-Plain.otf", context);
+        Typeface customFont = FontCache.getTypeface("fonts/thesansplain.ttf", context);
         setTypeface(customFont);
     }
 }

@@ -203,33 +203,6 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/razor_layout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@drawable/rectangle"
-                    android:backgroundTint="@color/view_grey_bg_"
-                    android:gravity="center_vertical"
-                    android:padding="@dimen/_8sdp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="Razor Pay"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_13sdp" />
-
-                    <RadioButton
-                        android:id="@+id/chkRazorPay"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="@color/colorPrimary" />
-                </LinearLayout>
-
-                <LinearLayout
                     android:id="@+id/layoutStripe"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

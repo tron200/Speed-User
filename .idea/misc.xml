@@ -149,17 +149,25 @@
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/layout/upcoming_list_item.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/layout/user_list_adapter.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/User/app/src/main/res/layout/user_rate_dailog.xml" value="0.1921875" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/drawable/cancel_button_bg.xml" value="0.1" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/drawable/ic_title_add_light.xml" value="0.1" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_intro.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_login.xml" value="0.10989583333333333" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_otp_verification.xml" value="0.25" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_payment.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_phone_no_update.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_profile.xml" value="0.10989583333333333" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_test.xml" value="0.1" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/activity_track.xml" value="0.10989583333333333" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/addcalendar.xml" value="0.10989583333333333" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/calendarlist.xml" value="0.10989583333333333" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/confirm_payment.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/fragment_home.xml" value="0.3088235294117647" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/fragment_soruce_and_destination.xml" value="0.25" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/fragment_wallet.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/mobileverification.xml" value="0.1" />
+        <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/notification_item.xml" value="0.10989583333333333" />
         <entry key="..\:/abdelrhman/speeduser/app/src/main/res/layout/upcoming_list_item.xml" value="0.2" />
       </map>

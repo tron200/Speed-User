@@ -698,6 +698,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                     } else if (lnrApproximate.getVisibility() == View.VISIBLE) {
                         mMap.setPadding(50, 50, 50, 50);
                         LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                        if(builder != null && sourceMarker != null){
                         builder.include(sourceMarker.getPosition());
                         builder.include(destinationMarker.getPosition());
                         LatLngBounds bounds = builder.build();
@@ -705,6 +706,9 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                         CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 100);
                         mMap.moveCamera(cu);
                         flowValue = 1;
+                        }else{
+                            return false;
+                        }
                     } else if (lnrWaitingForProviders.getVisibility() == View.VISIBLE) {
                         sourceDestLayout.setVisibility(View.GONE);
                         flowValue = 1;

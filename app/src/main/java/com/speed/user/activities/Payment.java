@@ -291,7 +291,6 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
         tvaddAmt = findViewById(R.id.tvaddAmt);
         layoutStripe = findViewById(R.id.layoutStripe);
         chkPayPal = findViewById(R.id.chkPayPal);
-        chkRazorPay = findViewById(R.id.chkRazorPay);
         backArrow = findViewById(R.id.backArrow);
         addCard = findViewById(R.id.addCard);
         payment_list_view = findViewById(R.id.payment_list_view);
@@ -301,7 +300,6 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
         cashLayout = findViewById(R.id.cash_layout);
         payPal_layout = findViewById(R.id.payPal_layout);
         wallet_layout = findViewById(R.id.wallet_layout);
-        razor_layout = findViewById(R.id.razor_layout);
 
 
         wallet_layout.setOnClickListener(v -> verifyWallet());
@@ -454,15 +452,6 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
             SharedHelper.putKey(Payment.this, "selectedPaymentMode", "PAYPAL");
             CardInfo cardInfo = new CardInfo();
             cardInfo.setLastFour("PAYPAL");
-            Intent intent = new Intent();
-            intent.putExtra("card_info", cardInfo);
-            setResult(RESULT_OK, intent);
-            finish();
-        }
-        if (buttonView.getId() == R.id.chkRazorPay) {
-            SharedHelper.putKey(Payment.this, "selectedPaymentMode", "RAZORPAY");
-            CardInfo cardInfo = new CardInfo();
-            cardInfo.setLastFour("RAZORPAY");
             Intent intent = new Intent();
             intent.putExtra("card_info", cardInfo);
             setResult(RESULT_OK, intent);

@@ -383,7 +383,7 @@
     <string name="become_a_driver">Become a driver</string>
     <string name="edit_">Edit</string>
     <string name="at">" at "</string>
-    <string name="th">" "</string>
+    <string name="th">th</string>
     <string name="pickup_name">This name will be shown to the driver during ride pickup</string>
     <string name="updated">It is updated to the your account</string>
     <string name="empty_field">This field is empty</string>

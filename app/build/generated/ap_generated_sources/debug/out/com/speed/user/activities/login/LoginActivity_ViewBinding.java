@@ -15,15 +15,15 @@ import java.lang.Override;
 public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
+  private View view7f0a00e5;
+
   private View view7f0a00e4;
 
-  private View view7f0a00e3;
+  private View view7f0a0444;
 
-  private View view7f0a0443;
+  private View view7f0a043a;
 
-  private View view7f0a0439;
-
-  private View view7f0a00e5;
+  private View view7f0a00e6;
 
   @UiThread
   public LoginActivity_ViewBinding(LoginActivity target) {
@@ -38,7 +38,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.etEmail = Utils.findRequiredViewAsType(source, R.id.etEmail, "field 'etEmail'", EditText.class);
     target.etPassword = Utils.findRequiredViewAsType(source, R.id.etPassword, "field 'etPassword'", EditText.class);
     view = Utils.findRequiredView(source, R.id.btnGoogle, "method 'btnGoogleClick'");
-    view7f0a00e4 = view;
+    view7f0a00e5 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -46,7 +46,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.btnFb, "method 'btnFbClick'");
-    view7f0a00e3 = view;
+    view7f0a00e4 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.txtSignUp, "method 'txtSignUpClick'");
-    view7f0a0443 = view;
+    view7f0a0444 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,7 +62,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.txtForget, "method 'txtForgetClick'");
-    view7f0a0439 = view;
+    view7f0a043a = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -70,7 +70,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.btnLogin, "method 'btnLoginClick'");
-    view7f0a00e5 = view;
+    view7f0a00e6 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -89,15 +89,15 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.etEmail = null;
     target.etPassword = null;
 
-    view7f0a00e4.setOnClickListener(null);
-    view7f0a00e4 = null;
-    view7f0a00e3.setOnClickListener(null);
-    view7f0a00e3 = null;
-    view7f0a0443.setOnClickListener(null);
-    view7f0a0443 = null;
-    view7f0a0439.setOnClickListener(null);
-    view7f0a0439 = null;
     view7f0a00e5.setOnClickListener(null);
     view7f0a00e5 = null;
+    view7f0a00e4.setOnClickListener(null);
+    view7f0a00e4 = null;
+    view7f0a0444.setOnClickListener(null);
+    view7f0a0444 = null;
+    view7f0a043a.setOnClickListener(null);
+    view7f0a043a = null;
+    view7f0a00e6.setOnClickListener(null);
+    view7f0a00e6 = null;
   }
 }

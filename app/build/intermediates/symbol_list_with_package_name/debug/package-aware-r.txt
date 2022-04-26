@@ -4063,6 +4063,7 @@ id bt_expiration_year_grid_view
 id btnCall
 id btnCancel
 id btnCancelRide
+id btnCancelRideConfirm
 id btnCancelTrip
 id btnChat
 id btnDone

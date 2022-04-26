@@ -2530,11 +2530,21 @@
                             android:layout_weight="1"
                             android:background="@color/colorPrimary"
                             android:text="@string/confirm"
-
+                            android:layout_marginHorizontal="5dp"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_12sdp" />
 
+                        <com.speed.user.utills.MyButton
+                            android:id="@+id/btnCancelRideConfirm"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_weight="1"
+                            android:layout_marginHorizontal="5dp"
+                            android:background="@android:color/holo_red_dark"
+                            android:text="@string/cancel"
 
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12sdp" />
                         <TextView
                             android:layout_width="@dimen/_2sdp"
                             android:layout_height="match_parent"

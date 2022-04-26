@@ -54,6 +54,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -74,6 +75,7 @@ import com.speed.user.ClassLuxApp;
 import com.speed.user.R;
 import com.speed.user.activities.CouponActivity;
 import com.speed.user.activities.CustomGooglePlacesSearch;
+import com.speed.user.activities.MainActivity;
 import com.speed.user.activities.Payment;
 import com.speed.user.activities.ShowProfile;
 import com.speed.user.activities.TrackActivity;
@@ -226,6 +228,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
     Button btnDonePopup;
     LinearLayout lnrApproximate;
     Button btnRequestRideConfirm;
+    Button btnCancelRideConfirm;
     Button imgSchedule;
     TextView tvPickUpAddres, tvDropAddres;
     LinearLayout layoutSrcDest;
@@ -380,6 +383,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         }
         restInterface = ServiceGenerator.createService(RestInterface.class);
         customDialog = new CustomDialog(getActivity());
+
         if (activity != null && isAdded()) {
             if (customDialog != null) {
                 customDialog.show();
@@ -428,6 +432,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
             throw new ClassCastException(context.toString()
                     + " must implement HomeFragmentListener");
         }
+
     }
 
     @Override
@@ -517,6 +522,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         surgeDiscount = rootView.findViewById(R.id.surgeDiscount);
         surgeTxt = rootView.findViewById(R.id.surge_txt);
         btnRequestRideConfirm = rootView.findViewById(R.id.btnRequestRideConfirm);
+        btnCancelRideConfirm = rootView.findViewById(R.id.btnCancelRideConfirm);
         lineView = rootView.findViewById(R.id.lineView);
 
         //Schedule Layout
@@ -601,6 +607,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         btnDonePopup.setOnClickListener(new OnClick());
         lnrHidePopup.setOnClickListener(new OnClick());
         btnRequestRideConfirm.setOnClickListener(new OnClick());
+        btnCancelRideConfirm.setOnClickListener(new OnClick());
         btnCancelRide.setOnClickListener(new OnClick());
         btnCancelTrip.setOnClickListener(new OnClick());
         btnCall.setOnClickListener(new OnClick());
@@ -1924,6 +1931,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                             layoutChanges();
                             setupMap();
                         }, error -> {
+                    displayMessage("Error");
                             if ((customDialog != null) && (customDialog.isShowing()))
                                 customDialog.dismiss();
                     //displayMessage(getString(R.string.something_went_wrong));
@@ -2904,6 +2912,23 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                     scheduledTime = "";
                     btnRequestRideConfirm.setEnabled(true);
                     sendRequest();
+                    break;
+                case R.id.btnCancelRideConfirm:
+                    AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+                    LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    builder.setTitle(context.getString(R.string.app_name))
+                            .setIcon(R.mipmap.ic_launcher)
+                            .setMessage(getString(R.string.cancel_ride_alert));
+                    builder.setCancelable(false);
+                    builder.setPositiveButton(getString(R.string.yes), (dialog, which) -> {
+                        Utilities.print("CancelRequestResponse", "Done");
+                        Toast.makeText(context, getResources().getString(R.string.request_cancel), Toast.LENGTH_SHORT).show();
+                        Intent i = new Intent(getActivity(), MainActivity.class);
+                        startActivity(i);
+                    });
+                    builder.setNegativeButton(getString(R.string.no), (dialog, which) -> dialog.dismiss());
+                    AlertDialog alertDialog = builder.create();
+                    alertDialog.show();
                     break;
                 case R.id.btnPayNow:
 //                    sourceDestLayout.setClickable(false);

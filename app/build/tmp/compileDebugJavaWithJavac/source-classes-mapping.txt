@@ -37,6 +37,8 @@ com/speed/user/utills/FontCache.java
  com.speed.user.utills.FontCache
 com/speed/user/activities/TermsOfUseActivity.java
  com.speed.user.activities.TermsOfUseActivity
+com/speed/user/fragments/CallBack.java
+ com.speed.user.fragments.CallBack
 com/speed/user/activities/AddCard.java
  com.speed.user.activities.AddCard
  com.speed.user.activities.AddCard$1

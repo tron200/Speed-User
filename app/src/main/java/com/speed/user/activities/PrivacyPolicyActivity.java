@@ -18,16 +18,19 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
-            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-        } else {
-            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
-        }
         setContentView(R.layout.activity_privacy_policy);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
         backArrow = findViewById(R.id.backArrow);
+        if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
+        } else {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
+
 
         backArrow.setOnClickListener(view -> {
             //SharedHelper.putKey(getApplicationContext(), "password", "");

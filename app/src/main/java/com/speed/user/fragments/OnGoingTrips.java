@@ -273,7 +273,7 @@ public class OnGoingTrips extends Fragment {
                 if (!jsonArray.optJSONObject(position).optString("schedule_at", "").isEmpty()) {
                     String form = jsonArray.optJSONObject(position).optString("schedule_at");
                     try {
-                        holder.tripDate.setText(getDate(form) + "th " + getMonth(form) + " " + getYear(form) + " at " + getTime(form));
+                        holder.tripDate.setText(getDate(form) + getString(R.string.th) + getMonth(form) + " " + getYear(form) + getString(R.string.at) + getTime(form));
                     } catch (ParseException e) {
                         e.printStackTrace();
                     }

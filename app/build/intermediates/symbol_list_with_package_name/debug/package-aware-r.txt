@@ -3586,6 +3586,7 @@ drawable ic_add_circle_outline_black_24dp
 drawable ic_amex
 drawable ic_amex_template_32
 drawable ic_back
+drawable ic_back_black
 drawable ic_back_icon
 drawable ic_backspace_black_24dp
 drawable ic_call_support
@@ -3609,6 +3610,8 @@ drawable ic_error
 drawable ic_error_amex
 drawable ic_error_outline_white_24dp
 drawable ic_fb
+drawable ic_forward
+drawable ic_forward_black
 drawable ic_google
 drawable ic_help_supports
 drawable ic_history_icon
@@ -5436,9 +5439,11 @@ string arbic
 string are_you_sure
 string arrived
 string arriving
+string at
 string base_fare
 string base_price
 string batchadd
+string become_a_driver
 string book_name
 string booked_another_cab
 string booking_id
@@ -5475,6 +5480,7 @@ string cancel
 string cancel_ride
 string cancel_ride_alert
 string cancel_trip
+string cant_get_the_address
 string capacity
 string card
 string card_number_hint
@@ -5572,13 +5578,16 @@ string driver_will_pickup
 string driver_will_pickup_you_in_early
 string drop_off
 string edit
+string edit_
 string edit_profile
 string emaergeny_call
 string email
 string email_exist
 string email_validation
+string empty_field
 string ending_in
 string english
+string enter_both_pickup_drop
 string enter_card_details
 string enter_destination
 string enter_email
@@ -5652,9 +5661,11 @@ string library_emoji_year
 string loading
 string location
 string location_detail
+string location_needed
 string login
 string logout_alert
 string looking_for_ride
+string map_not_ready
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -5719,6 +5730,7 @@ string name
 string navigation_drawer_close
 string navigation_drawer_open
 string need_an_account
+string need_location_perm
 string new_password
 string next
 string next_
@@ -5726,6 +5738,7 @@ string no
 string no_comment
 string no_comments
 string no_drivers_found
+string no_map
 string no_notification_found
 string no_payment_methods
 string no_result_found
@@ -5738,6 +5751,7 @@ string not_valid_email
 string note
 string notifications
 string off
+string ok
 string ongoing_trip
 string oops_connect_your_internet
 string other
@@ -5764,6 +5778,7 @@ string pick_up_notes
 string picked_up
 string pickup
 string pickup_location
+string pickup_name
 string pin_location
 string places_autocomplete_clear_button
 string places_autocomplete_label
@@ -5780,6 +5795,7 @@ string please_enter_new_pass
 string please_select_reason
 string please_specify_reason
 string please_try_again
+string please_wait
 string price
 string price_free
 string privacy_policy_
@@ -5818,14 +5834,17 @@ string search_menu_title
 string secrete_code
 string secure_passwords
 string select_country
+string select_destination
 string selected_payment_mode
 string send
 string server_down
 string share
+string share_not_found
 string something_went_wrong
 string something_went_wrong_net
 string sorry_for_inconvinent
 string sos_call
+string source_destination_same
 string source_location
 string source_location_
 string status_bar_notification_info_overflow
@@ -5837,6 +5856,7 @@ string surge_pricing_title
 string tax
 string terms_amp_conditions
 string terms_of_Service
+string th
 string the_applied_coupon
 string the_fare_will_be_the_price_presented_upon_booking_or_if_the_journey_changes_the_fare_will_be_based_on_the_rates_provided_tap_fare_for_details
 string time
@@ -5853,13 +5873,14 @@ string toast_message
 string total
 string trip_completed
 string type_your_message
-string upcomeng_rides
 string upcoming
+string upcoming_rides
 string update
 string update_email
 string update_mobile
 string update_name
 string update_success
+string updated
 string use_wallet_amount
 string user
 string user_no_mobile
@@ -6677,6 +6698,7 @@ style emoji_fade_animation_style
 style emoji_slide_animation_style
 style jz_popup_toast_anim
 style jz_style_dialog_progress
+style no_change_to_rtl
 style tooltip_bubble_text
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity

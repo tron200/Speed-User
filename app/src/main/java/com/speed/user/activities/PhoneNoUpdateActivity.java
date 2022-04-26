@@ -52,17 +52,21 @@ public class PhoneNoUpdateActivity extends AppCompatActivity implements View.OnC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_phone_no_update);
+
+        backArrow = findViewById(R.id.backArrow);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
 
-        setContentView(R.layout.activity_phone_no_update);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         toolName = findViewById(R.id.toolName);
-        backArrow = findViewById(R.id.backArrow);
         editText = findViewById(R.id.editText);
         btnUpdate = findViewById(R.id.btnUpdate);
         text_input_layout = findViewById(R.id.text_input_layout);

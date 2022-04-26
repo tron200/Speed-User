@@ -54,16 +54,31 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_profile);
+        findview();
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+            txtReview.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_back_black),null,getDrawable(R.drawable.ic_review),null);
+            txtPassword.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_back_black),null,getDrawable(R.drawable.ic_password),null);
+
+            txtReview.setCompoundDrawablePadding(40);
+            txtPassword.setCompoundDrawablePadding(40);
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+            txtReview.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_review),null,getDrawable(R.drawable.ic_forward_black),null);
+            txtPassword.setCompoundDrawablesWithIntrinsicBounds(getDrawable(R.drawable.ic_password),null,getDrawable(R.drawable.ic_forward_black),null);
+
+
+            txtReview.setCompoundDrawablePadding(40);
+            txtPassword.setCompoundDrawablePadding(40);
+
         }
 
-        setContentView(R.layout.activity_profile);
         currentLanguage = getIntent().getStringExtra(currentLang);
 
-        findview();
+
 
         backArrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -144,7 +159,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     private void showLogoutDialog() {
         if (!isFinishing()) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Logout");
+            builder.setTitle(getString(R.string.action_logout));
             builder.setMessage(getString(R.string.logout_alert));
 
             builder.setPositiveButton(R.string.yes,

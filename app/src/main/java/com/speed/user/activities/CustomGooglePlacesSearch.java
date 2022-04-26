@@ -80,12 +80,15 @@ public class CustomGooglePlacesSearch extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_soruce_and_destination);
+
+        backArrow = findViewById(R.id.backArrow);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
-        setContentView(R.layout.fragment_soruce_and_destination);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         thisActivity = this;
         // Initialize the SDK
@@ -97,7 +100,7 @@ public class CustomGooglePlacesSearch extends AppCompatActivity
         mAutoCompleteList = findViewById(R.id.searchResultLV);
 
 
-        backArrow = findViewById(R.id.backArrow);
+
         imgDestClose = findViewById(R.id.imgDestClose);
         imgSourceClose = findViewById(R.id.imgSourceClose);
 

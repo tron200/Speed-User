@@ -24,15 +24,18 @@ public class LegalActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
-            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-        } else {
-            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
-        }
         setContentView(R.layout.activity_legal);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         backArrow = findViewById(R.id.backArrow);
+        if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
+        } else {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        }
+
         termsConditionTextView = findViewById(R.id.termsConditionTextView);
         privacyPolicyTextView = findViewById(R.id.privacyPolicyTextView);
         copyrightTextView = findViewById(R.id.copyrightTextView);

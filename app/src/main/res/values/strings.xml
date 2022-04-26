@@ -17,7 +17,7 @@
 
     <!--Nav items-->
     <string name="action_coupon">Coupon</string>
-    <string name="action_wallet">&appName; Wallet</string>
+    <string name="action_wallet">Wallet</string>
     <string name="action_logout">Logout</string>
     <string name="action_track">On Going Trip</string>
     <string name="no_running_Trip">No on going Trip</string>
@@ -313,7 +313,7 @@
     <string name="promo_code">Promo Code</string>
     <string name="resend">Resend</string>
     <string name="past_trips">Past Rides</string>
-    <string name="upcomeng_rides">Upcoming Rides</string>
+    <string name="upcoming_rides">Upcoming Rides</string>
     <string name="my_location">MyLocation</string>
 
     <string name="no_comment">No Comment</string>
@@ -380,6 +380,24 @@
     <string name="time">Time</string>
     <string name="price">Price</string>
     <string name="confirm">CONFIRM</string>
+    <string name="become_a_driver">Become a driver</string>
+    <string name="edit_">Edit</string>
+    <string name="at">" at "</string>
+    <string name="th">th</string>
+    <string name="pickup_name">This name will be shown to the driver during ride pickup</string>
+    <string name="updated">It is updated to the your account</string>
+    <string name="empty_field">This field is empty</string>
+    <string name="enter_both_pickup_drop">Please enter both pickup and drop locations</string>
+    <string name="select_destination">Select destination</string>
+    <string name="source_destination_same">Both source and destination are same</string>
+    <string name="cant_get_the_address">Can\'t able to get the address!.Please try again</string>
+    <string name="no_map">No Map</string>
+    <string name="share_not_found">Share applications not found!</string>
+    <string name="map_not_ready">Map not ready</string>
+    <string name="need_location_perm">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="location_needed">Location Permission Needed</string>
+    <string name="ok">ok</string>
+    <string name="please_wait">Please wait...</string>
 
 
 </resources>

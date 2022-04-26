@@ -12,6 +12,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="no_change_to_rtl">
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

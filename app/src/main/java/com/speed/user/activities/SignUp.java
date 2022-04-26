@@ -105,7 +105,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             } else if (etEmail.getText().toString().equals("") ||
                     etEmail.getText().toString().equalsIgnoreCase(getString(R.string.sample_mail_id))) {
                 displayMessage(getString(R.string.email_validation));
-            } else if (!Utilities.isValidEmail(etEmail.getText().toString())) {
+            } else if (!Utilities.isValidEmail(etEmail.getText().toString().trim())) {
                 displayMessage(getString(R.string.not_valid_email));
             } else if (etPassword.getText().toString().equals("") ||
                     etPassword.getText().toString().equalsIgnoreCase(getString(R.string.password_txt))) {
@@ -212,7 +212,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                             if ((customDialog != null) && (customDialog.isShowing()))
                                 customDialog.dismiss();
                             Utilities.print("SignInResponse", response.toString());
-                            SharedHelper.putKey(getApplicationContext(), "email", etEmail.getText().toString());
+                            SharedHelper.putKey(getApplicationContext(), "email", etEmail.getText().toString().trim());
                             SharedHelper.putKey(getApplicationContext(), "password", etPassword.getText().toString());
                             signIn();
                         },

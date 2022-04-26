@@ -14,6 +14,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -93,7 +94,8 @@ public class LoginActivity extends AppCompatActivity {
         if (etEmail.getText().toString().equals("") ||
                 etEmail.getText().toString().equalsIgnoreCase(getString(R.string.sample_mail_id))) {
             displayMessage(getString(R.string.email_validation));
-        } else if (!Utilities.isValidEmail(etEmail.getText().toString())) {
+        } else if (!Utilities.isValidEmail(etEmail.getText().toString().trim())) {
+            Toast.makeText(this, etEmail.getText().toString().trim(), Toast.LENGTH_SHORT).show();
             displayMessage(getString(R.string.not_valid_email));
         } else if (etPassword.getText().toString().equals("") ||
                 etPassword.getText().toString()
@@ -349,7 +351,7 @@ public class LoginActivity extends AppCompatActivity {
             object.put("client_id", URLHelper.client_id);
             object.put("client_secret", URLHelper.client_secret);
             object.put("username", etEmail.getText().toString().trim());
-            object.put("password", etPassword.getText().toString().trim());
+            object.put("password", etPassword.getText().toString());
             object.put("scope", "");
             object.put("device_type", "android");
             object.put("device_id", deviceUDID);

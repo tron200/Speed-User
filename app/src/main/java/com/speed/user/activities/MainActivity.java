@@ -525,7 +525,7 @@ public class MainActivity extends AppCompatActivity implements
             startActivity(sendIntent);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(context, "Share applications not found!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, getString(R.string.share_not_found), Toast.LENGTH_SHORT).show();
         }
 
     }

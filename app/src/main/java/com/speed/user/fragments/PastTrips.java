@@ -213,7 +213,7 @@ public class PastTrips extends Fragment {
                 if (!jsonArray.optJSONObject(position).optString("assigned_at", "").isEmpty()) {
                     String form = jsonArray.optJSONObject(position).optString("assigned_at");
                     try {
-                        holder.datetime.setText(getDate(form) + "th " + getMonth(form) + " " + getYear(form) + " at " + getTime(form));
+                        holder.datetime.setText(getDate(form) + getString(R.string.th) + getMonth(form) + " " + getYear(form) + getString(R.string.at) + getTime(form));
                     } catch (ParseException e) {
                         e.printStackTrace();
                     }

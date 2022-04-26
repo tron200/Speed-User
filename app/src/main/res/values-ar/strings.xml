@@ -21,10 +21,10 @@
     <string name="action_settings">الاعدادات</string>
 
     <string name="action_coupon">كوبون تخفيض</string>
-    <string name="action_wallet">&appName; محفظة نقود</string>
+    <string name="action_wallet"> محفظة نقود</string>
     <string name="action_logout">تسجيل خروج</string>
-    <string name="action_track">في رحلة الذهاب</string>
-    <string name="no_running_Trip">لا في رحلة الذهاب</string>
+    <string name="action_track">رحله جاريه</string>
+    <string name="no_running_Trip">لا يوجد رحله جاريه حاليا</string>
 
     <string name="version">v %s</string>
 
@@ -309,7 +309,7 @@
     <string name="update_email">تحديث حساب البريد الإلكتروني</string>
     <string name="resnd_in">إعادة إرسال في</string>
 <!--    <string name="coupon">كوبون</string>-->
-    <string name="no_notification_found">لم يتم العقور على إشعار</string>
+    <string name="no_notification_found">لم يتم العثور على إشعارات</string>
 <!--    <string name="please_enter_both_pickup_and_destination">Please enter both pickup and drop locations</string>-->
 <!--    <string name="my_booking">حجزي</string>-->
 <!--    <string name="enter_both_pickup_and_drop_schedule">Please enter both pickup and drop locations</string>-->
@@ -335,7 +335,7 @@
     <string name="promo_code">كود خصم</string>
     <string name="resend">اعادة ارسال</string>
     <string name="past_trips">الرحلات الماضية</string>
-    <string name="upcomeng_rides">الرحلات القادمة</string>
+    <string name="upcoming_rides">الرحلات القادمة</string>
     <string name="my_location">موقعي</string>
 
     <string name="no_comment">لا تعليق</string>
@@ -401,6 +401,24 @@
     <string name="time">الوقت</string>
     <string name="price">السعر</string>
     <string name="confirm">تأكيد</string>
+    <string name="become_a_driver">كن سائقا</string>
+    <string name="edit_">تعديل</string>
+    <string name="at">" في "</string>
+    <string name="th">" "</string>
+    <string name="pickup_name">سيظهر هذا الاسم للسائق أثناء الركوب</string>
+    <string name="updated">يتم تحديثه إلى حسابك</string>
+    <string name="empty_field">هذا الحقل فارغ</string>
+    <string name="enter_both_pickup_drop">الرجاء إدخال مواقع الالتقاط والإنزال</string>
+    <string name="select_destination">اختر الوجهه</string>
+    <string name="source_destination_same">كل من مواقع الالتقاط والوجهة متماثلان</string>
+    <string name="cant_get_the_address">لا يمكن الحصول على العنوان! الرجاء المحاولة مرة أخرى</string>
+    <string name="no_map">لا يوجد خريطه</string>
+    <string name="share_not_found">لم يتم العثور على تطبيقات المشاركة!</string>
+    <string name="map_not_ready">الخريطة ليست جاهزة</string>
+    <string name="need_location_perm">يحتاج هذا التطبيق إلى إذن الموقع ، يرجى قبول استخدام وظائف الموقع</string>
+    <string name="location_needed">إذن الموقع مطلوب</string>
+    <string name="ok">حسنا</string>
+    <string name="please_wait">برجاء الانتظار ...</string>
 
 
 </resources>

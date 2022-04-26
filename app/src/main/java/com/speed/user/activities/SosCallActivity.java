@@ -23,17 +23,21 @@ public class SosCallActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sos_call);
+
+        ivBack = findViewById(R.id.ivBack);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            ivBack.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
-        setContentView(R.layout.activity_sos_call);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         String sosNumber = SharedHelper.getKey(this, "sos");
         String sosFirstName = SharedHelper.getKey(this, "first_name");
         String sosLastNmae = SharedHelper.getKey(this, "last_name");
-        ivBack = findViewById(R.id.ivBack);
+
         ivCall = findViewById(R.id.ivCall);
         tvName = findViewById(R.id.tvName);
         tvNumber = findViewById(R.id.tvNumber);

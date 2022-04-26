@@ -78,20 +78,23 @@ public class FavouritePlaceSearch extends AppCompatActivity implements View.OnCl
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_favourite_place_search);
+        backArrow = findViewById(R.id.backArrow);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_favourite_place_search);
+
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         // Initialize the SDK
         Places.initialize(getApplicationContext(), getString(R.string.google_map_api));
 
 // Create a new Places client instance
         placesClient = Places.createClient(this);
-        backArrow = findViewById(R.id.backArrow);
         addressType = findViewById(R.id.addressType);
         txtaddressSource = findViewById(R.id.txtaddressSource);
         imgSourceClose = findViewById(R.id.imgSourceClose);

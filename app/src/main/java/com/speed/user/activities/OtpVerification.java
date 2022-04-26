@@ -43,17 +43,21 @@ public class OtpVerification extends AppCompatActivity implements OnOtpCompletio
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_otp_verification);
+
+        backArrow = findViewById(R.id.backArrow);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_otp_verification);
         fbAuth = FirebaseAuth.getInstance();
         phoneNumber = getIntent().getStringExtra("phonenumber");
         btnverify = findViewById(R.id.btnverify);
-        backArrow = findViewById(R.id.backArrow);
+
         otpView = findViewById(R.id.otp_view);
         tvResend = findViewById(R.id.tvResend);
         otpView.setOtpCompletionListener(this);

@@ -33,8 +33,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:background="@drawable/ic_back"
-                        android:backgroundTint="@color/text_color_white"
+                        android:src="@drawable/ic_back"
+                        app:tint="@color/white"
                         android:padding="5dp" />
 
                     <TextView
@@ -321,7 +321,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="@string/home"
+                        android:text="@string/home_address"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         app:layout_constraintStart_toEndOf="@id/ivHome"

@@ -121,15 +121,18 @@ public class EditProfile extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_edit_profile);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        findViewByIdandInitialization();
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_edit_profile);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        findViewByIdandInitialization();
+
         GetToken();
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
@@ -501,7 +504,7 @@ if (!SharedHelper.getKey(context, "picture").equalsIgnoreCase("")
                                         String address = object1.optString("address");
                                         String lat = object1.optString("latitude");
                                         String lng = object1.optString("longitude");
-                                        tvLocationHome.setText(getString(R.string.home));
+                                        tvLocationHome.setText(getString(R.string.home_address));
                                         tvLocationHomeAddress.setText(address);
 
                                     }

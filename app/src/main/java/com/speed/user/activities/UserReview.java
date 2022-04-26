@@ -41,16 +41,20 @@ public class UserReview extends AppCompatActivity implements View.OnClickListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_user_review);
+
+        backArrow = findViewById(R.id.backArrow);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
-        setContentView(R.layout.activity_user_review);
 
         recReview = findViewById(R.id.recReview);
 
-        backArrow = findViewById(R.id.backArrow);
         backArrow.setOnClickListener(this);
         getReview();
     }

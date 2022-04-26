@@ -80,17 +80,21 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_payment);
+        backArrow = findViewById(R.id.backArrow);
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
 
-        setContentView(R.layout.activity_payment);
         context = Payment.this;
         activity = Payment.this;
         findViewByIdAndInitialize();
+
         getCardList();
         backArrow.setOnClickListener(view -> finish());
         addCard.setOnClickListener(view -> GoToAddCard());
@@ -290,7 +294,7 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
         tvWalletAmt = findViewById(R.id.tvWalletAmt);
         tvaddAmt = findViewById(R.id.tvaddAmt);
         layoutStripe = findViewById(R.id.layoutStripe);
-        backArrow = findViewById(R.id.backArrow);
+
         addCard = findViewById(R.id.addCard);
         payment_list_view = findViewById(R.id.payment_list_view);
 //        empty_text =  findViewById(R.id.empty_text);

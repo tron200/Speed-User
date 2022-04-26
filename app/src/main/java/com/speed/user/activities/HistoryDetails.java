@@ -91,15 +91,16 @@ public class HistoryDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_history_details);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        findViewByIdAndInitialize();
+
         try {
             Intent intent = getIntent();
             String post_details = intent.getStringExtra("post_value");
@@ -123,7 +124,7 @@ public class HistoryDetails extends AppCompatActivity {
                 btnCancelRide.setVisibility(View.VISIBLE);
                 lnrComments.setVisibility(View.GONE);
                 getUpcomingDetails();
-                lblTitle.setText(getString(R.string.upcomeng_rides));
+                lblTitle.setText(getString(R.string.upcoming_rides));
             }
         }
         profileLayout.setOnClickListener(v -> {

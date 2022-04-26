@@ -67,13 +67,17 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_wallet);
+        backArrow = findViewById(R.id.backArrow);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
-        setContentView(R.layout.activity_wallet);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         cardInfoArrayList = new ArrayList<>();
@@ -82,7 +86,6 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
         add_money_card = findViewById(R.id.add_money_card);
         balance_tv = findViewById(R.id.balance_tv);
         currencySymbol = findViewById(R.id.currencySymbol);
-        backArrow = findViewById(R.id.backArrow);
         context = this;
         customDialog = new CustomDialog(context);
         customDialog.setCancelable(false);

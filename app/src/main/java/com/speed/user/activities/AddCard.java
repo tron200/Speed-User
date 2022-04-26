@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.text.TextDirectionHeuristic;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -51,16 +52,18 @@ public class AddCard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_add_card);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        findViewByIdAndInitialize();
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
 
         setTheme(R.style.Mytheme);
-        setContentView(R.layout.activity_add_card);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        findViewByIdAndInitialize();
+
 
         backArrow.setOnClickListener(view -> onBackPressed());
 
@@ -123,6 +126,7 @@ public class AddCard extends AppCompatActivity {
         context = AddCard.this;
         activity = AddCard.this;
         cardForm = findViewById(R.id.card_form);
+        cardForm.getExpirationDateEditText().setTextDirection(View.TEXT_DIRECTION_LTR);
         cardForm.cardRequired(true)
                 .expirationRequired(true)
                 .cvvRequired(true)

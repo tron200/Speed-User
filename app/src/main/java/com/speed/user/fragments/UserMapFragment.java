@@ -387,6 +387,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         if (activity != null && isAdded()) {
             if (customDialog != null) {
                 customDialog.show();
+
                 new Handler().postDelayed(() -> {
                     init(rootView);
                     //permission to access location
@@ -769,7 +770,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
             mMap.getUiSettings().setTiltGesturesEnabled(false);
         } else {
 
-            Toast.makeText(activity, "No Map", Toast.LENGTH_SHORT).show();
+            Toast.makeText(activity, getString(R.string.no_map), Toast.LENGTH_SHORT).show();
         }
 
 
@@ -871,7 +872,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
             startActivity(sendIntent);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(context, "Share applications not found!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, getString(R.string.share_not_found), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -1239,9 +1240,9 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
             if (ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),
                     Manifest.permission.ACCESS_FINE_LOCATION)) {
                 new AlertDialog.Builder(context)
-                        .setTitle("Location Permission Needed")
-                        .setMessage("This app needs the Location permission, please accept to use location functionality")
-                        .setPositiveButton("OK", (dialogInterface, i) -> {
+                        .setTitle(getString(R.string.location_needed))
+                        .setMessage(getString(R.string.need_location_perm))
+                        .setPositiveButton(getString(R.string.ok), (dialogInterface, i) -> {
                             //Prompt the user once explanation has been shown
                             ActivityCompat.requestPermissions(getActivity(),
                                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
@@ -2300,7 +2301,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         if (mMap != null && routeList.size() > 1) {
             MapAnimator.getInstance().animateRoute(mMap, routeList);
         } else {
-            Toast.makeText(context, "Map not ready", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, getString(R.string.map_not_ready), Toast.LENGTH_LONG).show();
         }
     }
 
@@ -2317,7 +2318,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         if (mMap != null) {
             MapAnimator.getInstance().stopAnim();
         } else {
-            Toast.makeText(context, "Map not ready", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, getString(R.string.map_not_ready), Toast.LENGTH_LONG).show();
         }
     }
 
@@ -2888,7 +2889,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                         getApproximateFare();
                         sourceDestLayout.setOnClickListener(new OnClick());
                     } else {
-                        Toast.makeText(context, "Please enter both pickup and drop locations", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, getString(R.string.enter_both_pickup_drop), Toast.LENGTH_SHORT).show();
                     }
                     break;
                 case R.id.schedule_ride:
@@ -2899,7 +2900,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                         flowValue = 7;
                         layoutChanges();
                     } else {
-                        Toast.makeText(context, "Please enter both pickup and drop locations",
+                        Toast.makeText(context, getString(R.string.enter_both_pickup_drop),
                                 Toast.LENGTH_SHORT).show();
                     }
                     break;
@@ -3004,7 +3005,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                             source_lat = "" + cmPosition.target.latitude;
                             source_lng = "" + cmPosition.target.longitude;
                             if (dest_lat.equalsIgnoreCase("")) {
-                                Toast.makeText(context, "Select destination", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, getString(R.string.select_destination), Toast.LENGTH_SHORT).show();
                                 Intent intentDest = new Intent(getActivity(), CustomGooglePlacesSearch.class);
                                 intentDest.putExtra("cursor", "destination");
                                 intentDest.putExtra("s_address", source_address);
@@ -3034,7 +3035,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                             if (source_address.equalsIgnoreCase("" + address)) {
                                 flowValue = 0;
                                 layoutChanges();
-                                Toast.makeText(context, "Both source and destination are same", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, getString(R.string.source_destination_same), Toast.LENGTH_SHORT).show();
 
                                 Intent intentDest = new Intent(getActivity(), CustomGooglePlacesSearch.class);
                                 intentDest.putExtra("cursor", "destination");
@@ -3069,7 +3070,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                         }
                     } catch (Exception e) {
                         e.printStackTrace();
-                        Toast.makeText(context, "Can't able to get the address!.Please try again", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, getString(R.string.cant_get_the_address), Toast.LENGTH_SHORT).show();
                     }
                     break;
                 case R.id.imgBack:

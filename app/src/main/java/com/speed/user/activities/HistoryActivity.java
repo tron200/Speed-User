@@ -29,23 +29,27 @@ public class HistoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_history);
+
+        backArrow = findViewById(R.id.backArrow);
+
         if (SharedHelper.getKey(this, "selectedlanguage").contains("ar")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+            backArrow.setImageDrawable(getDrawable(R.drawable.ic_forward));
+
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         }
-        setContentView(R.layout.activity_history);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         viewPager = findViewById(R.id.viewpager);
         tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
-        backArrow = findViewById(R.id.backArrow);
         backArrow.setOnClickListener(v -> {
             onBackPressed();
             finish();
         });
         String strTag = getIntent().getExtras().getString("tag");
-        tabTitles = new String[]{"Past Rides", "Upcoming Rides"};
+        tabTitles = new String[]{getString(R.string.past_trips), getString(R.string.upcoming_rides)};
 
         viewPager.setAdapter(new SampleFragmentPagerAdapter(tabTitles, getSupportFragmentManager(),
                 this));

@@ -714,7 +714,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                         mMap.moveCamera(cu);
                         flowValue = 1;
                         }else{
-                            return false;
+                            exitConfirmation();
                         }
                     } else if (lnrWaitingForProviders.getVisibility() == View.VISIBLE) {
                         sourceDestLayout.setVisibility(View.GONE);

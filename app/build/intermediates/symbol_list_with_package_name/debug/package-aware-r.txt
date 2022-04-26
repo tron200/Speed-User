@@ -4118,7 +4118,6 @@ id chip1
 id chip2
 id chip3
 id chip_group
-id chkPayPal
 id chkWallet
 id chronometer
 id circle_center
@@ -4599,7 +4598,6 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
-id payPal_layout
 id paymentLayout
 id paymentType
 id paymentTypeImg

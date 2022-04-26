@@ -290,7 +290,6 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
         tvWalletAmt = findViewById(R.id.tvWalletAmt);
         tvaddAmt = findViewById(R.id.tvaddAmt);
         layoutStripe = findViewById(R.id.layoutStripe);
-        chkPayPal = findViewById(R.id.chkPayPal);
         backArrow = findViewById(R.id.backArrow);
         addCard = findViewById(R.id.addCard);
         payment_list_view = findViewById(R.id.payment_list_view);
@@ -298,49 +297,15 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
         helper = new ConnectionHelper(context);
         isInternet = helper.isConnectingToInternet();
         cashLayout = findViewById(R.id.cash_layout);
-        payPal_layout = findViewById(R.id.payPal_layout);
         wallet_layout = findViewById(R.id.wallet_layout);
 
 
         wallet_layout.setOnClickListener(v -> verifyWallet());
-        payPal_layout.setOnClickListener(v -> {
-            SharedHelper.putKey(Payment.this, "selectedPaymentMode", "PAYPAL");
-            CardInfo cardInfo = new CardInfo();
-            cardInfo.setLastFour("PAYPAL");
-            Intent intent = new Intent();
-            intent.putExtra("card_info", cardInfo);
-            setResult(RESULT_OK, intent);
-            finish();
-        });
-
-        razor_layout.setOnClickListener(v -> {
-            SharedHelper.putKey(Payment.this, "selectedPaymentMode", "RAZORPAY");
-            CardInfo cardInfo = new CardInfo();
-            cardInfo.setLastFour("RAZORPAY");
-            Intent intent = new Intent();
-            intent.putExtra("card_info", cardInfo);
-            setResult(RESULT_OK, intent);
-            finish();
-        });
-
-        if (SharedHelper.getKey(Payment.this, "selectedPaymentMode")
-                .equalsIgnoreCase("STRIPE")) {
-
-        } else if (SharedHelper.getKey(Payment.this, "selectedPaymentMode")
-                .equalsIgnoreCase("PAYPAL")) {
 
 
-            chkPayPal.setChecked(true);
-        } else if (SharedHelper.getKey(Payment.this, "selectedPaymentMode")
-                .equalsIgnoreCase("RAZORPAY")) {
 
 
-            chkRazorPay.setChecked(true);
-        } else {
 
-        }
-        chkPayPal.setOnCheckedChangeListener(this);
-        chkRazorPay.setOnCheckedChangeListener(this);
         getBalance();
         tvaddAmt.setOnClickListener(v -> startActivity(new Intent(Payment.this, ActivityWallet.class)));
 
@@ -448,15 +413,7 @@ public class Payment extends AppCompatActivity implements CompoundButton.OnCheck
 
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        if (buttonView.getId() == R.id.chkPayPal) {
-            SharedHelper.putKey(Payment.this, "selectedPaymentMode", "PAYPAL");
-            CardInfo cardInfo = new CardInfo();
-            cardInfo.setLastFour("PAYPAL");
-            Intent intent = new Intent();
-            intent.putExtra("card_info", cardInfo);
-            setResult(RESULT_OK, intent);
-            finish();
-        }
+
 
     }
 //    private final int ADD_CARD_CODE = 435;

@@ -37,40 +37,14 @@ com/speed/user/utills/FontCache.java
  com.speed.user.utills.FontCache
 com/speed/user/activities/TermsOfUseActivity.java
  com.speed.user.activities.TermsOfUseActivity
-com/speed/user/fragments/CallBack.java
- com.speed.user.fragments.CallBack
 com/speed/user/activities/AddCard.java
  com.speed.user.activities.AddCard
  com.speed.user.activities.AddCard$1
-com/speed/user/fragments/UserMapFragment.java
- com.speed.user.fragments.UserMapFragment
- com.speed.user.fragments.UserMapFragment$1
- com.speed.user.fragments.UserMapFragment$10
- com.speed.user.fragments.UserMapFragment$11
- com.speed.user.fragments.UserMapFragment$12
- com.speed.user.fragments.UserMapFragment$13
- com.speed.user.fragments.UserMapFragment$14
- com.speed.user.fragments.UserMapFragment$15
- com.speed.user.fragments.UserMapFragment$16
- com.speed.user.fragments.UserMapFragment$17
- com.speed.user.fragments.UserMapFragment$18
- com.speed.user.fragments.UserMapFragment$19
- com.speed.user.fragments.UserMapFragment$2
- com.speed.user.fragments.UserMapFragment$20
- com.speed.user.fragments.UserMapFragment$3
- com.speed.user.fragments.UserMapFragment$4
- com.speed.user.fragments.UserMapFragment$5
- com.speed.user.fragments.UserMapFragment$6
- com.speed.user.fragments.UserMapFragment$7
- com.speed.user.fragments.UserMapFragment$8
- com.speed.user.fragments.UserMapFragment$9
- com.speed.user.fragments.UserMapFragment$FetchUrl
- com.speed.user.fragments.UserMapFragment$HomeFragmentListener
- com.speed.user.fragments.UserMapFragment$OnClick
- com.speed.user.fragments.UserMapFragment$OnClick$1
- com.speed.user.fragments.UserMapFragment$ParserTask
- com.speed.user.fragments.UserMapFragment$ServiceListAdapter
- com.speed.user.fragments.UserMapFragment$ServiceListAdapter$MyViewHolder
+com/speed/user/activities/SplashScreen.java
+ com.speed.user.activities.SplashScreen
+ com.speed.user.activities.SplashScreen$1
+ com.speed.user.activities.SplashScreen$2
+ com.speed.user.activities.SplashScreen$3
 com/speed/user/calender/AsyncUpdateCalendar.java
  com.speed.user.calender.AsyncUpdateCalendar
 com/speed/user/activities/HistoryDetails.java
@@ -97,9 +71,8 @@ com/speed/user/utills/MapAnimator.java
  com.speed.user.utills.MapAnimator$3
  com.speed.user.utills.MapAnimator$4
  com.speed.user.utills.MapAnimator$5
-com/speed/user/consts/NewPaymentListAdapter.java
- com.speed.user.consts.NewPaymentListAdapter
- com.speed.user.consts.NewPaymentListAdapter$1
+com/speed/user/consts/CouponListAdapter.java
+ com.speed.user.consts.CouponListAdapter
 com/speed/user/chat/PageTransformer.java
  com.speed.user.chat.PageTransformer
 com/speed/user/activities/MediaHome.java
@@ -207,10 +180,9 @@ com/speed/user/activities/EditProfile.java
  com.speed.user.activities.EditProfile$4
  com.speed.user.activities.EditProfile$5
  com.speed.user.activities.EditProfile$6
-com/speed/user/activities/Payment.java
- com.speed.user.activities.Payment
- com.speed.user.activities.Payment$1
- com.speed.user.activities.Payment$2
+com/speed/user/consts/AutoCompleteAdapter.java
+ com.speed.user.consts.AutoCompleteAdapter
+ com.speed.user.consts.AutoCompleteAdapter$ViewHolder
 com/speed/user/utills/MyButton.java
  com.speed.user.utills.MyButton
 com/speed/user/activities/FavouritePlaceSearch.java
@@ -271,28 +243,9 @@ com/speed/user/adapters/UserChatListAdapter.java
  com.speed.user.adapters.UserChatListAdapter$ViewHolder
 com/speed/user/fragments/RoundCornerDrawable.java
  com.speed.user.fragments.RoundCornerDrawable
-com/speed/user/activities/TrackActivity.java
- com.speed.user.activities.TrackActivity
- com.speed.user.activities.TrackActivity$1
- com.speed.user.activities.TrackActivity$10
- com.speed.user.activities.TrackActivity$11
- com.speed.user.activities.TrackActivity$12
- com.speed.user.activities.TrackActivity$13
- com.speed.user.activities.TrackActivity$14
- com.speed.user.activities.TrackActivity$15
- com.speed.user.activities.TrackActivity$16
- com.speed.user.activities.TrackActivity$17
- com.speed.user.activities.TrackActivity$18
- com.speed.user.activities.TrackActivity$2
- com.speed.user.activities.TrackActivity$3
- com.speed.user.activities.TrackActivity$4
- com.speed.user.activities.TrackActivity$5
- com.speed.user.activities.TrackActivity$6
- com.speed.user.activities.TrackActivity$7
- com.speed.user.activities.TrackActivity$8
- com.speed.user.activities.TrackActivity$9
- com.speed.user.activities.TrackActivity$FetchUrl
- com.speed.user.activities.TrackActivity$ParserTask
+com/speed/user/calender/Utils.java
+ com.speed.user.calender.Utils
+ com.speed.user.calender.Utils$1
 com/speed/user/adapters/PaymentListAdapterStripe.java
  com.speed.user.adapters.PaymentListAdapterStripe
  com.speed.user.adapters.PaymentListAdapterStripe$MyViewHolder
@@ -353,12 +306,8 @@ com/speed/user/activities/HistoryActivity.java
 com/speed/user/fragments/Wallet.java
  com.speed.user.fragments.Wallet
  com.speed.user.fragments.Wallet$OnFragmentInteractionListener
-com/speed/user/activities/MainActivity.java
- com.speed.user.activities.MainActivity
- com.speed.user.activities.MainActivity$1
- com.speed.user.activities.MainActivity$2
- com.speed.user.activities.MainActivity$3
- com.speed.user.activities.MainActivity$4
+com/speed/user/helper/URLHelper.java
+ com.speed.user.helper.URLHelper
 com/speed/user/helper/AppHelper.java
  com.speed.user.helper.AppHelper
 com/speed/user/fragments/OnGoingTrips.java
@@ -387,18 +336,67 @@ com/speed/user/activities/OtpVerification.java
  com.speed.user.activities.OtpVerification$2
 com/speed/user/helper/DirectionsJSONParser.java
  com.speed.user.helper.DirectionsJSONParser
-com/speed/user/consts/AutoCompleteAdapter.java
- com.speed.user.consts.AutoCompleteAdapter
- com.speed.user.consts.AutoCompleteAdapter$ViewHolder
-com/speed/user/consts/CouponListAdapter.java
- com.speed.user.consts.CouponListAdapter
-com/speed/user/helper/URLHelper.java
- com.speed.user.helper.URLHelper
-com/speed/user/calender/Utils.java
- com.speed.user.calender.Utils
- com.speed.user.calender.Utils$1
-com/speed/user/activities/SplashScreen.java
- com.speed.user.activities.SplashScreen
- com.speed.user.activities.SplashScreen$1
- com.speed.user.activities.SplashScreen$2
- com.speed.user.activities.SplashScreen$3
+com/speed/user/fragments/UserMapFragment.java
+ com.speed.user.fragments.UserMapFragment
+ com.speed.user.fragments.UserMapFragment$1
+ com.speed.user.fragments.UserMapFragment$10
+ com.speed.user.fragments.UserMapFragment$11
+ com.speed.user.fragments.UserMapFragment$12
+ com.speed.user.fragments.UserMapFragment$13
+ com.speed.user.fragments.UserMapFragment$14
+ com.speed.user.fragments.UserMapFragment$15
+ com.speed.user.fragments.UserMapFragment$16
+ com.speed.user.fragments.UserMapFragment$17
+ com.speed.user.fragments.UserMapFragment$18
+ com.speed.user.fragments.UserMapFragment$19
+ com.speed.user.fragments.UserMapFragment$2
+ com.speed.user.fragments.UserMapFragment$20
+ com.speed.user.fragments.UserMapFragment$3
+ com.speed.user.fragments.UserMapFragment$4
+ com.speed.user.fragments.UserMapFragment$5
+ com.speed.user.fragments.UserMapFragment$6
+ com.speed.user.fragments.UserMapFragment$7
+ com.speed.user.fragments.UserMapFragment$8
+ com.speed.user.fragments.UserMapFragment$9
+ com.speed.user.fragments.UserMapFragment$FetchUrl
+ com.speed.user.fragments.UserMapFragment$HomeFragmentListener
+ com.speed.user.fragments.UserMapFragment$OnClick
+ com.speed.user.fragments.UserMapFragment$OnClick$1
+ com.speed.user.fragments.UserMapFragment$ParserTask
+ com.speed.user.fragments.UserMapFragment$ServiceListAdapter
+ com.speed.user.fragments.UserMapFragment$ServiceListAdapter$MyViewHolder
+com/speed/user/activities/TrackActivity.java
+ com.speed.user.activities.TrackActivity
+ com.speed.user.activities.TrackActivity$1
+ com.speed.user.activities.TrackActivity$10
+ com.speed.user.activities.TrackActivity$11
+ com.speed.user.activities.TrackActivity$12
+ com.speed.user.activities.TrackActivity$13
+ com.speed.user.activities.TrackActivity$14
+ com.speed.user.activities.TrackActivity$15
+ com.speed.user.activities.TrackActivity$16
+ com.speed.user.activities.TrackActivity$17
+ com.speed.user.activities.TrackActivity$18
+ com.speed.user.activities.TrackActivity$2
+ com.speed.user.activities.TrackActivity$3
+ com.speed.user.activities.TrackActivity$4
+ com.speed.user.activities.TrackActivity$5
+ com.speed.user.activities.TrackActivity$6
+ com.speed.user.activities.TrackActivity$7
+ com.speed.user.activities.TrackActivity$8
+ com.speed.user.activities.TrackActivity$9
+ com.speed.user.activities.TrackActivity$FetchUrl
+ com.speed.user.activities.TrackActivity$ParserTask
+com/speed/user/activities/MainActivity.java
+ com.speed.user.activities.MainActivity
+ com.speed.user.activities.MainActivity$1
+ com.speed.user.activities.MainActivity$2
+ com.speed.user.activities.MainActivity$3
+ com.speed.user.activities.MainActivity$4
+com/speed/user/consts/NewPaymentListAdapter.java
+ com.speed.user.consts.NewPaymentListAdapter
+ com.speed.user.consts.NewPaymentListAdapter$1
+com/speed/user/activities/Payment.java
+ com.speed.user.activities.Payment
+ com.speed.user.activities.Payment$1
+ com.speed.user.activities.Payment$2

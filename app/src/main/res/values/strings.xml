@@ -231,7 +231,7 @@
 
     <!--Activity Begin-->
 
-    <string name="i_forgot_my_password">Forgot?</string>
+    <string name="i_forgot_my_password">Forgot Password?</string>
 
     <!--Activity Password -->
 
@@ -398,6 +398,8 @@
     <string name="location_needed">Location Permission Needed</string>
     <string name="ok">ok</string>
     <string name="please_wait">Please wait...</string>
+    <string name="want_to_exit">Do you really want to Exit Cab Services?</string>
+    <string name="confirmation">Confirmation</string>
 
 
 </resources>

@@ -1689,8 +1689,7 @@
                         android:layout_height="@dimen/_20sdp"
                         android:layout_marginStart="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_10sdp"
-                        android:background="@drawable/menu_icon"
-                        android:backgroundTint="@color/white" />
+                        android:background="@drawable/menu_icon" />
 
                     <LinearLayout
                         android:layout_width="match_parent"

@@ -466,6 +466,14 @@ public class MainActivity extends AppCompatActivity implements
         }
         super.onBackPressed();
     }
+    public boolean isOpen(){
+        return drawer.isDrawerOpen(GravityCompat.START);
+    }
+
+    public void closeDrawer()
+    {
+        drawer.closeDrawer(GravityCompat.START);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -128,17 +128,24 @@
 
                 <EditText
                     android:id="@+id/money_et"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:hint="0"
                     android:inputType="numberDecimal"
                     android:textSize="22sp" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
                 <Button
                     android:id="@+id/one"
-                    android:layout_width="50dp"
-                    android:layout_height="35dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
                     android:background="@drawable/border_stroke"
                     android:visibility="visible" />
 
@@ -148,8 +155,9 @@
 
                 <Button
                     android:id="@+id/two"
-                    android:layout_width="50dp"
-                    android:layout_height="35dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
                     android:background="@drawable/border_stroke"
                     android:visibility="visible" />
 
@@ -159,12 +167,12 @@
 
                 <Button
                     android:id="@+id/three"
-                    android:layout_width="50dp"
-                    android:layout_height="35dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
                     android:background="@drawable/border_stroke"
                     android:visibility="visible" />
             </LinearLayout>
-
 
             <Button
                 android:id="@+id/add_fund_button"

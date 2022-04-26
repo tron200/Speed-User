@@ -99,6 +99,7 @@
                 android:drawableStart="@drawable/ic_password"
                 android:drawablePadding="@dimen/_7sdp"
                 android:hint="@string/password"
+                android:textDirection="ltr"
                 android:inputType="textPassword"
                 android:paddingStart="@dimen/_8sdp"
                 android:textSize="@dimen/_14sdp" />
@@ -139,7 +140,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="21dp"
             android:gravity="center"
-
+            android:textColor="@color/black"
             android:text="@string/i_forgot_my_password"
             android:textSize="@dimen/_14sdp" />
     </LinearLayout>
@@ -220,6 +221,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginRight="20dp"
+            android:visibility="gone"
             android:background="@drawable/ic_fb" />
     </LinearLayout>
 

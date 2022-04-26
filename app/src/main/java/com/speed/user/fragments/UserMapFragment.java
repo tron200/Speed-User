@@ -697,9 +697,11 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                                 flowValue = 0;
                             }
                         } else {
-
-
-                            exitConfirmation();
+                            if(((MainActivity)getActivity()).isOpen()) {
+                                ((MainActivity) getActivity()).closeDrawer();
+                            }else{
+                                exitConfirmation();
+                            }
 
 
                         }
@@ -736,8 +738,8 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
 
     private void exitConfirmation() {
         new AlertDialog.Builder(getContext())
-                .setTitle("Confirmation")
-                .setMessage("Do you really want to Exit Cab Services?")
+                .setTitle(getString(R.string.confirmation))
+                .setMessage(getString(R.string.want_to_exit))
                 .setIcon(R.mipmap.ic_launcher)
                 .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> getActivity().finish())
                 .setNegativeButton(android.R.string.no, null).show();

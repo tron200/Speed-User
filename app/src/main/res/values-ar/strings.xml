@@ -419,6 +419,8 @@
     <string name="location_needed">إذن الموقع مطلوب</string>
     <string name="ok">حسنا</string>
     <string name="please_wait">برجاء الانتظار ...</string>
+    <string name="want_to_exit">هل تريد فعلا الخروج من &appName;؟</string>
+    <string name="confirmation">تاكيد</string>
 
 
 </resources>

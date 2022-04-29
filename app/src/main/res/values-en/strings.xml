@@ -423,6 +423,16 @@
     <string name="error_in_payment">\"Error in payment: \"</string>
     <string name="payment_successful">\"Payment Successful: \"</string>
     <string name="payment_failed">\"Payment Failed: \"</string>
+    <string name="gps_is_disabled_in_your_device">GPS is disabled in your device. Enable it?</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="add_money_using">Add money using</string>
+    <string name="please_choose_pickup_location">Please choose pickup location</string>
+    <string name="setting">Setting</string>
+    <string name="check_your_internet">Check your Internet</string>
+    <string name="need_permission">Need Permissions</string>
+    <string name="go_to_setting">GOTO SETTINGS</string>
+    <string name="select_time">Select Time</string>
+    <string name="do_you_want_to_change_the_destination">Do you want to change the destination</string>
 
 
 </resources>

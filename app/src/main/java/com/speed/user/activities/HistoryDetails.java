@@ -180,11 +180,11 @@ public class HistoryDetails extends AppCompatActivity {
                     .setTitle(R.string.app_name)
                     .setMessage(getString(R.string.cencel_request))
                     .setCancelable(false)
-                    .setPositiveButton("YES", (dialog, id) -> {
+                    .setPositiveButton(getString(R.string.yes), (dialog, id) -> {
                         dialog.dismiss();
                         showreasonDialog();
                     })
-                    .setNegativeButton("NO", (dialog, id) -> dialog.dismiss());
+                    .setNegativeButton(getString(R.string.no), (dialog, id) -> dialog.dismiss());
             AlertDialog alert = builder.create();
             alert.show();
         });

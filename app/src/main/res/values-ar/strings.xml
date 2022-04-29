@@ -444,6 +444,16 @@
     <string name="error_in_payment">\ "خطأ في الدفع: \"</string>
     <string name="payment_successful">\ "الدفع ناجح: \"</string>
     <string name="payment_failed">\"عملية الدفع فشلت: \"</string>
+    <string name="gps_is_disabled_in_your_device">تم تعطيل نظام تحديد المواقع العالمي (GPS) في جهازك. تمكينه؟</string>
+    <string name="enable_gps">تمكين GPS</string>
+    <string name="add_money_using">أضف الأموال باستخدام</string>
+    <string name="please_choose_pickup_location">الرجاء اختيار موقع الالتقاط</string>
+    <string name="setting">الإعدادات</string>
+    <string name="check_your_internet">تحقق من الإنترنت الخاص بك</string>
+    <string name="need_permission">بحاجة إلى أذونات</string>
+    <string name="go_to_setting">اذهب للاعدادات</string>
+    <string name="select_time">حدد الوقت</string>
+    <string name="do_you_want_to_change_the_destination">هل تريد تغيير الوجهة</string>
 
 
 </resources>

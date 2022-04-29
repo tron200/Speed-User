@@ -1376,15 +1376,15 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(context.getString(R.string.app_name))
                 .setIcon(R.mipmap.ic_launcher)
-                .setMessage("GPS is disabled in your device. Enable it?")
+                .setMessage(getActivity().getString(R.string.gps_is_disabled_in_your_device))
                 .setCancelable(false)
-                .setPositiveButton("Enable GPS",
+                .setPositiveButton(getActivity().getString(R.string.enable_gps),
                         (dialog, id) -> {
                             Intent callGPSSettingIntent = new Intent(
                                     Settings.ACTION_LOCATION_SOURCE_SETTINGS);
                             activity.startActivity(callGPSSettingIntent);
                         });
-        builder.setNegativeButton("Cancel",
+        builder.setNegativeButton(getActivity().getString(R.string.cancel),
                 (dialog, id) -> dialog.cancel());
         AlertDialog alert1 = builder.create();
         alert1.show();
@@ -3260,7 +3260,7 @@ public class UserMapFragment extends Fragment implements OnMapReadyCallback, Loc
                             callCount++;
                         }
                     }, hour, minute, false);//Yes 24 hour time
-                    mTimePicker.setTitle("Select Time");
+                    mTimePicker.setTitle(getString(R.string.select_time));
                     mTimePicker.show();
                     break;
             }

@@ -454,14 +454,14 @@ public class Login extends AppCompatActivity implements View.OnClickListener,
         } else {
             //mProgressDialog.dismiss();
             AlertDialog.Builder builder = new AlertDialog.Builder(Login.this);
-            builder.setMessage("Check your Internet").setCancelable(false);
-            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            builder.setMessage(R.string.check_your_internet).setCancelable(false);
+            builder.setNegativeButton(getString(R.string.cancel), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
                 }
             });
-            builder.setPositiveButton("Setting", new DialogInterface.OnClickListener() {
+            builder.setPositiveButton(getString(R.string.setting), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
 

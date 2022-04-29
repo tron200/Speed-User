@@ -304,14 +304,14 @@ public class OnGoingTrips extends Fragment {
 //                            .setMessage(getString(R.string.cencel_request))
                 builder.setView(view)
                         .setCancelable(true);
-                builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                builder.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.dismiss();
                         cancelReason = reasonEtxt.getText().toString();
                         cancelRequest(jsonArray.optJSONObject(position).optString("id"));
                     }
                 })
-                        .setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                        .setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 dialog.dismiss();
                             }

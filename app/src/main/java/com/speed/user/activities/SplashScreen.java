@@ -175,9 +175,9 @@ public class SplashScreen extends AppCompatActivity {
         } else {
             //mProgressDialog.dismiss();
             AlertDialog.Builder builder = new AlertDialog.Builder(SplashScreen.this);
-            builder.setMessage("Check your Internet").setCancelable(false);
-            builder.setNegativeButton("Cancel", (dialog, which) -> dialog.dismiss());
-            builder.setPositiveButton("Setting", (dialog, which) -> {
+            builder.setMessage(getString(R.string.check_your_internet)).setCancelable(false);
+            builder.setNegativeButton(getString(R.string.cancel), (dialog, which) -> dialog.dismiss());
+            builder.setPositiveButton(getString(R.string.setting), (dialog, which) -> {
 
                 Intent NetworkAction = new Intent(Settings.ACTION_SETTINGS);
                 startActivity(NetworkAction);
@@ -296,13 +296,13 @@ public class SplashScreen extends AppCompatActivity {
 
     private void showSettingsDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(SplashScreen.this);
-        builder.setTitle("Need Permissions");
-        builder.setMessage("This app needs permission to use this feature. You can grant them in app settings.");
-        builder.setPositiveButton("GOTO SETTINGS", (dialog, which) -> {
+        builder.setTitle(getString(R.string.need_permission));
+        builder.setMessage(getString(R.string.need_location_perm));
+        builder.setPositiveButton(getString(R.string.go_to_setting), (dialog, which) -> {
             dialog.cancel();
             openSettings();
         });
-        builder.setNegativeButton("Cancel", (dialog, which) -> dialog.cancel());
+        builder.setNegativeButton(getString(R.string.cancel), (dialog, which) -> dialog.cancel());
         builder.show();
 
     }

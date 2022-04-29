@@ -311,7 +311,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
         }
 
         AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
-        builderSingle.setTitle("Add money using");
+        builderSingle.setTitle(R.string.add_money_using);
         builderSingle.setSingleChoiceItems(cardsList, 0, null);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
                 this,
@@ -323,7 +323,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
             arrayAdapter.add(card);
         }
 
-        builderSingle.setPositiveButton("Ok", (dialog, which) -> {
+        builderSingle.setPositiveButton(getString(R.string.ok), (dialog, which) -> {
             dialog.dismiss();
             int selectedPosition = ((AlertDialog) dialog).getListView().getCheckedItemPosition();
             Log.e("Items clicked===>", "" + selectedPosition);
@@ -331,7 +331,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
             addMoney(cardInfoArrayList.get(selectedPosition));
         });
         builderSingle.setNegativeButton(
-                "cancel",
+                getString(R.string.cancel),
                 (dialog, which) -> dialog.dismiss());
         builderSingle.show();
     }

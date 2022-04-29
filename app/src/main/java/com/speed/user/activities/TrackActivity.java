@@ -405,7 +405,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
     @OnClick(R.id.imgEditDestination)
     void changeDestination() {
         AlertDialog.Builder builder = new AlertDialog.Builder(TrackActivity.this);
-        builder.setMessage("Do you want to change the destination")
+        builder.setMessage(getString(R.string.do_you_want_to_change_the_destination))
                 .setCancelable(false)
                 .setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
@@ -834,15 +834,15 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         builder.setTitle(getString(R.string.app_name))
                 .setIcon(R.mipmap.ic_launcher)
-                .setMessage("GPS is disabled in your device. Enable it?")
+                .setMessage(getString(R.string.gps_is_disabled_in_your_device))
                 .setCancelable(false)
-                .setPositiveButton("Enable GPS",
+                .setPositiveButton(getString(R.string.enable_gps),
                         (dialog, id) -> {
                             Intent callGPSSettingIntent = new Intent(
                                     Settings.ACTION_LOCATION_SOURCE_SETTINGS);
                             activity.startActivity(callGPSSettingIntent);
                         });
-        builder.setNegativeButton("Cancel",
+        builder.setNegativeButton(getString(R.string.cancel),
                 (dialog, id) -> dialog.cancel());
         AlertDialog alert1 = builder.create();
         alert1.show();
@@ -1066,9 +1066,9 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                 // this thread waiting for the user's response! After the user
                 // sees the explanation, try again to request the permission.
                 new AlertDialog.Builder(context)
-                        .setTitle("Location Permission Needed")
-                        .setMessage("This app needs the Location permission, please accept to use location functionality")
-                        .setPositiveButton("OK", (dialogInterface, i) -> {
+                        .setTitle(getString(R.string.need_permission))
+                        .setMessage(getString(R.string.need_location_perm))
+                        .setPositiveButton(getString(R.string.ok), (dialogInterface, i) -> {
                             //Prompt the user once explanation has been shown
                             ActivityCompat.requestPermissions(TrackActivity.this,
                                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION},

@@ -105,7 +105,7 @@ public class ActivityHelp extends AppCompatActivity implements View.OnClickListe
                         .setIcon(R.mipmap.ic_launcher)
                         .setMessage(getString(R.string.sorry_for_inconvinent))
                         .setCancelable(false)
-                        .setPositiveButton("ok",
+                        .setPositiveButton(getString(R.string.ok),
                                 (dialog, id) -> dialog.dismiss());
                 AlertDialog alert1 = builder.create();
                 alert1.show();

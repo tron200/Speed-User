@@ -59,9 +59,14 @@
             android:icon="@drawable/ic_share_icon"
             android:title="@string/share" />
         <item
+            android:id="@+id/your_points"
+            android:icon="@drawable/ic_points"
+            android:title="@string/your_points"
+            android:visible="false"/>
+        <item
             android:id="@+id/nav_sos"
             android:icon="@drawable/ic_sos"
-            android:title="SOS Call"
+            android:title="@string/sos_call"
             android:visible="false" />
         <item
             android:id="@+id/nav_logout"

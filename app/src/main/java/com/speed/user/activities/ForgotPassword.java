@@ -222,12 +222,12 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
 //                                            displayMessage("You have entered different mobile number");
 //                                        }
                                 } else {
-                                    displayMessage("Mobile no is not exist with this email_id");
+                                    displayMessage(getString(R.string.mobile_no_is_not_exist_with_email));
                                 }
 
 
                             } catch (JSONException e) {
-                                displayMessage("Mobile no is not exist with this email_id");
+                                displayMessage(getString(R.string.mobile_no_is_not_exist_with_email));
                                 e.printStackTrace();
                             }
 
@@ -369,7 +369,7 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
                         //OTP.performClick();
                         ll_resend.setVisibility(View.GONE);
                     } else {
-                        displayMessage("Mobile no is not match with register emailid");
+                        displayMessage(getString(R.string.mobile_no_is_not_match_register_email));
                     }
                 }
 

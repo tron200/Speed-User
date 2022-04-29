@@ -2,6 +2,7 @@ package com.speed.user.activities;
 
 import android.Manifest;
 import android.animation.Animator;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -552,7 +553,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
 
             co.open(activity, options);
         } catch (Exception e) {
-            Toast.makeText(activity, "Error in payment: " + e.getMessage(), Toast.LENGTH_SHORT)
+            Toast.makeText(activity, getString(R.string.error_in_payment) + e.getMessage(), Toast.LENGTH_SHORT)
                     .show();
             e.printStackTrace();
         }
@@ -565,7 +566,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
             paymentType = "RAZORPAY";
             paymentId = razorpayPaymentID;
             payNowCard();
-            Toast.makeText(TrackActivity.this, "Payment Successful: " + razorpayPaymentID, Toast.LENGTH_SHORT).show();
+            Toast.makeText(TrackActivity.this, getString(R.string.payment_successful) + razorpayPaymentID, Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Log.v(TAG, "Exception in onPaymentSuccess", e);
         }
@@ -575,7 +576,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
     @Override
     public void onPaymentError(int code, String response) {
         try {
-            Toast.makeText(TrackActivity.this, "Payment failed: " + code + " " + response, Toast.LENGTH_SHORT).show();
+            Toast.makeText(TrackActivity.this, new StringBuilder().append(getString(R.string.payment_failed)).append(code).append(" ").append(response).toString(), Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Log.v(TAG, "Exception in onPaymentError", e);
         }
@@ -1107,7 +1108,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
             startActivity(sendIntent);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(context, "Share applications not found!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, getString(R.string.share_not_found), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -2059,7 +2060,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
         TextView tvCancel = confirmDialog.findViewById(R.id.tvCancel);
         TextView tvDone = confirmDialog.findViewById(R.id.tvDone);
         TextView tvDriverMsg = confirmDialog.findViewById(R.id.tvDriverMsg);
-        tvDriverMsg.setText(getString(R.string.driver_will_pickup) + etaDur + " minutes.");
+        tvDriverMsg.setText(getString(R.string.driver_will_pickup) + etaDur + getString(R.string.min));
 
         tvCancel.setOnClickListener(v -> {
             confirmDialog.dismiss();
@@ -2531,6 +2532,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                 .transportMode(TransportMode.DRIVING)
                 .execute(new DirectionCallback() {
 
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public void onDirectionSuccess(Direction direction, String rawBody) {
                         try {
@@ -2597,7 +2599,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                                                 if (totalDuration > 60) {
                                                     etaTxt.setText(convertHours(totalDuration));
                                                 } else {
-                                                    etaTxt.setText(totalDuration + " mins");
+                                                    etaTxt.setText(totalDuration + getString(R.string.min));
                                                 }
                                                 etaDur = totalDuration + "";
                                                 MarkerOptions marker_opt_des = new MarkerOptions().position(new LatLng(Double.parseDouble(dest_lat), Double.parseDouble(dest_lng)));
@@ -2628,7 +2630,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                                                 if (totalDuration > 60) {
                                                     etaTxt.setText(convertHours(totalDuration));
                                                 } else {
-                                                    etaTxt.setText(totalDuration + " mins");
+                                                    etaTxt.setText(totalDuration + getString(R.string.min));
                                                 }
 
                                                 etaDur = totalDuration + "";
@@ -2660,8 +2662,8 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                                         }
                                     });
                                     lblCmfrmSourceAddress.setText(pickUpLocationName);
-                                    lblDis.setText(totalDistance + " km");
-                                    lblEta.setText(totalDuration + " min");
+                                    lblDis.setText(totalDistance + getString(R.string.km));
+                                    lblEta.setText(totalDuration + getString(R.string.min));
                                     setCameraWithCoordinationBounds(route);
                                 }
                             }
@@ -2742,7 +2744,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
         if (mMap != null && routeList.size() > 1) {
             MapAnimator.getInstance().animateRoute(mMap, routeList);
         } else {
-            Toast.makeText(context, "Map not ready", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, getString(R.string.map_not_ready), Toast.LENGTH_LONG).show();
         }
     }
 

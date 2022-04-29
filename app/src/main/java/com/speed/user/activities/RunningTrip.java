@@ -77,7 +77,7 @@ public class RunningTrip extends AppCompatActivity {
         if (isInternet) {
             getRunningTripList();
         } else {
-            displayMessage("No Internet Connection");
+            displayMessage(getString(R.string.no_internet_connection));
         }
     }
 

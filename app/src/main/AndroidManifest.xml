@@ -24,42 +24,43 @@
     <application
         android:name=".ClassLuxApp"
         android:allowBackup="false"
-        android:fullBackupContent="false"
         android:autoMirrored="true"
+        android:fullBackupContent="false"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:networkSecurityConfig="@xml/network_security_config"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:allowBackup">
-
+        <activity
+            android:name=".activities.myPointsActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.login.IntroActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
-            android:name="com.speed.user.activities.login.FaceBookLoginActivity"
+            android:name=".activities.login.FaceBookLoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.login.GoogleLoginActivity"
+            android:name=".activities.login.GoogleLoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.FullImage"
+            android:name=".activities.FullImage"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.speed.user.calender.AddOrEditCalendarActivity" />
+        <activity android:name=".calender.AddOrEditCalendarActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="com.speed.user.activities.SplashScreen"
+            android:name=".activities.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="InnerclassSeparator">
@@ -70,76 +71,76 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.speed.user.activities.Payment"
+            android:name=".activities.Payment"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.OtpVerification"
+            android:name=".activities.OtpVerification"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.UserReview"
+            android:name=".activities.UserReview"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.speed.user.activities.EditProfile"
+            android:name=".activities.EditProfile"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.speed.user.activities.PickUpNotes"
+            android:name=".activities.PickUpNotes"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.speed.user.activities.ShowProfile"
+            android:name=".activities.ShowProfile"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.speed.user.activities.AddCard"
+            android:name=".activities.AddCard"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.speed.user.activities.HistoryDetails"
+            android:name=".activities.HistoryDetails"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.speed.user.activities.HistoryActivity"
+            android:name=".activities.HistoryActivity"
             android:label="History"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.speed.user.activities.ActivityWallet"
+            android:name=".activities.ActivityWallet"
             android:label="Wallet"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.CouponActivity"
+            android:name=".activities.CouponActivity"
             android:label="Coupon"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.speed.user.activities.ChangePassword"
+            android:name=".activities.ChangePassword"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.speed.user.activities.NotificationTab"
+            android:name=".activities.NotificationTab"
             android:configChanges="orientation|keyboardHidden|screenLayout|screenSize"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
@@ -151,47 +152,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.speed.user.chat.UserChatActivity"
+            android:name=".chat.UserChatActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.Profile"
+            android:name=".activities.Profile"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.CustomGooglePlacesSearch"
+            android:name=".activities.CustomGooglePlacesSearch"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name="com.speed.user.activities.ActivityHelp" />
+        <activity android:name=".activities.ActivityHelp" />
         <activity
-            android:name="com.speed.user.activities.SosCallActivity"
+            android:name=".activities.SosCallActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.LegalActivity"
+            android:name=".activities.LegalActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.TermsOfUseActivity"
+            android:name=".activities.TermsOfUseActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.PrivacyPolicyActivity"
+            android:name=".activities.PrivacyPolicyActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.UpdateProfile"
+            android:name=".activities.UpdateProfile"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.FavouritePlaceSearch"
+            android:name=".activities.FavouritePlaceSearch"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -201,35 +202,34 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.SignUp"
+            android:name=".activities.SignUp"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.ForgotPassword"
+            android:name=".activities.ForgotPassword"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.MediaHome"
+            android:name=".activities.MediaHome"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.RunningTrip"
+            android:name=".activities.RunningTrip"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.TrackActivity"
+            android:name=".activities.TrackActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.speed.user.activities.PhoneNoUpdateActivity"
+            android:name=".activities.PhoneNoUpdateActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -250,7 +250,7 @@
             android:name="com.razorpay.ApiKey"
             android:value="rzp_test_zGD0bTIi1I9XnS" />
 
-        <service android:name="com.speed.user.fcm.FCMService">
+        <service android:name=".fcm.FCMService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

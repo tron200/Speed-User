@@ -49,7 +49,7 @@ public class LegalActivity extends AppCompatActivity {
                 Intent(LegalActivity.this, TermsOfUseActivity.class)));
 
         copyrightTextView.setOnClickListener(v -> Toast.makeText(
-                LegalActivity.this, "Coming Soon...", Toast.LENGTH_SHORT).show());
+                LegalActivity.this, getString(R.string.coming_soon), Toast.LENGTH_SHORT).show());
 
 
     }

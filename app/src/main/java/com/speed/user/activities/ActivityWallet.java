@@ -251,7 +251,7 @@ public class ActivityWallet extends AppCompatActivity implements View.OnClickLis
             case R.id.add_fund_button:
                 if (money_et.getText().toString().isEmpty()) {
                     update_amount = 0;
-                    Toast.makeText(this, "Enter an amount greater than 0", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, getString(R.string.enter_an_amount_greater_than_0), Toast.LENGTH_SHORT).show();
                 } else {
                     update_amount = Double.parseDouble(money_et.getText().toString());
                     //  payByPayPal(update_amount);

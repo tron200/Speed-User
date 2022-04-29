@@ -88,7 +88,7 @@ public class PickUpNotes extends AppCompatActivity {
                 customDialog.dismiss();
                 if (response.code() == 200) {
                     finish();
-                    Toast.makeText(PickUpNotes.this, "Pickup Notes sent to driver", Toast.LENGTH_LONG).show();
+                    Toast.makeText(PickUpNotes.this, getString(R.string.pickup_notes_sent_to_driver), Toast.LENGTH_LONG).show();
                 }
             }
 

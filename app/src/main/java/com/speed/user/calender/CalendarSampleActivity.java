@@ -234,13 +234,13 @@ public final class CalendarSampleActivity extends Activity {
                     new AlertDialog.Builder(this).setTitle(R.string.delete_title)
                             .setMessage(calendarInfo.summary)
                             .setCancelable(false)
-                            .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            .setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
 
                                 public void onClick(DialogInterface dialog, int which) {
                                     new AsyncDeleteCalendar(CalendarSampleActivity.this, calendarInfo).execute();
                                 }
                             })
-                            .setNegativeButton("No", null)
+                            .setNegativeButton(getString(R.string.no), null)
                             .create()
                             .show();
                     return true;

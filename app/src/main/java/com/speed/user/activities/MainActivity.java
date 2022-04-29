@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -87,6 +88,7 @@ public class MainActivity extends AppCompatActivity implements
     private ImageView imgProfile;
     private TextView txtWebsite;
     private TextView txtName;
+    LinearLayout header_linear;
     private Toolbar toolbar;
     private FloatingActionButton fab;
     // toolbar titles respected to selected nav menu item
@@ -130,6 +132,7 @@ public class MainActivity extends AppCompatActivity implements
         // Navigation view header
         navHeader = navigationView.getHeaderView(0);
         txtName = navHeader.findViewById(R.id.usernameTxt);
+        header_linear = navHeader.findViewById(R.id.header_linear);
         txtWebsite = navHeader.findViewById(R.id.status_txt);
         imgProfile = navHeader.findViewById(R.id.img_profile);
 
@@ -161,6 +164,7 @@ public class MainActivity extends AppCompatActivity implements
     private void loadNavHeader() {
         txtName.setText(SharedHelper.getKey(context, "first_name"));
         txtWebsite.setText("5");
+        header_linear.setBackground(getDrawable(R.drawable.border_header));
         if (!SharedHelper.getKey(context, "picture").equalsIgnoreCase("")
                 && !SharedHelper.getKey(context, "picture")
                 .equalsIgnoreCase(null) && SharedHelper.getKey(context, "picture") != null) {
@@ -305,6 +309,11 @@ public class MainActivity extends AppCompatActivity implements
                 case R.id.nav_media:
                     drawer.closeDrawers();
                     startActivity(new Intent(MainActivity.this, MediaHome.class));
+                    break;
+
+                case R.id.your_points:
+                    drawer.closeDrawers();
+                    startActivity(new Intent(MainActivity.this, myPointsActivity.class));
                     break;
                 default:
                     navItemIndex = 0;
@@ -495,14 +504,14 @@ public class MainActivity extends AppCompatActivity implements
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            Toast.makeText(getApplicationContext(), "Logout user!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.logout_user), Toast.LENGTH_LONG).show();
             return true;
         }
         if (id == R.id.action_settings) {
-            Toast.makeText(getApplicationContext(), "All notifications marked as read!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.all_notifications_marked), Toast.LENGTH_LONG).show();
         }
         if (id == R.id.action_settings) {
-            Toast.makeText(getApplicationContext(), "Clear all notifications!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.clear_notifications), Toast.LENGTH_LONG).show();
         }
 
         return super.onOptionsItemSelected(item);

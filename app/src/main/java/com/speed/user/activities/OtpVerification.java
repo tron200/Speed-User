@@ -91,13 +91,13 @@ public class OtpVerification extends AppCompatActivity implements OnOtpCompletio
                     signInWithPhoneAuthCredential(credential);
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Toast toast = Toast.makeText(OtpVerification.this, "Verification Code is wrong", Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(OtpVerification.this, getString(R.string.verification_code_is_wrong), Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.CENTER, 0, 0);
                     toast.show();
                 }
 
             } else {
-                Toast.makeText(OtpVerification.this, "Enter the Correct varification Code", Toast.LENGTH_SHORT).show();
+                Toast.makeText(OtpVerification.this, getString(R.string.enter_the_correct_verfication_code), Toast.LENGTH_SHORT).show();
             }
 
         });
@@ -132,7 +132,7 @@ public class OtpVerification extends AppCompatActivity implements OnOtpCompletio
                     public void onCodeSent(String verificationId, PhoneAuthProvider.ForceResendingToken token) {
                         phoneVerificationId = verificationId;
                         resendToken = token;
-                        Toast.makeText(OtpVerification.this, "Send to ( " + phoneNumber + " )", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(OtpVerification.this, getString(R.string.send_to) + phoneNumber + " )", Toast.LENGTH_SHORT).show();
                         startTimer(1);
 
                     }
@@ -144,7 +144,7 @@ public class OtpVerification extends AppCompatActivity implements OnOtpCompletio
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
 
-                        Toast.makeText(OtpVerification.this, "Successfully verified", Toast.LENGTH_LONG).show();
+                        Toast.makeText(OtpVerification.this, getString(R.string.successfully_verified), Toast.LENGTH_LONG).show();
                         Intent returnIntent = new Intent();
                         setResult(Activity.RESULT_OK, returnIntent);
                         finish();

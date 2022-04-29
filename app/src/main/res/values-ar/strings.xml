@@ -255,8 +255,8 @@
     <string name="add_stop">اضف مكان التوقف</string>
     <string name="round_trip">رحلة ذهابا وإيابا</string>
     <string name="enter_destination">أدخل الوجهة</string>
-    <string name="pickup_location">امسك</string>
-    <string name="destination_location">إنزال</string>
+    <string name="pickup_location">مكان الالتقاط</string>
+    <string name="destination_location">مكان الإنزال</string>
     <string name="driver_is_on_the_way">السائق فى طريقة إليك</string>
     <string name="request_ride">طلب رحلة</string>
     <string name="base_fare">الاجره الاساسيه</string>
@@ -421,6 +421,29 @@
     <string name="please_wait">برجاء الانتظار ...</string>
     <string name="want_to_exit">هل تريد فعلا الخروج من &appName;؟</string>
     <string name="confirmation">تاكيد</string>
+    <string name="your_points">نقاطك</string>
+    <string name="you_have">لديك</string>
+    <string name="point">نقطه</string>
+    <string name="logout_user"> تسجيل الخروج للمستخدم!</string>
+    <string name="all_notifications_marked">تم وضع علامة على جميع الإشعارات كمقروءة!</string>
+    <string name="clear_notifications">مسح جميع الإشعارات!</string>
+    <string name="km">"كم "</string>
+    <string name="min">"دقيقه "</string>
+    <string name="enter_an_amount_greater_than_0">أدخل مبلغًا أكبر من 0</string>
+    <string name="enter_acoupon">أدخل قسيمة</string>
+    <string name="please_greant_permission">يرجى منح الإذن لاستخدام هذا التطبيق!</string>
+    <string name="mobile_no_is_not_match_register_email"> رقم الهاتف لا يتطابق مع البريد الإلكتروني المسجل به</string>
+    <string name="mobile_no_is_not_exist_with_email">رقم الهاتف غير موجود مع البريد الإلكتروني هذا</string>
+    <string name="coming_soon">قريبا...</string>
+    <string name="verification_code_is_wrong">رمز التحقق خاطئ</string>
+    <string name="enter_the_correct_verfication_code">أدخل رمز التحقق الصحيح</string>
+    <string name="send_to">ارسل الي (</string>
+    <string name="successfully_verified">تم التحقق بنجاح</string>
+    <string name="pickup_notes_sent_to_driver">تم إرسال ملاحظات الالتقاط إلى السائق</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_in_payment">\ "خطأ في الدفع: \"</string>
+    <string name="payment_successful">\ "الدفع ناجح: \"</string>
+    <string name="payment_failed">\"عملية الدفع فشلت: \"</string>
 
 
 </resources>

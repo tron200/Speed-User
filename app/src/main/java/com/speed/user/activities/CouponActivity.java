@@ -68,7 +68,7 @@ public class CouponActivity extends AppCompatActivity {
         apply_button = findViewById(R.id.apply_button);
         apply_button.setOnClickListener(view -> {
             if (coupon_et.getText().toString().isEmpty()) {
-                Toast.makeText(CouponActivity.this, "Enter a coupon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CouponActivity.this, getString(R.string.enter_acoupon), Toast.LENGTH_SHORT).show();
             } else {
                 sendToServer();
             }

@@ -1417,7 +1417,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
                     String mId = response.body().getCheckoutRequestID();
                     payNowBacked(mId, cId);
                 } else {
-                    Toast.makeText(TrackActivity.this, "mPesa is not responding", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(TrackActivity.this, getString(R.string.server_not_responding), Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -1425,7 +1425,7 @@ public class TrackActivity extends AppCompatActivity implements OnMapReadyCallba
             public void onFailure(Call<PaymentResponse> call, Throwable t) {
                 if ((customDialog != null) && (customDialog.isShowing()))
                     customDialog.dismiss();
-                Toast.makeText(TrackActivity.this, "mPesa Server error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(TrackActivity.this, getString(R.string.server_error), Toast.LENGTH_SHORT).show();
             }
         });
     }

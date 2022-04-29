@@ -433,6 +433,8 @@
     <string name="go_to_setting">GOTO SETTINGS</string>
     <string name="select_time">Select Time</string>
     <string name="do_you_want_to_change_the_destination">Do you want to change the destination</string>
+    <string name="server_not_responding">Speed is not responding</string>
+    <string name="server_error">Speed Server error</string>
 
 
 </resources>
